@@ -1,0 +1,125 @@
+<div class="intro">
+    <div class="intro-wrap">
+        <div class="inner-container">
+            <div class="image-container">
+                <img src="<?= $this->getViewFileUrl('images/logo.svg') ?>"/>
+            </div>
+        </div>
+        <header class="entry-header">
+            <h1 class="entry-title"
+                itemprop="headline"><?= __('Oops! That page can&rsquo;t be found.') ?></h1>
+        </header><!-- .entry-header -->
+        <div class="entry-content" itemprop="text">
+            <?php
+            echo '<p>' . __('Die gesuchte Seite konnte leider nicht gefunden werden.') . '<br/>' . __('Kehre zur Startseite zurück oder erfahre mehr über unsere Produkte.') . '</p>'; // WPCS: XSS OK.
+
+            ?>
+            <div class="backtohome"><a class="btn btn-basic"
+                                       href="<?= $this->getBaseUrl() ?>"><span><?= __('Zurück zur Startseite') ?></span></a>
+            </div>
+        </div><!-- .entry-content -->
+
+    </div>
+</div>
+<div class="content-wrapper">
+    <div class="explore-products">
+        <?php
+        $catId = 93;
+
+        $categoryIds = explode(',', $catId);
+        $catUrl = $block->getCategoryUrl($catId);
+        $sliderId = 'category-noroute';
+        $mainPosition = 2
+        ?>
+        <div class="heading">
+            <h2><?= __('Erfahre mehr über unsere Produkte') ?></h2>
+        </div>
+        <div class="products">
+            <div class="container products-carousel">
+                <?php $collection = $block->getProductsByCatId($catId) ?>
+
+                <div id="<?= $sliderId ?>" class="mostpopular-products-list product-items main-caro owl-carousel owl-theme"
+                     data-mage-init='{"Dovo_ShopIndex/js/mostpopular": {
+             "sliderId": "<?= $sliderId ?>",
+             "items": "5"
+             }}'>
+                    <?php
+                    $count = 1;
+                    foreach ($collection as $product) {
+                        if ($count === $mainPosition) {
+                            ?>
+                            <div class="products-list-item first-item">
+                                <div class="inner-container">
+                                    <div class="item-text-wrapper">
+                                        <p class="item-text first"><?= __('Unsere') ?></p>
+                                        <p class="item-text second"><?= __('beliebtesten') ?></p>
+                                        <p class="item-text third"><?= __('Produkte') ?></p>
+                                    </div>
+                                    <?php if (count($categoryIds) <= 1): ?>
+                                        <div class="actions">
+                                            <a href="<?= $this->getBaseUrl() ?>" class="btn btn-cta">
+                                                <span><?= __('Zum Shop') ?></span>
+                                            </a>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                        ?>
+                        <div class="products-list-item product">
+                            <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                                <div class="product-image-container">
+                                    <img class="product-image lazyOwl"
+                                         src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                         max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                                </div>
+                                <div class="product-info-container">
+                                    <div class="product-name">
+                                        <?= $product->getName(); ?>
+                                    </div>
+                                    <div class="price">
+                                        <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <?php
+                        $count++;
+                    }
+                    foreach ($collection as $product) {
+                        ?>
+                        <div class="products-list-item product">
+                            <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                                <div class="product-image-container">
+                                    <img class="product-image" src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                         max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                                </div>
+                                <div class="product-info-container">
+                                    <div class="product-name">
+                                        <?= $product->getName(); ?>
+                                    </div>
+                                    <div class="price">
+                                        <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <?php
+                        $count++;
+                    }
+                    ?>
+                </div>
+                <div class="progress-container">
+                    <a class="prev">
+                    </a>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <a class="next">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

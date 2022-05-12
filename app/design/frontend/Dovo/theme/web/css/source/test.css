@@ -1,0 +1,209 @@
+.main-slider {
+    /*width: 100vw;*/
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    /*left: 50%;*/
+    /*margin-left: -50vw;*/
+    background-color: #f9f9f9;
+}
+
+.main-slider .slider-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 520px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.main-slider h2 {
+    font-size: 3.6em;
+}
+
+/*.main-slider .grid-75 {*/
+/*    padding: 0 !important;*/
+
+/*    !* width: 100%; *!*/
+/*    !* display: inline-block; *!*/
+/*    !* float: right; *!*/
+/*    width: calc(100vw - (100% * 0.25));*/
+/*    display: inline-grid;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    min-height: 50vh;*/
+
+
+.inner-container {
+    max-width: 1580px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slider-text {
+    padding: 0;
+    padding-left: 0;
+    height: 100%;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.hint {
+    float: right;
+    font-size: 1.8em;
+}
+
+.heading {
+    clear: both;
+}
+
+.heading h2 {
+    font-weight: 300;
+    line-height: 52px;
+    color: #2f3235;
+}
+
+.main-slider .text {
+    padding-left: 40px;
+}
+
+.text, .link {
+    text-transform: lowercase;
+}
+
+.main-slider .text-container {
+    height: 480px;
+    position: relative;
+}
+
+.main-slider .link {
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+}
+
+.main-slider .link:after {
+    content: "";
+    background-image: url(includes/images/Dovo_Linie_2.svg);
+    background-size: 220px 5px;
+    position: absolute;
+    height: 5px;
+    width: 220px;
+    left: -5px;
+    bottom: -5px;
+    background-repeat: no-repeat;
+    /* background-position: left center; */
+    z-index: 9;
+}
+
+@media only screen and (max-width: 1180px) {
+    .main-slider .grid-container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .main-slider {
+        height: 360px;
+    }
+
+    .main-slider .grid-container {
+        max-height: 200px;
+        margin-top: 160px;
+    }
+
+    .main-slider .slider-image {
+        max-height: 160px;
+    }
+
+    .main-slider .flex-vertical {
+        flex-direction: column-reverse;
+    }
+
+    .main-slider .slider-text, .main-slider .last-column {
+        width: 100%;
+    }
+
+    .main-slider .slider-text {
+        height: auto;
+    }
+
+    .main-slider .text-container {
+        height: auto;
+    }
+
+    .main-slider .text-container .heading {
+        max-width: 80%;
+        display: inline-block;
+    }
+
+    .main-slider .text-container .heading h2 {
+        margin-bottom: 0;
+    }
+
+    .main-slider .link-mobile {
+        position: relative;
+        /* right: 0; */
+        /* top: 0; */
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        bottom: 45px;
+    }
+
+    .main-slider .text-container .link-mobile:after {
+        font-family: 'Material Icons';
+        content: "exit_to_app";
+        -webkit-font-feature-settings: 'liga';
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 3em;
+    }
+
+
+    .main-slider .text-container .hint {
+        text-align: center;
+        float: none;
+    }
+
+    .main-slider .text-container .text {
+        display: none;
+    }
+    .main-slider .grid-75 {
+        position: relative;
+        min-height: unset;
+    }
+
+    .main-slider .link {
+        display: none;
+    }
+
+    .main-slider .link-mobile {
+        display: inline-block !important;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .main-slider .link-mobile {
+
+        bottom: 10px;
+        float: right;
+    }
+}

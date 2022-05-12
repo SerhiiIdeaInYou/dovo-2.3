@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>101479</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>30451201</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010563</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Lames de rasoir DOVO SUPER PLATINUM 10 (10 pcs.)</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produit&lt;p&gt;Les lames de rasoir DOVO SUPER PLATINUM DE(Double Edge) ont fait leurs preuves grâce à leur tranchant et à la conservation du fil. Ils sont spécialement conçus pour les besoins de nos rasoirs. Les lames sont emballées individuellement dans du papier paraffiné, ce qui vous permet de les casser en toute sécurité et de les préparer à être utilisées dans un SHAVETTE®. Fabriqué en Allemagne, bien sûr.&lt;/p&gt;Matériau&lt;p&gt;Ces lames de rasoir sont fabriquées en acier inoxydable. Ce métal présente une bonne résistance à la corrosion et est également parfait pour la fabrication de lames de haute qualité en raison de sa dureté lorsqu'il est trempé. En outre, les lames sont recouvertes de platine et nous les recouvrons également d'un revêtement antiadhésif, de sorte que le rasoir ou la rasette glissent en douceur et sans effort sur la peau.&lt;/p&gt;.</Description>
+        <BulletPoint>✔︎ Qualité garantie: plus de 100 ans de qualité, de design et d'expérience - Fabriqué en Allemagne.</BulletPoint>
+        <BulletPoint>✔︎ Précision garantie : look élégant et contours précis comme un maître barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantie d'une barbe bien soignée : l'entretien de la barbe facilité pour un look frais tous les jours.</BulletPoint>
+        <BulletPoint>Art : Lames de rasoir interchangeables 10 pcs. en acier inoxydable par DOVO Solingen</BulletPoint>
+        <BulletPoint>Lames et matériel : Lame de rasoir interchangeable - acier inoxydable - qualité platine</BulletPoint>
+      </DescriptionData>
+      <ProductData>
+        <Health>
+          <ProductType>
+            <PersonalCareAppliances></PersonalCareAppliances>
+          </ProductType>
+        </Health>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

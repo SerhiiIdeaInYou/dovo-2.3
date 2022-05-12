@@ -1,0 +1,95 @@
+.catalogsearch-result-index {
+  #layered-filter-block {
+    display: none !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .column.main {
+      min-height: 720px;
+    }
+  }
+}
+
+#header-search, #mobile-search {
+
+  .block-search {
+    width: 100%;
+
+    .block-title {
+      position: relative;
+
+    }
+
+    .block-content {
+      margin-bottom: 0;
+    }
+
+    .search-autocomplete {
+      ul {
+        padding-top: 10px;
+        margin-bottom: 0;
+      }
+
+      span.qs-option-name {
+        padding-left: 10px;
+      }
+
+      span.amount {
+        float: right;
+        padding-right: 10px;
+      }
+    }
+
+    .action.search {
+      padding: 0 !important;
+    }
+
+    .ic-search {
+      &:before {
+        font-family: 'Material Icons';
+        content: "search";
+        -webkit-font-feature-settings: 'liga';
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+
+  .page-products .columns {
+    padding-top: 0;
+  }
+
+  #header-search {
+    display: none;
+  }
+
+  #mobile-search {
+    .block-title {
+      margin-bottom: 20px;
+
+      &:before {
+        bottom: -10px !important;
+      }
+    }
+  }
+
+  .category-dropdown-content {
+    width: 85%;
+
+    #header-search {
+      display: block;
+    }
+  }
+
+  .catalogsearch-result-index {
+    .main.container {
+      padding-top: 0;
+    }
+  }
+}

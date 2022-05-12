@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>191443</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90120011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012796</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Brocha de afeitar DOVO MERKUR</Title>
+        <Brand>DOVO</Brand>
+        <Description>Producto&lt;p&gt;Con esta brocha de afeitar Merkur haces una elección noble. El mango está hecho de un bloque de aluminio cromado con una sección central anodizada en negro. Su gran peso crea una sensación rica y única al aplicar la crema de afeitar. Gracias a su diseño de alta calidad, se siente tan a gusto en el cuarto de baño como en una lujosa barbería.&lt;/p&gt; &lt;p&gt;Material&lt;/p&gt; &lt;p&gt;Esta brocha de afeitar está fabricada con auténtica pluma de tejón punta de plata. Durante siglos, los cepillos de mayor calidad se han fabricado con este material. Se puede reconocer por el "espejo", la banda negra claramente dibujada sobre el pelo gris plateado. La punta de plata absorbe una cantidad especialmente grande de agua y ayuda a que su espuma de afeitar alcance una consistencia especialmente cremosa.&lt;/p&gt; &lt;p&gt;Material del mango&lt;/p&gt; &lt;p&gt;El aluminio destaca como material especialmente por su dureza y calidad de procesamiento. Este material es extremadamente resistente a la corrosión por el agua, el vapor y la humedad, por lo que es ideal para la fabricación de mangos de brochas de afeitar. Gracias a la alta calidad del acabado de la superficie, el producto se convierte en un elemento destacado en cualquier baño.&lt;p&gt;</Description>
+        <BulletPoint>✔︎ Calidad garantizada: más de 100 años de calidad, diseño y experiencia - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisión garantizada: aspecto elegante y contornos precisos como un maestro barbero.</BulletPoint>
+        <BulletPoint>✔︎ Garantiza una barba bien cuidada: el cuidado de la barba es fácil para un aspecto fresco cada día.</BulletPoint>
+        <BulletPoint>Arte: Brocha de afeitar noble de aluminio y punta de tejón plateada de DOVO Solingen</BulletPoint>
+        <BulletPoint>Material y dimensiones: punta de tejón plateada - mango de aluminio cromado brillante - dimensiones 4 cm x 4 cm x 10,6 cm - diámetro del mango 4 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

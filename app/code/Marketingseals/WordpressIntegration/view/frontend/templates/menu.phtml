@@ -1,0 +1,109 @@
+<?php
+/**
+ * @var \Marketingseals\WordpressIntegration\Block\WordpressIntegrator $block
+ */
+?>
+
+<?php
+
+$menu = $block->getMainMenu();
+$mobileLanguageSwitcherHtml = $block->getChildHtml('ds.store_language');
+$accountLinks = $block->getChildHtml('ds.account-links');
+$links = $this->getLayout()->getBlock('top.links')->toHtml();
+//$links = $this->getLayout()->getBlock('top.links')->toHtml();
+?>
+<div class="ms-dropdown-menu hide-on-desktop">
+    <button class="ms-dropdown-toggle">
+        <span class="ms-dropdown-icon">
+            <i class="material-icons">
+                menu
+            </i>
+            <?= __('Menu') ?>
+        </span>
+    </button>
+    <div class="ms-dropdown-content">
+        <div class="ms-dropdown-inner">
+            <div id="primary-menu-mobile" class="main-nav-mobile">
+                <?php if (!empty($menu)): ?>
+                    <ul id="menu-main" class="main-menu">
+                        <?php foreach ($menu as $item): ?>
+                            <li id="menu-item-<?= $item->ID ?>"
+                                class="<?= $item->classes ?> menu-item <?php ($item->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $item->ID ?>">
+                                <a href="<?= $item->url ?>"><?= $item->title ?></a>
+                                <?php if ($children = $item->children): ?>
+                                    <ul class="sub-menu level1">
+                                        <?php foreach ($children as $child): ?>
+                                            <li id="menu-item-<?= $child->ID ?>"
+                                                class="<?= $child->classes ?> menu-item <?php ($child->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $child->ID ?>">
+                                                <a href="<?= $child->url ?>"><?= $child->title ?></a>
+                                                <?php if ($subChildren = $child->children): ?>
+                                                    <ul class="sub-menu level2">
+                                                        <?php foreach ($subChildren as $sub): ?>
+                                                            <li id="<?= $sub->classes ?> menu-item-<?= $sub->ID ?>"
+                                                                class=" menu-item <?php ($sub->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $sub->ID ?>">
+                                                                <a href="<?= $sub->url ?>"><?= $sub->title ?></a>
+                                                            </li>
+                                                        <?php endforeach; ?>
+                                                    </ul>
+                                                <?php endif; ?>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                <?php endif; ?>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+            <div class="utility-menu">
+                <div class="ms-account"><?= $links ?></div>
+                <div class="lang-switcher"><?= $mobileLanguageSwitcherHtml ?></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Marketingseals_WordpressIntegration/js/navScroll" : {
+            }
+        }
+    }
+
+    </script>
+</div>
+<?php if (!empty($menu)): ?>
+    <nav class="main-navigation">
+        <div id="primary-menu" class="main-nav hide-on-tablet hide-on-mobile">
+            <ul id="menu-main" class="main-menu">
+                <?php foreach ($menu as $item): ?>
+                    <li id="menu-item-<?= $item->ID ?>"
+                        class="<?= $item->classes ?> menu-item <?php ($item->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $item->ID ?>">
+                        <a href="<?= $item->url ?>"><?= $item->title ?></a>
+                        <?php if ($children = $item->children): ?>
+                            <ul class="sub-menu level1">
+                                <?php foreach ($children as $child): ?>
+                                    <li id="menu-item-<?= $child->ID ?>"
+                                        class="<?= $child->classes ?> menu-item <?php ($child->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $child->ID ?>">
+                                        <a href="<?= $child->url ?>"><?= $child->title ?></a>
+                                        <?php if ($subChildren = $child->children): ?>
+                                            <ul class="sub-menu level2">
+                                                <?php foreach ($subChildren as $sub): ?>
+                                                    <li id="<?= $sub->classes ?> menu-item-<?= $sub->ID ?>"
+                                                        class=" menu-item <?php ($sub->children) ? 'menu-item-has-children' : '' ?> menu-item-<?= $sub->ID ?>">
+                                                        <a href="<?= $sub->url ?>"><?= $sub->title ?></a>
+                                                    </li>
+                                                <?php endforeach; ?>
+                                            </ul>
+                                        <?php endif; ?>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ul>
+                        <?php endif; ?>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </nav>
+<?php endif; ?>
+<? //= $this->getLayout()->getBlock('my-account-link')->toHtml() ?>
+<? //= $this->getLayout()->getBlock('minicart')->toHtml() ?>

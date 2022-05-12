@@ -1,0 +1,53 @@
+<div class="filter-category hide-on-tablet hide-on-desktop">
+    <div class="category-list-mobile">
+        <div class="category-dropdown-trigger">
+            <button class="dropdown-trigger"><?= __('Kategorien & Suche')?></button>
+        </div>
+        <div class="category-dropdown-content">
+            <ul>
+                <?php
+                $categorys = $this->getStoreCategories(false, false, true);
+                foreach ($categorys as $category):
+                    $currentId = $block->getCurrentCategoryKey();
+                ?>
+                <li class="category level0 <?php if($currentId === $category->getId()): echo 'active'; endif; ?>"><a href="<?= $category->getUrl() ?>"><?= $category->getName() ?></a>
+                    <ul class="subcategories">
+                        <?php
+                        $sub = $category->getChildrenCategories();
+                        foreach ($sub as $s) : ?>
+                            <li class="subcategory level1"><a href="<?= $s->getUrl() ?>"><?= $s->getName() ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+            <?php echo $block->getChildHtml('mobile.search') ?>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        //<![CDATA[
+
+        requirejs(['jquery'], function($) {
+            $('.dropdown-trigger').click(function() {
+                let dropdownContent = $('.category-dropdown-content');
+                if(dropdownContent.hasClass('toggled')) {
+                    dropdownContent.hide();
+                    dropdownContent.removeClass('toggled');
+                } else {
+                    dropdownContent.show();
+                    dropdownContent.addClass('toggled');
+                }
+            })
+        });
+
+        //]]>
+    </script>
+<!--    <div class="filter-sort">-->
+<!--        <div class="filter">-->
+<!--            <div class="filter-dropdown-trigger">-->
+<!--                <button class="dropdown-trigger">--><?//= __('Filter')?><!--</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>

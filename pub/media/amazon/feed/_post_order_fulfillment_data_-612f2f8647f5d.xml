@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>OrderFulfillment</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>33863101</MessageID>
+    <OperationType>Update</OperationType>
+    <OrderFulfillment>
+      <AmazonOrderID>304-9115063-5114714</AmazonOrderID>
+      <FulfillmentDate>2021-09-01T07:45:08+00:00</FulfillmentDate>
+      <FulfillmentData>
+        <CarrierCode>UPS</CarrierCode>
+        <ShippingMethod>United Parcel Service</ShippingMethod>
+        <ShipperTrackingNumber>1Z7Y57W46845407718</ShipperTrackingNumber>
+      </FulfillmentData>
+      <Item>
+        <AmazonOrderItemCode>50849690358163</AmazonOrderItemCode>
+        <Quantity>1</Quantity>
+      </Item>
+    </OrderFulfillment>
+  </Message>
+</AmazonEnvelope>

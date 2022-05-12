@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>50023018344</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>43</MessagesProcessed>
+				<MessagesSuccessful>29</MessagesSuccessful>
+				<MessagesWithError>14</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>1319</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 27.5. The value &quot;27.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43450</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1321</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 40.5. The value &quot;40.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1323</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 74.6. The value &quot;74.6&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1028056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1324</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 36.5. The value &quot;36.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1330</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 28.5. The value &quot;28.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1416</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>3580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1418</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>4580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1425</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>100581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1426</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>100681</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1427</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>101581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1431</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>558130</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1434</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>13013</ResultMessageCode>
+				<ResultDescription>We&apos;re unable to complete your request because this SKU is not in the Amazon catalog. If this was a deleted SKU, wait 24 hours before resubmitting it. If you tried to add this SKU to the Amazon catalog before, check your data and correct any errors before resubmitting. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>1516580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1458</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 16.3. The value &quot;16.3&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>700401</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1461</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 41.9. The value &quot;41.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

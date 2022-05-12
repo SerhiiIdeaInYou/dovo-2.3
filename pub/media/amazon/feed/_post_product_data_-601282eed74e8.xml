@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>11377</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>18535001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009239</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Abziehriemen 185</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Abziehriemen 185&lt;/p&gt;&lt;p&gt;Mit dem DOVO Abziehriemen 185 erledigst du gleich zwei Aufgaben. Mit der etwas raueren Baumwollseite bereitest du dein Messer erst auf das Ledern vor. Hierzu kannst du die Baumwollseite auch mit einem feinen Schleifmittel einreiben. Danach ziehst du dein Messer wie gewohnt auf der Lederseite ab und dein DOVO Rasiermesser ist wieder scharf wie am ersten Tag.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61323</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1028056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284025949</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Bartplege Etui 1028</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartplege Etui 1028&lt;/p&gt;&lt;p&gt;Das DOVO Bartpflege-Etui enthält alles, was du für deinen Bart brauchst. Mit der Bartschere sorgst du erst für den perfekten Trimm, der Bartkamm hilft dir danach dein Gesichtshaar zu bändigen und mit der Bartbürste gibst du deinem Styling den letzten Schliff. Im hochwertigen Etui aus Nubukleder auch auf Reisen unerlässlich!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61373</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>0038</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284017593</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Krawattenklammer Rasierhobel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Krawattenklammer Rasierhobel&lt;/p&gt;&lt;p&gt;Mit der DOVO Krawattenklammer im Rasierhobel-Design fixierst du deine Krawatte sicher an die Knopfleiste deines Hemds und sorgst damit für ein gepflegtes Auftreten. Denn spätestens, wenn du beim romantischen Date deine Krawatte ins Risotto tunkst, wirst du dich ärgern, dass du nicht zu diesem Schmuckstück gegriffen hast.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61374</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>515171</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010167</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Lederbalsam 515</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Lederbalsam 515&lt;/p&gt;&lt;p&gt;Mit dem DOVO Lederbalsam 515 imprägnierst du deinen Abziehriemen. Erst aufs Leder auftragen und dann mit einem Baumwolllappen einreiben und glatt polieren. Jetzt kannst du die Schneide deines Rasiermessers optimal auf der glatten Oberfläche abziehen und es damit gleichzeitig scharf halten. Der Lederbalsam verhindert auch das Austrocknen deines Abziehriemens und verlängert seine Lebensdauer.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61376</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>15240001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009178</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Abziehriemen 152</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Abziehriemen 152&lt;/p&gt;&lt;p&gt;Der DOVO Abziehriemen 152 dient zum Abziehen der Schneide deines Rasiermessers vor jeder Rasur. Erst den Riemen stramm spannen, dann das Messer, auf Rücken und Schneide liegend, Richtung Rücken ziehen. Der Vorteil eines Hängeriemens ist, dass du ihn Zusammenrollen und so platzsparend Zuhause verstauen kannst.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61378</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>186210011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010365</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Spannschraubriemen 186</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Spannschraubriemen 186&lt;/p&gt;&lt;p&gt;Der DOVO Spannschraubriemen 186 ist ein klassischer Stoßriemen zum Abziehen deines Rasiermessers. Erst die Mechanik spannen und dann wie gewohnt das Messer sanft über das gefettete Leder laufen lassen. Hiermit kannst du auch den Grat deiner herkömmlichen Messer wieder aufrichten. Das pflanzlich gegerbte Leder zeichnet sich durch gute Hautverträglichkeit aus.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61385</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>575056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026038</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Bartplegeset 575</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartplegeset 575&lt;/p&gt;&lt;p&gt;Egal ob Schnauzer, Spitz- oder Vollbart - wir bei DOVO lieben alle Bärte! Deshalb haben wir bei der Zusammenstellung des DOVO Bartpflegeset 575 genau auf die Wünsche unserer bärtigen Kunden geachtet. Damit dein Bart immer gepflegt und in Form ist, findest du hier alles Notwendige zum Rasieren, Schneiden, Trimmen und Kämmen!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Im edlen Rindlederetui erwartet dich der MERKUR 23C zusammen mit zehn MERKUR SUPER Klingen. Dieser Hobel ist für seine hautschonende Rasur bekannt. Daneben ist die DOVO Bart- und Nasenhaarschere angeordnet. Mit ihr trimmst du deine Barthaare und sorgst so für geregelte Verhältnisse. Den Kamm benutzt du täglich zum Reinigen und Strukturieren des Bartes.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61435</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>507000</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009543</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Rasierseife 507</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasierseife 507&lt;/p&gt;&lt;p&gt;Die DOVO Golddachs 507 bringt alles mit, was eine gute Rasierseife ausmacht. Schon nach kurzem Aufschlagen bildet sich ein sanfter Schaum mit neutraler Duftnote, der sich perfekt zur Nassrasur mit Hobel oder Messer eignet. Die Aluminiumdose dient zugleich als Seifenschale und Reiseverpackung. So hältst du Ordnung im Bad!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

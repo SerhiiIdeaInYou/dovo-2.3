@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="marketingseals_base" translate="label" sortOrder="162">
+            <label>Marketingseals - Configuration</label>
+        </tab>
+        <section id="wp_settings" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <label>Wordpress Integration</label>
+            <tab>marketingseals_base</tab>
+            <resource>Marketingseals_Base::wpint</resource>
+            <group id="base" translate="label" sortOrder="30" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Base Settings</label>
+                <comment></comment>
+                <field id="base_url" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Base URL</label>
+                    <comment>Eintragen der URL der Wordpress Instanz</comment>
+                </field>
+            </group>
+            <group id="main_menu" translate="label" sortOrder="100" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Main Menu</label>
+                <field id="menu_id" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Menu ID</label>
+                    <comment>Eintragen der Menü ID oder Bezeichnung von Wordpress (z.B. 2 oder primary)</comment>
+                </field>
+            </group>
+
+            <group id="footy_top" translate="label" sortOrder="110" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Footy Top Widgets</label>
+                <comment>Eintragen</comment>
+                <field id="mailchimp_title" translate="label" type="text" sortOrder="120" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Mailchimp-Title</label>
+                </field>
+                <field id="mailchimp_text" translate="label" type="textarea" sortOrder="130" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Mailchimp-Text</label>
+                </field>
+                <field id="mailchimp_snippet" translate="label" type="textarea" sortOrder="140" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Mailchimp-Snippet</label>
+                </field>
+                <field id="mailchimp_hint" translate="label" type="textarea" sortOrder="150" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Mailchimp-Hint</label>
+                </field>
+            </group>
+            <group id="footer_menus" translate="label" sortOrder="110" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Footer</label>
+                <comment>Eintragen der Menü Bezeichnung von Wordpress</comment>
+                <field id="footer_widget_count" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Anzahl Footer Bereiche</label>
+                    <comment>Anzahl der Footer Widgets zur Größenbestimmung (auch falls nur 3 Menüs, aber 4 Bereiche</comment>
+                </field>
+                <field id="footer_widget_1_id" translate="label" sortOrder="110" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Widget 1 ID</label>
+                    <comment>Eintragen der Menü ID von Wordpress (z.B. 2)</comment>
+                </field>
+                <field id="footer_widget_2_id" translate="label" sortOrder="120" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Widget 2 ID</label>
+                    <comment>Eintragen der Menü ID von Wordpress (z.B. 2)</comment>
+                </field>
+                <field id="footer_widget_3_id" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Widget 3 ID</label>
+                    <comment>Eintragen der Menü ID von Wordpress (z.B. 2)</comment>
+                </field>
+                <field id="footer_widget_4_id" translate="label" sortOrder="140" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Widget 4 ID</label>
+                </field>
+                <field id="footer_widget_legal" translate="label" sortOrder="150" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Legal Menu</label>
+                </field>
+                <field id="footer_copyright" translate="label" sortOrder="160" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Footer Copyright</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

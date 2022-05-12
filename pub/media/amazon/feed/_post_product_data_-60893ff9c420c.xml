@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>101443</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90120011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012796</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO blaireau MERKUR</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produit&lt;p&gt;Avec ce blaireau Merkur, vous faites un choix noble. La poignée est constituée d'un bloc d'aluminium chromé avec une section centrale anodisée noire. Le poids important crée une sensation riche et unique lors de l'application de la crème à raser. Grâce à son design de haute qualité, il se sent aussi à l'aise dans la salle de bain que dans un luxueux salon de coiffure.&lt;/p&gt;Matériau&lt;p&gt;Ce blaireau est fabriqué à partir de véritable plume de blaireau à pointe argentée. Depuis des siècles, les brosses de la plus haute qualité sont fabriquées à partir de ce matériau. On le reconnaît au "miroir", à la bande noire clairement dessinée sur des cheveux gris argenté. Le Silvertip absorbe une quantité d'eau particulièrement importante et permet à votre mousse à raser d'obtenir une consistance particulièrement crémeuse.&lt;/p&gt;Matériau du manche&lt;p&gt;L'aluminium se distingue comme un matériau notamment par sa robustesse et sa qualité de traitement. Ce matériau est extrêmement résistant à la corrosion, à l'eau, à la vapeur et à l'humidité et convient donc parfaitement à la fabrication de manches de blaireaux. Grâce à la finition de surface de haute qualité, le produit devient un point de mire absolu dans toute salle de bain.&lt;p&gt;</Description>
+        <BulletPoint>✔︎ Qualité garantie: plus de 100 ans de qualité, de design et d'expérience - Fabriqué en Allemagne.</BulletPoint>
+        <BulletPoint>✔︎ Précision garantie : look élégant et contours précis comme un maître barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantie d'une barbe bien soignée : l'entretien de la barbe facilité pour un look frais tous les jours.</BulletPoint>
+        <BulletPoint>Art : blaireau noble en aluminium et pointe argentée en blaireau de DOVO Solingen</BulletPoint>
+        <BulletPoint>Matériau et dimensions : pincement du blaireau à pointe argentée - manche en aluminium chromé brillant - dimensions 4 cm x 4 cm x 10,6 cm - diamètre du manche 4 cm</BulletPoint>
+      </DescriptionData>
+      <ProductData>
+        <Health>
+          <ProductType>
+            <PersonalCareAppliances></PersonalCareAppliances>
+          </ProductType>
+        </Health>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

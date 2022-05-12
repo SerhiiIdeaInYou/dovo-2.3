@@ -1,0 +1,44 @@
+<div class="slideshow-wrapper-additional">
+    <div class="slideshow-wrapper-outer">
+        <div class="slideshow-wrapper">
+            <div class="slideshow dovo-slides owl-carousel owl-theme">
+                <div class="item flex-vertical">
+                    <div class="item-inner-container ">
+                        <div class="first-column slider-text grid12-3 tablet-mobile-full mobile-grid-full no-gutter">
+                            <div class="hint">
+                                <p><?= __('Jetzt online Einkaufen') ?></p>
+                            </div>
+                            <div class="heading">
+                                <h2><?= __('Dovo') ?> <br/> <?= __('Online Shop') ?></h2>
+                            </div>
+                            <div class="text hide-on-tablet-s">
+                                <p><?= __('Entdecke unsere DOVO und MERKUR Produkte in unserem neuen Online Shop - von Pinzette über Rasiermesser bis hin zum Rasierhobel. Hier findest du alles rund um die Nassrasur und Maniküre sowie Pediküre.') ?></p>
+
+                            </div>
+                            <a class="link"
+                               href="/<?= $block->getStoreCode() ?>/catalog"><span><?= __('Alle Produkte') ?> <br /> <?= __('klassische Shop-Ansicht') ?></span></a>
+                        </div>
+                    </div>
+                    <div class="image-container no-gutter last-column"
+                         style="background-image: url('<?= $this->getViewFileUrl('Dovo_ShopIndex::images/dovo-online-shop-header.jpg') ?>')">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    requirejs(['jquery', 'owlcarousel'], function (jQuery, owlcarousel) { //
+
+        jQuery(function ($) {
+
+            var owl = $('.dovo-slides');
+            owl.owlCarousel({
+                singleItem:true
+            });
+        })
+    });
+
+</script>

@@ -1,0 +1,5 @@
+<?php $customerData = $block->checkCustomerLogin(); ?>
+
+<div class="logout">
+    <a href="<?php echo $customerData['url']; ?>"><?php echo $customerData['text']; ?></a>
+</div>

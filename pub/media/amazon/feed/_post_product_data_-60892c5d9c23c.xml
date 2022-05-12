@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>151479</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>30451201</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010563</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Rasierklingen DOVO SUPER PLATINUM 10 (10 Stk.)</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produkt&lt;p&gt;Die DOVO SUPER PLATINUM DE(Double Edge) Rasierklingen haben sich aufgrund ihrer Schärfe und Schnitthaltigkeit bewährt. Sie sind speziell für die Anforderungen unserer Rasierhobel konstruiert. Die Klingen sind einzeln in Paraffinpapier verpackt, hierin kannst du sie gefahrlos brechen und damit auf die Nutzung in einer SHAVETTE® vorbereiten. Natürlich Made in Germany.&lt;/p&gt;Material&lt;p&gt;Diese Rasierklingen werden aus Edelstahl gefertigt. Das Metall zeigt gute Beständigkeit gegen Korrosion und eignet sich auch aufgrund seiner Härte im vergüteten Zustand perfekt für die Herstellung hochwertiger Klingen. Darüber hinaus sind die Klingen Platin beschichtet und wir belegen sie zusätzlich mit einer Antihaftbeschichtung, so gleiten Rasierhobel oder Shavette sanft und mühelos über die Haut.&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Garantierte Qualität: über 100 Jahre Qualität, Design und Erfahrung - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Garantierte Präzise: Eleganter Look und präzise Konturen wie beim Meister-Barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantiert gepflegter Bart: Bartpflege leicht gemacht für einen täglich frischen Look.</BulletPoint>
+        <BulletPoint>Art: Wechselrasierklingen 10 Stk. aus rostfreiem Edelstahl von DOVO Solingen</BulletPoint>
+        <BulletPoint>Klingen &amp; Material: Wechselrasierklinge - Edelstahl - rostfrei, Platinum Qualität</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

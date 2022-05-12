@@ -1,0 +1,31 @@
+<?php
+/**
+ * @var $this \Jajuma\Shariff\Block\Shariff
+ * @var $helper \Jajuma\Shariff\Helper\Data
+ */
+
+$helper = $this->helper('Jajuma\Shariff\Helper\Data');
+if ($helper->getCssConfiguration() == 1): ?>
+    <link rel="stylesheet" href='<?php echo $this->getAssetUrl('Jajuma_Shariff::css/shariff.min.css'); ?>' type='text/css' />
+<?php else: ?>
+    <link rel="stylesheet" href='<?php echo $this->getAssetUrl('Jajuma_Shariff::css/shariff.complete.css'); ?>' type='text/css' />
+<?php endif;?>
+
+<?php if ($helper->getJsConfiguration() == 1):?>
+    <script type="text/javascript">
+        require([
+            'jquery',
+            'shariff_min'
+        ], function(){
+
+        });
+    </script>
+<?php else: ?>
+    <script type="text/javascript">
+        require([
+            'shariff_complete'
+        ], function(){
+
+        });
+    </script>
+<?php endif;?>

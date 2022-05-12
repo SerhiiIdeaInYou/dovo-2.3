@@ -1,0 +1,24 @@
+<!--The 'step_code' value from the .js file should be used-->
+<li id="virtual-billing-step" data-bind="fadeVisible: isVisible">
+    <div class="step-title" data-bind="i18n: 'Billing Information'" data-role="title"></div>
+    <div id="checkout-step-virtual-billing-step" class="step-content" data-role="content">
+        <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+            <each if="isVirtual" args="getRegion('customer-email')" render="" />
+
+            <each if="isVirtual" args="getRegion('before-form')" render=""/>
+            <!-- Inline Billing address form -->
+            <each if="isVirtual" args="getRegion('virtual-billing-address')" render=""/>
+
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <button data-role="opc-continue" type="submit" class="button action continue primary">
+                        <span>
+                            <!-- ko i18n: 'Next'-->
+                            <!-- /ko -->
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</li>

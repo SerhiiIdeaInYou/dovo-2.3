@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>ProductImage</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>1113657</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>10630006</SKU>
+      <ImageType>PT1</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/1/0/10630006_zange_d1_1.png</ImageLocation>
+    </ProductImage>
+  </Message>
+  <Message>
+    <MessageID>1113657</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>10630006</SKU>
+      <ImageType>Main</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/1/0/10630006_zange_p1_1.png</ImageLocation>
+    </ProductImage>
+  </Message>
+</AmazonEnvelope>

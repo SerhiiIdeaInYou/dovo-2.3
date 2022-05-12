@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>191479</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>30451201</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010563</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Hojas de afeitar DOVO SUPER PLATINUM 10 (10 piezas)</Title>
+        <Brand>DOVO</Brand>
+        <Description>Producto&lt;p&gt;Las cuchillas de afeitar DOVO SUPER PLATINUM DE(Doble Filo) han demostrado su eficacia por su afilado y retención del filo. Están especialmente diseñados para los requisitos de nuestras maquinillas de afeitar. Las cuchillas están empaquetadas individualmente en papel parafinado, por lo que puede romperlas de forma segura y prepararlas para su uso en un SHAVETTE®. Hecho en Alemania, por supuesto.&lt;/p&gt; &lt;p&gt;Material&lt;/p&gt; &lt;p&gt;Estas hojas de afeitar están hechas de acero inoxidable. Este metal presenta una buena resistencia a la corrosión y también es perfecto para fabricar cuchillas de alta calidad debido a su dureza cuando se templa. Además, las cuchillas están recubiertas de platino y también las cubrimos con un revestimiento antiadherente, por lo que la maquinilla de afeitar o la shavette se deslizan suavemente y sin esfuerzo sobre la piel.&lt;/p&gt; &lt;p&gt;</Description>
+        <BulletPoint>✔︎ Calidad garantizada: más de 100 años de calidad, diseño y experiencia - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisión garantizada: aspecto elegante y contornos precisos como un maestro barbero.</BulletPoint>
+        <BulletPoint>✔︎ Garantiza una barba bien cuidada: el cuidado de la barba es fácil para un aspecto fresco cada día.</BulletPoint>
+        <BulletPoint>Arte: Hojas de afeitar intercambiables 10 piezas de acero inoxidable de DOVO Solingen</BulletPoint>
+        <BulletPoint>Hojas y material: Hoja de afeitar intercambiable - acero inoxidable - calidad Platinum</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

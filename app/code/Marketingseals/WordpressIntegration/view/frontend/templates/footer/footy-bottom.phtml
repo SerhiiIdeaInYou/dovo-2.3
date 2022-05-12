@@ -1,0 +1,31 @@
+<?php
+/**
+ * @var \Marketingseals\WordpressIntegration\Block\WordpressIntegrator $block
+ */
+?>
+<?php
+$menus = $block->getLegalMenu();
+?>
+
+<div class="footy-bottom">
+    <div class="copyright-bar">
+        <?= $block->getCopyrightText() ?>
+    </div>
+    <div class="legal-menu">
+        <?php if($menus): ?>
+        <?php foreach ($menus as $menu): ?>
+        <div class="menu-footer-main-container">
+            <?php $items = $menu->items; ?>
+            <ul id="menu-footer-main" class="menu">
+                <?php foreach ($items as $item): ?>
+                    <li id="<?= $item->classes ?>menu-item-<?= $item->id ?>"
+                        class="menu-item menu-item-<?= $item->id ?>">
+                        <a href="<?= $item->url ?>"><?= $item->title ?></a>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </div>
+    <?php endforeach; ?>
+    <?php endif;?>
+</div>

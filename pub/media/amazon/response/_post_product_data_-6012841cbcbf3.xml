@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>53550018655</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>4</MessagesProcessed>
+				<MessagesSuccessful>2</MessagesSuccessful>
+				<MessagesWithError>2</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>61374</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>6039</ResultMessageCode>
+				<ResultDescription>Merchant is not authorized to sell products under this restricted product group.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>515171</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>61437</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B005FFEN5S, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;Cibe Laboratori&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>514002</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

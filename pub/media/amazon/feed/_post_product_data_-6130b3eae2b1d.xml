@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>101492</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10580356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009017</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Barbarossa Razor - Rasoir droit en acier au carbone - 5/8 Inch - Tête ronde - Dos pointu - Mouture pleine et creuse - DOVO Solingen Barber Knife</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produit&lt;p&gt;Ce rasoir est fabriqué en acier au carbone avec la désignation du matériau 1.2210, plus connu sous le nom d'acier argenté. Pour obtenir une dureté d'environ 61 HRC, le matériau est chauffé à plus de 1000 degrés, puis immédiatement trempé dans une huile spéciale. La trempe ultérieure à environ 200 degrés confère à la lame élasticité et ténacité.&lt;/p&gt;Matériau du manche&lt;p&gt;Depuis l'Antiquité, l'écaille de tortue coûteuse a été utilisée pour fabriquer des objets d'art et des meubles exquis. Autrefois, il était presque surpassé par l'or et, depuis, il orne d'innombrables cours royales. Afin de protéger la tortue, menacée d'extinction, nous travaillons exclusivement avec une imitation en acrylique poli mat soyeux.&lt;/p&gt;Mouture&lt;p&gt;Avec la mouture creuse, le rasoir est affûté de manière concave de l'arrière vers le tranchant. Cette conception combine une grande flexibilité avec une grande rigidité longitudinale en torsion. La dynamique de la lame assure un rasage en douceur accompagné d'un son très caractéristique, qui est déclenché par le balancement du rasoir au niveau de la section du poil.&lt;/p&gt;Description de la lame&lt;p&gt;La tête ronde est la forme classique d'un rasoir et convient à la plupart des situations de rasage. Ce modèle de lame est très populaire depuis des siècles, car sa forme bulbeuse peut être utilisée en toute sécurité dans la zone des oreilles, du nez et des fossettes. La tête ronde vous protège également des blessures en cas de chute.&lt;/p&gt;La largeur de la lame&lt;p&gt;Les rasoirs de la taille 5/8 de pouce sont de véritables multitalents et peuvent réussir toutes les tâches autour du rasage humide classique avec brio. La lame est relativement lourde et peut donc glisser doucement sur votre peau sans trop de pression. En même temps, il reste suffisamment maniable pour pouvoir gérer avec agilité les passages plus exigeants sur le plan technique autour du nez, des oreilles et du menton.</Description>
+        <BulletPoint>✔︎ Qualité garantie: plus de 100 ans de qualité, de design et d'expérience - Fabriqué en Allemagne.</BulletPoint>
+        <BulletPoint>✔︎ Précision garantie : look élégant et contours précis comme un maître barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantie d'une barbe bien soignée : l'entretien de la barbe facilité pour un look frais tous les jours.</BulletPoint>
+        <BulletPoint>Type: Coupe choux Barbarossa 5/8 pouces en acier au carbone avec une rectification entière et creuse de DOVO Solingen.</BulletPoint>
+        <BulletPoint>Lame et Coupe: Acier au carbone - avec gravure Barbarossa - largeur 5/8' = env. 1.6 cm - VERSION COURTE - dos pointu - tête ronde - affûtage plein creux - très affûté.</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

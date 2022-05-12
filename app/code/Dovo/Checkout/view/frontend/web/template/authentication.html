@@ -1,0 +1,69 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<div class="checkout-authentication" data-block="auth" data-bind="fadeVisible: isVisible">
+        <div class="block block-customer-login"
+             data-bind="attr: {'data-label': $t('or')}">
+            <div class="block-title">
+                <strong id="block-customer-login-heading"
+                        role="heading"
+                        aria-level="2"
+                        data-bind="i18n: 'Sign In'"></strong>
+            </div>
+            <!-- ko foreach: getRegion('messages') -->
+            <!-- ko template: getTemplate() --><!-- /ko -->
+            <!--/ko-->
+            <div class="block-content" aria-labelledby="block-customer-login-heading">
+               <!-- <p data-bind="i18n:'Sign In Text'">
+                </p>-->
+                <form data-role="login"
+                      data-bind="submit:login"
+                      method="post">
+                    <div class="fieldset"
+                              data-bind="attr: {'data-hasrequired': $t('* Required Fields')}, ">
+                        <div class="field field-email required">
+                            <label class="label" for="login-email" data-bind="visible: focusVisibilityEmail"><span data-bind="i18n: 'Email Address'"></span></label>
+                            <div class="control">
+                                <input type="email"
+                                       class="input-text ms-login-email"
+                                       id="login-email"
+                                       name="username"
+                                       data-bind="event: { change: ifVisible() }, attr: {autocomplete: autocomplete}, hasFocus: focusEmail()"
+                                       data-validate="{required:true, 'validate-email':true}" />
+                            </div>
+                        </div>
+                        <div class="field field-password required">
+                            <label for="login-password" class="label" data-bind="visible: focusVisibilityPW"><span data-bind="i18n: 'Password'"></span></label>
+                            <div class="control">
+                                <input type="password"
+                                       class="input-text ms-login-password"
+                                       id="login-password"
+                                       name="password"
+                                       data-bind="event: { change: ifVisible() }, attr: {autocomplete: autocomplete}, hasFocus: focusPW()"
+                                       data-validate="{required:true}"
+                                       autocomplete="off"/>
+                            </div>
+                        </div>
+                        <!-- ko foreach: getRegion('additional-login-form-fields') -->
+                        <!-- ko template: getTemplate() --><!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                    <div class="actions-toolbar">
+                        <input name="context" type="hidden" value="checkout" />
+                        <div class="primary">
+                            <button type="submit" class="action action-login secondary"><span data-bind="i18n: 'Sign In'"></span></button>
+                        </div>
+                        <div class="secondary">
+                            <a class="action action-remind" data-bind="attr: { href: forgotPasswordUrl }">
+                                <span data-bind="i18n: 'Forgot Your Password?'"></span>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

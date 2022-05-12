@@ -1,0 +1,98 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/**
+ * Product view template
+ *
+ * @see \Magento\Catalog\Block\Product\View\Description
+ */
+?>
+<?php if ($block->getProduct()->getDescription()): ?>
+    <div class="description-wrapper">
+        <div class="grid-container">
+            <div class="grid12-3 production-image-container hide-on-mobile">
+                <?php
+                $manuBool = false;
+                $desc1Bool = false;
+                $desc2Bool = false;
+                try {
+                    $manu = $block->getProduct()->getCustomAttribute('manufacture');
+                    if ($manu) {
+                        $manuBool = true;
+                    }
+
+                } catch (Exception $exception) {
+                    $manuBool = false;
+                }
+                ?>
+                <?php if ($manuBool): ?>
+                    <?php
+                    $manufactureImage = $manu->getValue();
+                    $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                        ->init($block->getProduct(), 'manufacture')
+                        ->setImageFile($manufactureImage);
+                    ?>
+                    <img src="<?php echo $productImage->getUrl() ?>"
+                         alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                <?php endif; ?>
+            </div>
+            <div class="grid12-6  description-container no-left-gutter">
+                <div class="product attribute description">
+                    <div class="value">
+                        <?php echo $block->getProduct()->getDescription(); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="grid12-3 image-container2 hide-on-mobile">
+                <div class="desc-image1">
+                    <?php
+                    try {
+                        $desc1 = $block->getProduct()->getCustomAttribute('long_desc_1');
+                        if ($desc1) {
+                            $desc1Bool = true;
+                        }
+
+                    } catch (Exception $exception) {
+                        $desc1Bool = false;
+                    }
+                    ?>
+                    <?php if ($desc1Bool): ?>
+                        <?php
+                        $desc1Image = $desc1->getValue();
+                        $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                            ->init($block->getProduct(), 'long_desc_1')
+                            ->setImageFile($desc1Image); ?>
+                        <img src="<?php echo $productImage->getUrl() ?>"
+                             alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                    <?php endif; ?>
+                </div>
+                <div class="desc-image2">
+                    <?php
+                    try {
+                        $desc2 = $block->getProduct()->getCustomAttribute('long_desc_2');
+                        if ($desc2) {
+                            $desc2Bool = true;
+                        }
+                    } catch (Exception $exception) {
+                        $desc2Bool = false;
+                    }
+                    ?>
+                    <?php if ($desc2Bool): ?>
+                        <?php
+                        $desc2Image = $desc2->getValue();
+                        $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                            ->init($block->getProduct(), 'long_desc_2')
+                            ->setImageFile($desc2Image); ?>
+                        <img src="<?php echo $productImage->getUrl() ?>"
+                             alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>191492</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10580356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009017</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Navaja de afeitar DOVO Barbarossa - Navaja de afeitar recta de acero al carbono - 5/8 pulgadas - Cabeza redonda - Dorso puntiagudo - Afilado completo hueco - Navaja de afeitar DOVO Solingen</Title>
+        <Brand>DOVO</Brand>
+        <Description>Producto&lt;p&gt;Esta maquinilla de afeitar está hecha de acero al carbono con la designación de material 1.2210, más conocido como acero plateado. Para conseguir una dureza de aproximadamente 61 HRC, el material se calienta a más de 1000 grados y se enfría inmediatamente con un aceite especial. El posterior templado a unos 200 grados confiere a la hoja elasticidad y dureza.&lt;/p&gt;Material del mango&lt;p&gt;Desde la antigüedad, el costoso caparazón de tortuga se ha utilizado para hacer arte y muebles exquisitos. En el pasado, fue casi superado por el oro y ha adornado innumerables cortes reales desde entonces. Para proteger a la tortuga, que está en peligro de extinción, trabajamos exclusivamente con una imitación hecha de acrílico pulido con seda.&lt;/p&gt;Rectificado&lt;p&gt;Con el rectificado hueco, la navaja se rectifica de forma cóncava desde el lomo hasta el filo. Este diseño combina una gran flexibilidad con una elevada rigidez torsional longitudinal. La dinámica de la cuchilla asegura un afeitado suave acompañado de un sonido muy característico, que se desencadena con el balanceo de la maquinilla en la sección del vello.&lt;/p&gt;Descripción de la cuchilla&lt;p&gt;El cabezal redondo es la forma clásica de una maquinilla de afeitar y se adapta a la mayoría de las situaciones de afeitado. Este diseño de hoja ha sido muy popular durante siglos, ya que su forma bulbosa puede utilizarse con mucha seguridad en la zona de las orejas, la nariz y los hoyuelos. El cabezal redondo también le protege de lesiones en caso de caída.&lt;/p&gt;Ancho de la hoja&lt;p&gt;Las maquinillas de afeitar en el tamaño de 5/8 de pulgada son verdaderos todoterrenos y pueden superar con éxito cualquier tarea en torno al clásico afeitado en húmedo. La cuchilla es relativamente pesada, por lo que puede deslizarse suavemente sobre la piel sin ejercer mucha presión. Al mismo tiempo, sigue siendo lo suficientemente maniobrable como para poder gestionar con agilidad los pasos más exigentes desde el punto de vista técnico alrededor de la nariz, </Description>
+        <BulletPoint>✔︎ Calidad garantizada: más de 100 años de calidad, diseño y experiencia - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisión garantizada: aspecto elegante y contornos precisos como un maestro barbero.</BulletPoint>
+        <BulletPoint>✔︎ Garantiza una barba bien cuidada: el cuidado de la barba es fácil para un aspecto fresco cada día.</BulletPoint>
+        <BulletPoint>Tipo: Navaja de afeitar Barbarossa de acero al carbono de 5/8 de pulgada con afilado entero hueco de DOVO Solingen.</BulletPoint>
+        <BulletPoint>Hoja y corte: Acero al carbono - con grabado Barbarossa - ancho 5/8' = aprox. 1,6 cm - VERSION CORTA - lomo puntiagudo - cabeza redonda - afilado entero hueco - muy afilado.</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

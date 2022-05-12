@@ -1,0 +1,75 @@
+<div class="product info detailed dovo-properties flex-vertical">
+    <?php
+    $product = $block->getProduct();
+    $load = true;
+    try {
+        $productAttributes = $product->getAttributes();
+        $attributes = [];
+        $group_id = 35;
+        $attributeSetId = 10;
+        $obj = \Magento\Framework\App\ObjectManager::getInstance();
+
+        /** @var \Magento\Catalog\Model\Config $config */
+        $config = $obj->get('Magento\Catalog\Model\Config');
+
+        // echo $config->getAttributeGroupId($attributeSetId, 'Eigenschaften');
+        foreach ($productAttributes as $attribute) {
+            if ($attribute->isInGroup($attributeSetId, $group_id)) {
+                $attributes[$attribute->getStoreLabel()] = $attribute->getFrontend()->getValue($product);
+                //echo $attribute->getFrontendLabel().' : '.$attribute->getFrontend()->getValue($product).'<br />';
+            }
+
+        }
+        if (count($attributes) === 0) {
+            $load = false;
+        }
+    } catch (Exception $e) {
+        $load = false;
+    }
+    ?>
+    <?php
+    $imgLoad = false;
+    try {
+        $productImageAttr = $product->getCustomAttribute('atmospharisch');
+        if ($productImageAttr) {
+            $imgLoad = true;
+        }
+    } catch (Exception $e) {
+        $imgLoad = false;
+    }
+    ?>
+    <?php if ($imgLoad): ?>
+    <div class="properties-container grid12-3">
+        <h2 class="block-heading">
+            <?= __('Eigenschaften') ?>
+        </h2>
+        <div class="block-content">
+            <?php
+            foreach ($attributes as $key => $value) {
+                if ($value) {
+                    ?>
+                    <div class="property-row property-delivery">
+                        <p class="label">
+                            <?= $key ?>
+                        </p>
+                        <p class="value">
+                            <?= $value ?>
+                        </p>
+                    </div>
+                    <?php
+                }
+            }
+            ?>
+        </div>
+    </div>
+    <div class="atmosphaeric-container grid12-9 no-right-gutter">
+        <?php
+        $productImage = $this->helper('Magento\Catalog\Helper\Image')
+            ->init($product, 'atmospharisch')
+            ->setImageFile($productImageAttr->getValue());
+        ?>
+        <img src="<?php echo $productImage->getUrl() ?>"
+             alt="<?php echo $block->escapeHtml($product->getTitle()) ?>"/>
+    </div>
+<?php endif; ?>
+</div>

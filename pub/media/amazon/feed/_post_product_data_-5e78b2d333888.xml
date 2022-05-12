@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>11320</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>43456</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284006344</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Bartschere 43 Moustache in mattiertem Edelstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten um einfachste Handhabung und genaueste Schnitte möglich zu machen. Durch die Mikrozahnung wird jedes Barthaar zuverlässig erfasst und kann so besonders sauber abgetrennt werden.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11321</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>585051</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026731</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Bartschere 43 Moustache in vernickeltem Kohlenstoffstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Das Lederetui schützt deine Bartschere nicht nur vor Feuchtigkeit, sondern macht sie auch zum perfekten Reisebegleiter.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11322</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>585056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026755</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Bartschere 43 Moustache in mattiertem Edelstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Das Lederetui schützt deine Bartschere nicht nur vor Feuchtigkeit, sondern macht sie auch zum perfekten Reisebegleiter.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11323</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1028056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284025949</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartplege Etui 1028</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Das DOVO Bartpflege-Etui enthält alles, was du für deinen Bart brauchst. Mit der Bartschere sorgst du erst für den perfekten Trimm, der Bartkamm hilft dir danach dein Gesichtshaar zu bändigen und mit der Bartbürste gibst du deinem Styling den letzten Schliff. Im hochwertigen Etui aus Nubukleder auch auf Reisen unerlässlich!&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11324</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>44356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005095</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bart-/Nasenhaarschere 44</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Mit der DOVO Nasenhaarschere 44 sorgst du auch bei deiner Nasenbehaarung für geregelte Verhältnisse. Die Scherenspitze haben wir abgerundet - durch diesen Kugelkopf schützt du dich zuverlässig vor Verletzungen im Nasenraum. Der DOVO-Handschliff garantiert Schnitte mit allerhöchster Präzision. Schmerzhaftes Haarausreißen beim Trimmen gehört damit endlich der Vergangenheit an.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11327</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>31349</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004005</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 31</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Hautschere 31 ist das ideale Werkzeug für feinste und diffizilste Aufgaben. Die handliche Größe gepaart mit der vergoldeten Turmspitze sorgen dafür, dass du Hautreste und Niednägel extrem präzise bearbeiten kannst, um ein perfektes Finish zu erreichen. Mit dem DOVO Handschliff wirst du lange Freude an deinem scharfen Begleiter haben!&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11328</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>234356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004159</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 234</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Hautschere 234 ist ein kleiner Alleskönner. Die Klingenlänge haben wir für dich so gewählt, dass du damit perfekt Haut und Niednägel an deinen Händen und Füßen entfernen kannst. Die ergonomisch geformten Augen helfen dir dabei, die Hautschere präzise zu führen und durch den DOVO Handschliff setzt du präzise Schnitte. Jedes Mal.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11329</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>379356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004630</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 379</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Du bist Linkshänder? Wir lassen dich nicht im Stich! Vorbei sind die Zeiten, in denen du versucht hast, dich an eine Rechtshänderschere zu gewöhnen. Mit der DOVO Hautschere 379 kannst du jetzt endlich mit einem Werkzeug arbeiten, das perfekt an die Führung mit der linken Hand angepasst ist. Exakter Handhabung und präzisen Schnitten steht nun nichts mehr im Wege.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11330</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>3650356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004487</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 3650</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Hautschere 3650 kommt mit allem, was eine gute Hautschere charakterisiert. Die Größe ist perfekt dimensioniert, damit du die Schere sicher im komplizierten Bereich der Nagelhaut und der Niednägel führen kannst. Durch den DOVO-Handschliff hast du volle Kontrolle beim Schnitt und kannst fehlerfrei arbeiten. So wird Nagelpflege wieder sexy!&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11359</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>525356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004371</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere Lanza 525</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Nagelschere Lanza 525 hat nicht umsonst den Reddot Award gewonnen. Denn die Nagelschere sieht nicht nur cool aus, sondern liegt auch perfekt in der Hand. Der lange Griff und die kurze Schneide vereinen sich zu voller Präzision und starker Hebelwirkung. Der einseitig gezahnte Schliff tut sein Übriges, um perfekte Schnittergebnisse zu erreichen&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11360</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>579356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004647</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 579</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Nagelschere 579 wurde zur Nutzung mit der linken Hand konzipiert. Die Nagelschere gibt dir den Blick auf die Schnittkante frei, sodass du immer weißt, wo du ansetzen musst. Die einseitig gezahnte Klinge verhindert ein Abrutschen bei der Nagelpflege, während die gebogene Schneide dir den maximalen Komfort beim Schneiden bietet.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11450</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>16556</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000229</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 16</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Mit der DOVO Haarschere 16 in 5,5 Zoll in Edelstahl hast du deine Frisur stets unter Kontrolle. Dicke Haare und Spliss meistert unsere Schere mit Leichtigkeit. Dank der ausgeglichenen Gewichtsbalance und der Mikrozahnung sind die Zeiten des Abrutschens und Rupfens vorbei. Der Fingerhaken verleiht der Schere höchste Ergonomie, sodass auch langes Arbeiten zum Vergnügen wird.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11451</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>16606</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000236</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 16</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Mit der DOVO Haarschere 16 in 6,0 Zoll in Edelstahl hast du deine Frisur stets unter Kontrolle. Dicke Haare und Spliss meistert unsere Schere mit Leichtigkeit. Dank der ausgeglichenen Gewichtsbalance und der Mikrozahnung sind die Zeiten des Abrutschens und Rupfens vorbei. Der Fingerhaken verleiht der Schere höchste Ergonomie, sodass auch langes Arbeiten zum Vergnügen wird.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11452</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>20706</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000328</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 20</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Mit der DOVO Haarschere 20 in 7,0” wirst du selbst zum Barbier. Durch die langen Scherenblätter kannst du selbst großflächige Arbeiten an deinem Bart präzise meistern. Dank der Mikrozahnung greift jeder Schnitt sofort, sodass Ziehen und Reißen der Vergangenheit angehören. Die Schere ist aus geschmiedetem rostfreien Edelstahl hergestellt und liegt ergonomisch in der Hand. Somit musst du keine Kompromisse bei deinem Bart eingehen.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11453</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>5040546</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000427</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Modellierschere 50</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Modellierschere 50 in 5,25” haben wir mit einem 40-fach gezahnten Scherenblatt ausgestattet. Auf jedem dieser Zähne schleifen wir zudem ein Prisma ein, damit das gegenüberliegende Scherenblatt nur einen Teil der Haare erfasst und sauber abtrennt. So dünnst du Haare effektiv aus. Die Stellschraube ist mit dem mitgelieferten Werkzeug leicht justierbar.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11454</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>5046656</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000465</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Modellierschere 50</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Modellierschere 50 in 6,5” ist unser Topmodell und für professionelle Friseure gedacht. Jeder der 46 Zähne am Scherenblatt ist zusätzlich mit einem Prisma versehen, um millimetergenaues Ausdünnen möglich zu machen. Dieses Modell wird aus rostfreiem Edelstahl geschmiedet und von Hand geschärft, um höchsten Ansprüchen gerecht zu werden.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11455</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>255706</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002339</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 255</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO 255 ist ein treuer Begleiter für Heim und Handwerk. Die DOVO 255 ist aus geschmiedetem Edelstahl und selbst schwierige Schnitte durch Stoffe, Pappe und sogar Leder meistert sie mit Leichtigkeit. Für besonders widerspenstige Materialien erlaubt das sogenannte Langauge jederzeit exakte Dosierbarkeit und genug Kraftreserven. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11456</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>285506</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002483</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Schere 285 ist aus geschmiedetem Edelstahl und ist mit 5,0 Zoll, die kompakteste unserer Haushaltsscheren. Sie meistert mit Leichtigkeit auch schwierige Aufgaben, wie das Schneiden von robustem Papier, Pappe und Stoff. Durch die kurze Länge ist das Schneiden von Kurven und Ecken kein Problem. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11457</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>285606</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002520</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Schere 285 in 6,0 Zoll  ist eine Haushaltsschere aus geschmiedetem Edelstahl zum Basteln oder für diffizile Arbeiten im Beruf. Durch die Gesamtlänge von 15,5 cm ist eine sehr präzise Führung möglich. Gleichzeitig schneidet sie auch robuste Stoffen, Pappe und Leder. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11458</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>700401</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005972</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Kinderschere 700</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;„Messer, Gabel, Schere, Licht sind für kleine Kinder nicht” - Richtig? 
+Nicht ganz, auch Kinder müssen den sicheren Umgang mit einer Schere lernen. Deshalb haben wir bei der DOVO 700 die Scherenspitze abgerundet, damit das Unfallrisiko während des Unterrichts oder beim Basteln verringert wird. Die Schneide ist jedoch scharf geschliffen, so wie es sein sollte. 
+&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11459</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>285408</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002469</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO 285 ist eine Stickschere aus geschmiedetem Edelstahl, die mit ihrer feinen Spitze dazu konzipiert ist, diffizile Arbeiten beim Sticken oder Nähen zu meistern. Mit einer Gesamtlänge von circa 10 cm ist sie auch für normalgroße Hände geeignet. Um saubere Ergebnisse zu liefern, ist diese Schere von uns per Hand geschärft worden. Edel verpackt in einer rotbraunen Rindlederstulpe.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11460</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>44350026</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005064</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 44</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO Stickschere 44 ist mit einer besonders feinen Spitze versehen, um die Aufgaben rund ums Sticken und Nähen problemlos meistern zu können. Durch Ihre Länge von 3,5” ist sie besonders leicht zu führen und trennt so zuverlässig und zielsicher Fadenreste ab. Gefertigt aus rostfreiem Edelstahl und ausgeliefert in einem edlen, schwarzen Rindleder-Etui.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11461</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>44350526</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284006399</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 44 Hardanger</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Die DOVO 44 Hardanger ist eine kleine Stickschere. Dieses Modell haben wir speziell für Hardanger-Durchbruchstickereien entwickelt. Das Besondere an ihr ist, dass die Spitze sehr dünn ist, um auch feinste Arbeiten sauber auszuführen. Natürlich eignet sich die Schere auch zum Durchtrennen von Fadenresten. Dieses Spezialwerkzeug fertigen wir aus rostfreiem Edelstahl und schärfen es per Hand.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

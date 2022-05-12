@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>161381</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>201071</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010273</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Rasoio a mano libera DOVO Shavette con manico in legno d'ulivo</Title>
+        <Brand>DOVO</Brand>
+        <Description>Prodotto&lt;p&gt;Lo Shavette è un rasoio a mano libera a lame intercambiabili. Può essere usato proprio come un rasoio classico. A causa della possibilità di cambiare le lame, tuttavia, è estremamente popolare soprattutto nel commercio dei barbieri, perché ogni cliente riceve così una lama fresca. Produciamo questo modello in alluminio leggero e lo rifiniamo con un manico in legno d'ulivo granulato.&lt;/p&gt;Materiale&lt;p&gt;Produciamo questo shavette in alluminio di alta qualità. Attraverso il processo di anodizzazione utilizzato, lo strato superiore del metallo viene cambiato e ottiene proprietà resistenti alla corrosione oltre all'aspetto di materiale nobile. L'alluminio è un vero peso leggero grazie alla sua bassa densità, che porta alla distribuzione unica del peso di questo shavette.&lt;/p&gt;Materiale del manico&lt;p&gt;Il legno di olivo è un materiale unico in natura. È più duro del legno di quercia o di faggio domestico, pur mostrando un'alta resistenza alla muffa. Anche l'olivo non trattato è già caratterizzato da una resistenza all'acqua superiore alla media, che naturalmente lo rende il materiale perfetto per rasoi, pennelli da barba e shavette.&lt;/p&gt;Consegna&lt;p&gt;DOVO Shavette 201071, 2 porta lamette trasparenti, lama MERKUR SUPER, scatola di metallo blu&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Qualità garantita: oltre 100 anni di qualità, design ed esperienza - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisione garantita: look elegante e contorni precisi come un maestro barbiere.</BulletPoint>
+        <BulletPoint>✔︎ Barba curata garantita: la cura della barba è facile per un look fresco ogni giorno.</BulletPoint>
+        <BulletPoint>Stile: rasoio a mano libera Shavette per lame intercambiabili con manico in legno d'oliva di DOVO Solingen</BulletPoint>
+        <BulletPoint>Materiale e dimensioni: anello in alluminio anodizzato nero - manico in legno d'ulivo - 14,4 cm x 2,5 cm x 1,5 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

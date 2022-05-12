@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="category.product.addto.compare" remove="true" />
+        <referenceContainer name="base-main-top-container">
+            <block class="Dovo\HeaderImage\Block\HeaderImage" name="header-image-container" template="headerImage.phtml" before="-" />
+        </referenceContainer>
+        <move element="breadcrumbs" destination="content" before="-" />
+        <!-- <move element="umm.sidemenu.catalog_category_view.main" destination="sidebar.main" before="filter-section"/>-->
+        <referenceContainer name="sidebar.main">
+            <block class="Magento\Framework\View\Element\Template" name="sidebar.search" template="Magento_Search::form.mini.phtml" before="-" />
+            <block class="Dovo\Base\Block\Catalog\FilterCategory" name="filter-section" template="Dovo_Base::catalog/filtercategory.phtml" after="umm.sidemenu.catalog_category_view.main">
+                <block class="Magento\Framework\View\Element\Template" name="mobile.search" template="Magento_Search::form.mobile.phtml" before="-" />
+            </block>>
+            <block class="Dovo\Base\Block\Sidebar\Social" template="Dovo_Base::sidebar/social.phtml" after="-" />
+            <block class="Dovo\Base\Block\Sidebar\Social" template="Dovo_Base::sidebar/service.phtml" after="-"/>
+        </referenceContainer>
+
+    </body>
+</page>

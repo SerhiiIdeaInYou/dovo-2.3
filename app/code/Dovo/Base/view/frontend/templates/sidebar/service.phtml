@@ -1,0 +1,22 @@
+<div class="block service">
+    <div class="block-title service-title">
+        <p><?php echo __('Kundenservice'); ?></p>
+    </div>
+    <div class="block-content service-content">
+        <ul>
+            <li>
+                <?php $zendeskLinkDE = 'https://dovo.zendesk.com/hc/de' ?>
+                <?php $zendeskLinkEN = 'https://dovo.zendesk.com/hc/en-150' ?>
+                <?php $storeID = $block->getStoreManager()->getStore()->getId(); ?>
+                <?php if($storeID === '1'): ?>
+                    <a href="<?= $zendeskLinkDE ?>"><?php echo __('Hilfecenter'); ?></a>
+                <?php else: ?>
+                    <a href="<?= $zendeskLinkEN ?>"><?php echo __('Hilfecenter'); ?></a>
+                <?php endif; ?>
+            </li>
+            <li>
+                <a href="javascript:$zopim.livechat.window.show();"><?php echo __('Chat'); ?></a>
+            </li>
+        </ul>
+    </div>
+</div>

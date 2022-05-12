@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="catalog.compare.link" remove="true"/>
+        <referenceBlock name="catalog.compare.sidebar" remove="true"/>
+        <referenceBlock name="view.addto.compare" remove="true" />
+        <referenceBlock name="wishlist_sidebar" remove="true" />
+        <referenceBlock name="page.main.title" remove="true" />
+<!--        <referenceBlock name="base-footer-container"  template="Dovo_Base::footer.phtml" />-->
+        <referenceBlock name="site-logo" template="Dovo_Base::header/logo.phtml" />
+<!--        <referenceContainer name="head.additional">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="gtm.head" before="-" template="Magento_Theme::html/gtm_head.phtml" />-->
+<!--        </referenceContainer>-->
+<!--        <referenceContainer name="after.body.start">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="gtm.body" before="-" template="Magento_Theme::html/gtm_body.phtml" />-->
+<!--        </referenceContainer>-->
+        <!-- Logo -->
+        <referenceBlock name="site-logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
+            </arguments>
+        </referenceBlock>
+
+        <!-- Mobile logo -->
+        <referenceBlock name="site-logo-mobile">
+            <arguments>
+                <!-- Required the same image path as for the default site logo (see inside "site-logo" block) -->
+                <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

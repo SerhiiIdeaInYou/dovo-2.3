@@ -1,0 +1,15 @@
+<?php
+$product = $block->getProduct();
+$attrVal ='';
+try {
+    $attribute = $product->getCustomAttribute('werbetext');
+    if($attribute !== null) {
+        $attrVal = $attribute->getValue();
+    }
+} catch (\Exception $exception) {
+
+}
+?>
+<div class="werbetext">
+    <?= $attrVal ?>
+</div>

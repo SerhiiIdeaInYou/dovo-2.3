@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Price</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>1319</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>43450</SKU>
+      <StandardPrice currency="EUR">27.5</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">27.5</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1320</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>43456</SKU>
+      <StandardPrice currency="EUR">48</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">48</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1321</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>585051</SKU>
+      <StandardPrice currency="EUR">40.5</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">40.5</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1322</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>585056</SKU>
+      <StandardPrice currency="EUR">60</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">60</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1323</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1028056</SKU>
+      <StandardPrice currency="EUR">74.6</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">74.6</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1324</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44356</SKU>
+      <StandardPrice currency="EUR">36.5</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">36.5</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1327</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>31349</SKU>
+      <StandardPrice currency="EUR">38</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">38</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1328</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>234356</SKU>
+      <StandardPrice currency="EUR">47</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">47</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1329</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>379356</SKU>
+      <StandardPrice currency="EUR">40</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">40</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1330</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3650356</SKU>
+      <StandardPrice currency="EUR">28.5</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">28.5</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1359</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>525356</SKU>
+      <StandardPrice currency="EUR">54</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">54</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1360</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>579356</SKU>
+      <StandardPrice currency="EUR">40</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">40</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1450</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>16556</SKU>
+      <StandardPrice currency="EUR">43</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">43</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1451</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>16606</SKU>
+      <StandardPrice currency="EUR">43</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">43</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1452</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20706</SKU>
+      <StandardPrice currency="EUR">85</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">85</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1453</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5040546</SKU>
+      <StandardPrice currency="EUR">67</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">67</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1454</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5046656</SKU>
+      <StandardPrice currency="EUR">81</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">81</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1455</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>255706</SKU>
+      <StandardPrice currency="EUR">56</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">56</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1456</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>285506</SKU>
+      <StandardPrice currency="EUR">42</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">42</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1457</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>285606</SKU>
+      <StandardPrice currency="EUR">45</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">45</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1458</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>700401</SKU>
+      <StandardPrice currency="EUR">16.3</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">16.3</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1459</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>285408</SKU>
+      <StandardPrice currency="EUR">39</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">39</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1460</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44350026</SKU>
+      <StandardPrice currency="EUR">39</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">39</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1461</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44350526</SKU>
+      <StandardPrice currency="EUR">41.9</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">41.9</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1416</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3580</SKU>
+      <StandardPrice currency="EUR">283</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">283</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1417</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3680</SKU>
+      <StandardPrice currency="EUR">283</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">283</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1418</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>4580</SKU>
+      <StandardPrice currency="EUR">126</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">126</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1419</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26810</SKU>
+      <StandardPrice currency="EUR">162</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">162</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1420</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26820</SKU>
+      <StandardPrice currency="EUR">142</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">142</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1421</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26830</SKU>
+      <StandardPrice currency="EUR">159</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">159</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1422</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36830</SKU>
+      <StandardPrice currency="EUR">189</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">189</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1423</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42385</SKU>
+      <StandardPrice currency="EUR">106</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">106</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1424</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>45581</SKU>
+      <StandardPrice currency="EUR">139</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">139</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1425</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>100581</SKU>
+      <StandardPrice currency="EUR">95</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">95</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1426</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>100681</SKU>
+      <StandardPrice currency="EUR">99</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">99</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1427</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>101581</SKU>
+      <StandardPrice currency="EUR">87</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">87</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1428</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>255831</SKU>
+      <StandardPrice currency="EUR">123</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">123</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1429</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>305870</SKU>
+      <StandardPrice currency="EUR">125</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">125</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1430</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>415875</SKU>
+      <StandardPrice currency="EUR">148</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">148</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1431</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>558130</SKU>
+      <StandardPrice currency="EUR">135</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">135</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1432</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>985810</SKU>
+      <StandardPrice currency="EUR">150</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">150</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1433</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1165831</SKU>
+      <StandardPrice currency="EUR">162</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">162</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>1434</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1516580</SKU>
+      <StandardPrice currency="EUR">129</StandardPrice>
+      <MinimumSellerAllowedPrice currency="EUR">129</MinimumSellerAllowedPrice>
+    </Price>
+  </Message>
+</AmazonEnvelope>

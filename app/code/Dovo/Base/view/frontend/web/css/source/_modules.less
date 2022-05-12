@@ -1,0 +1,33 @@
+.main-nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    li {
+      position: relative;
+      float: left;
+    }
+  }
+}
+
+
+#minicart {
+  .product-item-details {
+    position: relative;
+    &:before {
+      content: none;
+    }
+  }
+  li.product-item {
+    &:hover {
+      .product-item-details {
+        margin-top: 0;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
+}
+

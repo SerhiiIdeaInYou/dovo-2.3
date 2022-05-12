@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>101381</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>201071</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010273</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Coupe choux DOVO Shavette avec manche en bois d'olivier</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produit&lt;p&gt;Le Shavette est un coupe choux à lames interchangeables. Il peut être utilisé comme un rasoir classique. Cependant, en raison de la possibilité de changer les lames, il est extrêmement populaire, notamment chez les coiffeurs, car chaque client reçoit ainsi une lame fraîche. Nous fabriquons ce modèle en aluminium léger et le terminons par une poignée en bois d'olivier grainé.&lt;/p&gt;Matériau&lt;p&gt;Nous fabriquons cette rasette en aluminium de haute qualité. Grâce au processus d'anodisation utilisé, la couche supérieure du métal est modifiée et obtient des propriétés de résistance à la corrosion en plus de l'aspect noble du matériau. L'aluminium est un véritable poids léger en raison de sa faible densité, ce qui conduit à la répartition unique du poids de cette rasette.&lt;/p&gt;Matériau du manche&lt;p&gt;Le bois d'olivier est un matériau unique de la nature. Il est plus dur que le bois de chêne ou de hêtre domestique, tout en présentant une grande résistance à la moisissure. Même non traitée, l'olive se caractérise déjà par une résistance à l'eau supérieure à la moyenne, ce qui en fait bien sûr le matériau parfait pour les rasoirs, les blaireaux et les shavettes.&lt;/p&gt;Scope de livraison&lt;p&gt;DOVO Shavette 201071, 2 porte-lames de rasoir transparents, lame MERKUR SUPER, boîte métallique bleue&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Qualité garantie: plus de 100 ans de qualité, de design et d'expérience - Fabriqué en Allemagne.</BulletPoint>
+        <BulletPoint>✔︎ Précision garantie: look élégant et contours précis comme un maître barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantie d'une barbe bien soignée: l'entretien de la barbe facilité pour un look frais tous les jours.</BulletPoint>
+        <BulletPoint>Style : Rasoir à lames interchangeables avec manche en bois d'olivier par DOVO Solingen</BulletPoint>
+        <BulletPoint>Matériau et dimensions : anneau en aluminium anodisé noir - manche en bois d'olivier - 14,4 cm x 2,5 cm x 1,5 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

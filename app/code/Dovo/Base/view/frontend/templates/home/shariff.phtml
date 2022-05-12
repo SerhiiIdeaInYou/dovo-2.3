@@ -1,0 +1,137 @@
+<?php
+/**
+ * @var $this \Jajuma\Shariff\Block\Shariff
+ * @var $helper \Jajuma\Shariff\Helper\Data
+ */
+/*$position = $this->showIconPosition();
+if ($position) :*/
+    $helper = $this->shariffHelper();
+    $servicesSharing = $this->toSortSharingServices();
+    $services = '';
+    $limit = '';
+
+    $product = $this->getParentBlock()->getHeroProductUrl();
+
+
+    $countServices = 0;
+    $limitService = $helper->getConfig(\Jajuma\Shariff\Helper\Data::LIMIT_PATH);
+//    $serviceslimit = array_slice($servicesSharing, 0, $limitService);
+    foreach ($servicesSharing as $indexService => $service) {
+        if ($service['active']) {
+            $countServices++;
+            if ($countServices <= $limitService) {
+                $limit .= $indexService == 0 ? $service['value'] : '&quot;,&quot;' . $service['value'];
+            }
+            $services .= $indexService == 0 ? $service['value'] : '&quot;,&quot;' . $service['value'];
+        }
+    }
+    $services = '&quot;' . $services . '&quot;';
+    $limit = '&quot;' . $limit . '&quot;';
+
+    ?>
+
+    <?php if ($countServices > 0): ?>
+    <div class="shariff-postion button-style-<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::BUTTON_STYLE_PATH); ?>">
+        <div class="shariff-cap"><span><?= __('Anderen davon erzählen')?>: </span></div>
+        <div class="shariff-content">
+            <div class="shariff"
+                 data-button-style="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::BUTTON_STYLE_PATH); ?>"
+                 data-theme="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::THEME_PATH); ?>"
+                 data-orientation="horizontal"
+                 data-services="[<?php echo $limit ?>]"
+                 data-lang="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::LANG_PATH) != null ? $helper->getConfig(\Jajuma\Shariff\Helper\Data::LANG_PATH) : 'en' ?>"
+                 data-twitter-via="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::TWITTER_VIA_PATH); ?>"
+                 data-flattr-user="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::FLATTR_USER_PATH); ?>"
+                 data-flattr-category="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::FLATTR_CATEGORY_PATH); ?>"
+                 data-mail-subject="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::MAIL_SUBJECT_PATH); ?>"
+                 data-mail-body="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::MAIL_BODY_PATH); ?>"
+                 data-info-url="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::INFO_URL_PATH); ?>"
+                 data-info-display="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::INFO_DISPLAY_PATH); ?>"
+                 data-referrer-track="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::REFERRER_TRACK_PATH); ?>"
+                 data-title="<?= $product->getName() ?>"
+                 data-url="<?= $product->getProductUrl() ?>"
+                 data-media-url="<?php echo $this->getMediaImage() ?>"
+                 data-mail-url="mailto:"
+            >
+            </div>
+            <?php if ($limitService < $countServices) { ?>
+                <a class="shariff-more" href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+            <?php } ?>
+        </div>
+<!--        <div class="hide-shariff"><i class="fa fa-caret-left"></i></div>-->
+    </div>
+    <script>
+        require(['jquery'],
+            function ($) {
+                $('.hide-shariff').click(function (e) {
+                    $('.shariff-content').addClass("hide-share");
+                    $('.show-shariff').addClass("active");
+                    $(this).addClass("hide");
+                });
+                $('.show-shariff').click(function (e) {
+                    $('.shariff-content').removeClass("hide-share");
+                    $(this).removeClass("active");
+                    $('.hide-shariff').removeClass("hide");
+                });
+                var wi = $(window).width();
+                if (wi <= 768) {
+                    $('.shariff-content').addClass("hide-share");
+                    $('.show-shariff').addClass("active");
+                    $('hide-shariff').addClass("hide");
+                }
+            }
+        );
+    </script>
+    <?php if ($limitService < $countServices) { ?>
+        <div style="display: none">
+            <div class="shariff-popup" id="shariff-modal">
+                <div class="shariff"
+                     data-button-style="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::BUTTON_STYLE_PATH); ?>"
+                     data-theme="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::THEME_PATH); ?>"
+                     data-orientation="horizontal"
+                     data-services="[<?php echo $services ?>]"
+                     data-lang="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::LANG_PATH); ?>"
+                     data-twitter-via="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::TWITTER_VIA_PATH); ?>"
+                     data-flattr-user="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::FLATTR_USER_PATH); ?>"
+                     data-flattr-category="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::FLATTR_CATEGORY_PATH); ?>"
+                     data-mail-subject="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::MAIL_SUBJECT_PATH); ?>"
+                     data-mail-body="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::MAIL_BODY_PATH); ?>"
+                     data-mail-url="mailto:"
+                     data-info-url="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::INFO_URL_PATH); ?>"
+                     data-info-display="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::INFO_DISPLAY_PATH); ?>"
+                     data-referrer-track="<?php echo $helper->getConfig(\Jajuma\Shariff\Helper\Data::REFERRER_TRACK_PATH); ?>"
+                     data-title="<?php echo $this->getTitle() ?>"
+                     data-url="<?php echo $this->getCurrentUrl() ?>"
+                     data-media-url="<?php echo $this->getMediaImage() ?>"
+                >
+                </div>
+            </div>
+        </div>
+        <script>
+            require(
+                [
+                    'jquery',
+                    'Magento_Ui/js/modal/modal'
+                ],
+                function ($,
+                          modal) {
+                    var options = {
+                        type: 'popup',
+                        responsive: true,
+                        innerScroll: true,
+                        title: '',
+                        buttons: []
+                    };
+                    var popup = modal(options, $('#shariff-modal'));
+                    $(".shariff-more").on('click', function () {
+                        $("#shariff-modal").modal("openModal");
+                    });
+                }
+            );
+        </script>
+    <?php } ?>
+
+
+<?php endif; ?>
+<?php /*endif; */?>
+

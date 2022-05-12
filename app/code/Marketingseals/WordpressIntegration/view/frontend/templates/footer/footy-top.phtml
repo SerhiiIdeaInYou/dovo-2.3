@@ -1,0 +1,51 @@
+<?php
+/**
+ * @var \Marketingseals\WordpressIntegration\Block\WordpressIntegrator $block
+ */
+?>
+<div class="footy-top">
+    <div class="footy-top-container">
+
+        <div class="newsletter">
+            <div class="newsletter-container">
+                <div class="mailchimp-info">
+                    <h2>
+                        <?= $block->getMailChimpTitle() ?>
+                    </h2>
+                    <div class="text-container border-before">
+                        <p>
+                            <?= $block->getMailChimpText() ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="mailchimp_snippet">
+                    <?= $block->getMailChimpSnippet() ?>
+                </div>
+                <div class="mailchimp-hint small">
+                    <p><?= $block->getMailChimpHint() ?></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <div class="social-media-container">
+                <div class="sm-info">
+                    <h2><?= __('Dovo Solingen Social Media') ?></h2>
+                    <div class="text-container border-before">
+                        <p>
+                            <?= __('Folge und Besuche unsere Kanäle auf Social Media. Dort stellen wir Neuheiten vor, es wird zusammen gefachsimpelt und gelegentlich was verschenkt.') ?>
+                        </p>
+                    </div>
+                </div>
+                <div class="social-button">
+                    <a href="https://www.facebook.com/DOVO.Stahlwaren/"><i
+                            class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/dovo_solingen/"><i
+                            class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/channel/UCt6b9nLK30sg0uer65yBXmA/featured/"><i
+                            class="fa fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

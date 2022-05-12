@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>50003018344</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>24</MessagesProcessed>
+				<MessagesSuccessful>0</MessagesSuccessful>
+				<MessagesWithError>24</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>11319</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 124, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43450</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11320</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 31, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43456</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11321</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 62, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11322</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 93, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11323</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 155, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1028056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11324</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 186, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11327</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 217, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>31349</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11328</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 248, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>234356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11329</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 279, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>379356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11330</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 310, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11359</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 341, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>525356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11360</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 372, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>579356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11450</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 403, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16556</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11451</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 434, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16606</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11452</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 465, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>20706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11453</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 496, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5040546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11454</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 527, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5046656</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11455</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 558, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>255706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11456</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 589, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11457</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 620, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285606</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11458</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 653, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>700401</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11459</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 684, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285408</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11460</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 715, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350026</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>11461</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>5000</ResultMessageCode>
+				<ResultDescription>XML Parsing Error at Line 746, Column 23: cvc-complex-type.2.4.a: Invalid content was found starting with element &apos;Size&apos;. One of &apos;{Parentage}&apos; is expected.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

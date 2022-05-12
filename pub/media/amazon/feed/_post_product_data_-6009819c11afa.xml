@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>11319</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>43450</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005040</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartschere 43 Moustache&lt;/p&gt;&lt;p&gt;Die DOVO Bartschere 43 Moustache in vernickeltem Kohlenstoffstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Durch die Mikrozahnung wird jedes Barthaar zuverlässig erfasst und kann so besonders sauber abgetrennt werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

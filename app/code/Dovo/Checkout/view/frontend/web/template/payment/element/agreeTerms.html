@@ -1,0 +1,25 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<div class="step-title" data-bind="i18n: 'Bestellung abschließen'" data-role="title"></div>
+<div class="choice field">
+    <input type="checkbox" class="checkbox"
+           data-bind="checked: value, attr: { id: uid, disabled: disabled, name: inputName }, hasFocus: focused">
+    <label class="label" data-bind="checked: value, attr: { for: uid }">
+        <span class="boxbox"></span>
+        <span class="boxcontent">
+            <span data-bind="i18n:'AGBs akzeptieren 1'"></span>
+            <a href="https://dovo.com/agb" target="_blank" data-bind="i18n:'AGB'"></a>
+            <span data-bind="i18n:'AGBs placeholder'"></span>
+            <a href="https://dovo.com/datenschutz" target="_blank" data-bind="i18n:'Datenschutz'"></a>
+            <span data-bind="i18n:'AGBs akzeptieren 2'"></span>
+        </span>
+    </label>
+
+    <!-- ko if: notice -->
+    <div class="field-note" data-bind="attr: {id: noticeId}"><span data-bind="text: notice"></span></div>
+    <!-- /ko -->
+</div>

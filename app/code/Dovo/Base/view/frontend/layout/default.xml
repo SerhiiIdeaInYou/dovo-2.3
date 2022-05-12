@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.wrapper">
+            <referenceBlock name="top.search" remove="true"/>
+        </referenceContainer>
+        <referenceBlock name="register-link" remove="true" />
+        <referenceContainer name="container_header_primary_central_1">
+<!--            <block class="Dovo\Base\Block\Header\MainNav" name="main.nav" template="menu.phtml">-->
+<!--                <block class="Magento\Framework\View\Element\Template" name="ds.account-links" template="Infortis_Base::html/header/account_links.phtml">-->
+
+<!--                </block>-->
+<!--                <block class="Magento\Store\Block\Switcher" name="ds.store_language" template="switch/languages.phtml">-->
+<!--                    <arguments>-->
+<!--                        <argument name="id_modifier" xsi:type="string">mobile</argument>-->
+<!--                    </arguments>-->
+<!--                </block>-->
+<!--            </block>-->
+            <!--<block class="Dovo\Base\Block\Header\CheckoutNav" name="checkout.nav" template="checkout-nav.phtml" />-->
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>53569018655</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>63</MessagesProcessed>
+				<MessagesSuccessful>59</MessagesSuccessful>
+				<MessagesWithError>4</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>31390</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002CLL85Q, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;MERKUR DOVO&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9015001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>31398</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002CLJ8KS, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;MERKUR DOVO&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9034003</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>31399</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002RBGYXW, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;MERKUR DOVO&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9038001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>31401</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002CLH5MG, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;MERKUR DOVO&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9039001</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

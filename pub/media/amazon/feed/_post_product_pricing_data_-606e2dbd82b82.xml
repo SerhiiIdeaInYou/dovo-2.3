@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Price</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>132000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>43456</SKU>
+      <StandardPrice currency="EUR">53</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>132200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>585056</SKU>
+      <StandardPrice currency="EUR">58.49</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>132500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44406</SKU>
+      <StandardPrice currency="EUR">38.3</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>132600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>385006</SKU>
+      <StandardPrice currency="EUR">31.85</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>132900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>379356</SKU>
+      <StandardPrice currency="EUR">38.99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>133000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3650356</SKU>
+      <StandardPrice currency="EUR">31</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>135700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>502006</SKU>
+      <StandardPrice currency="EUR">29</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>135800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>504006</SKU>
+      <StandardPrice currency="EUR">34</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>135900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>525356</SKU>
+      <StandardPrice currency="EUR">52.6</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>136100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1570541</SKU>
+      <StandardPrice currency="EUR">36</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>136200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5650356</SKU>
+      <StandardPrice currency="EUR">32</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>136500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>10630006</SKU>
+      <StandardPrice currency="EUR">128.6</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>136700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>10661506</SKU>
+      <StandardPrice currency="EUR">79.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>136900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>370010</SKU>
+      <StandardPrice currency="EUR">3</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>371010</SKU>
+      <StandardPrice currency="EUR">7.5</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>491356</SKU>
+      <StandardPrice currency="EUR">16.2</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>0036</SKU>
+      <StandardPrice currency="EUR">35.09</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>0038</SKU>
+      <StandardPrice currency="EUR">35.09</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>515171</SKU>
+      <StandardPrice currency="EUR">8.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9022011</SKU>
+      <StandardPrice currency="EUR">15</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>15240001</SKU>
+      <StandardPrice currency="EUR">49.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>18535001</SKU>
+      <StandardPrice currency="EUR">55</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>186210011</SKU>
+      <StandardPrice currency="EUR">75</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>137900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>201006</SKU>
+      <StandardPrice currency="EUR">38</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>201061</SKU>
+      <StandardPrice currency="EUR">55</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>201071</SKU>
+      <StandardPrice currency="EUR">55</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>201081</SKU>
+      <StandardPrice currency="EUR">29</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>201087</SKU>
+      <StandardPrice currency="EUR">33</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>575056</SKU>
+      <StandardPrice currency="EUR">165.7</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90001</SKU>
+      <StandardPrice currency="EUR">10.7</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>138900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90004</SKU>
+      <StandardPrice currency="EUR">11.7</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9015001</SKU>
+      <StandardPrice currency="EUR">32.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9020011</SKU>
+      <StandardPrice currency="EUR">42.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9023001</SKU>
+      <StandardPrice currency="EUR">33.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9023011</SKU>
+      <StandardPrice currency="EUR">59</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9024001</SKU>
+      <StandardPrice currency="EUR">34.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9025001</SKU>
+      <StandardPrice currency="EUR">34.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9033001</SKU>
+      <StandardPrice currency="EUR">31.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9034001</SKU>
+      <StandardPrice currency="EUR">43.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9034003</SKU>
+      <StandardPrice currency="EUR">55.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>139900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9038001</SKU>
+      <StandardPrice currency="EUR">51.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9038011</SKU>
+      <StandardPrice currency="EUR">56.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9039001</SKU>
+      <StandardPrice currency="EUR">52.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9042001</SKU>
+      <StandardPrice currency="EUR">26.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9046002</SKU>
+      <StandardPrice currency="EUR">67.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90500001</SKU>
+      <StandardPrice currency="EUR">61.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90510001</SKU>
+      <StandardPrice currency="EUR">72.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90700002</SKU>
+      <StandardPrice currency="EUR">78.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90701001</SKU>
+      <StandardPrice currency="EUR">78.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90750002</SKU>
+      <StandardPrice currency="EUR">310</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>140900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90751001</SKU>
+      <StandardPrice currency="EUR">310</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90907000</SKU>
+      <StandardPrice currency="EUR">27.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90933000</SKU>
+      <StandardPrice currency="EUR">42.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3580</SKU>
+      <StandardPrice currency="EUR">290</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>3680</SKU>
+      <StandardPrice currency="EUR">299</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>4580</SKU>
+      <StandardPrice currency="EUR">129</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>141900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26810</SKU>
+      <StandardPrice currency="EUR">169</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26820</SKU>
+      <StandardPrice currency="EUR">149</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26830</SKU>
+      <StandardPrice currency="EUR">169</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36830</SKU>
+      <StandardPrice currency="EUR">199</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42385</SKU>
+      <StandardPrice currency="EUR">109</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>45581</SKU>
+      <StandardPrice currency="EUR">135.5</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>100581</SKU>
+      <StandardPrice currency="EUR">99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>100681</SKU>
+      <StandardPrice currency="EUR">109</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>101581</SKU>
+      <StandardPrice currency="EUR">89</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>255831</SKU>
+      <StandardPrice currency="EUR">129</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>142900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>305870</SKU>
+      <StandardPrice currency="EUR">130</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>415875</SKU>
+      <StandardPrice currency="EUR">159</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>558130</SKU>
+      <StandardPrice currency="EUR">149</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>985810</SKU>
+      <StandardPrice currency="EUR">159</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1165831</SKU>
+      <StandardPrice currency="EUR">159</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1516580</SKU>
+      <StandardPrice currency="EUR">139</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>514002</SKU>
+      <StandardPrice currency="EUR">17.5</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>143900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918096</SKU>
+      <StandardPrice currency="EUR">99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918106</SKU>
+      <StandardPrice currency="EUR">69</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918118</SKU>
+      <StandardPrice currency="EUR">53</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918218</SKU>
+      <StandardPrice currency="EUR">73</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90120011</SKU>
+      <StandardPrice currency="EUR">125</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90138001</SKU>
+      <StandardPrice currency="EUR">115</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918052</SKU>
+      <StandardPrice currency="EUR">75</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>902081001</SKU>
+      <StandardPrice currency="EUR">199</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144800</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>904002001</SKU>
+      <StandardPrice currency="EUR">52.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>144900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>499906</SKU>
+      <StandardPrice currency="EUR">63.3</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>145200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20706</SKU>
+      <StandardPrice currency="EUR">82.8</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>145300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5040546</SKU>
+      <StandardPrice currency="EUR">65.3</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>145400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5046656</SKU>
+      <StandardPrice currency="EUR">78.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>146000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44350026</SKU>
+      <StandardPrice currency="EUR">38</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>146100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44350526</SKU>
+      <StandardPrice currency="EUR">40.8</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>147300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>90908110</SKU>
+      <StandardPrice currency="EUR">6.3</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>147600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9024003</SKU>
+      <StandardPrice currency="EUR">57.9</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>147700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9091010086</SKU>
+      <StandardPrice currency="EUR">59</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>147900</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>9091001086</SKU>
+      <StandardPrice currency="EUR">6.5</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148000</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1186811</SKU>
+      <StandardPrice currency="EUR">259</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>141588</SKU>
+      <StandardPrice currency="EUR">149</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148200</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1205860</SKU>
+      <StandardPrice currency="EUR">139</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148300</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>1215860</SKU>
+      <StandardPrice currency="EUR">154</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148400</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5201003</SKU>
+      <StandardPrice currency="EUR">8.68</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148500</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>5201004</SKU>
+      <StandardPrice currency="EUR">8.68</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148600</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>918217</SKU>
+      <StandardPrice currency="EUR">75</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>148700</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>45850</SKU>
+      <StandardPrice currency="EUR">229</StandardPrice>
+    </Price>
+  </Message>
+</AmazonEnvelope>

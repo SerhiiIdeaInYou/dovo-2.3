@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="dovo" translate="label" sortOrder="153">
+            <label>Dovo Pages</label>
+        </tab>
+        <section id="notification" translate="label" sortOrder="90" type="text" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <label>Notification</label>
+            <tab>dovo</tab>
+            <resource>Dovo_HeaderImage::config</resource>
+            <group id="settings" translate="label" sortOrder="100" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Notification</label>
+                <field id="notification_active" translate="label" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <label>Enable Notification</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="notification_start" translate="label" sortOrder="15" type="date" showInDefault="1"
+                       showInWebsite="1"
+                       showInStore="1">
+                    <label>Start-Datum</label>
+                    <frontend_model>Dovo\HeaderImage\Model\Config\Frontend\Date</frontend_model>
+                </field>
+                <field id="notification_end" translate="label" sortOrder="15" type="date" showInDefault="1"
+                       showInWebsite="1"
+                       showInStore="1">
+                    <label>End-Datum</label>
+                    <frontend_model>Dovo\HeaderImage\Model\Config\Frontend\Date</frontend_model>
+                </field>
+                <field id="text_area" translate="label" type="textarea" sortOrder="140" showInDefault="1"
+                       showInWebsite="1"
+                       showInStore="1">
+                    <label>Text</label>
+                    <comment>So viele Zeichen</comment>
+                </field>
+
+            </group>
+        </section>
+        <section id="dovoshopindex" translate="label" sortOrder="90" type="text" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <label>Shop Index Page</label>
+            <tab>dovo</tab>
+            <resource>Dovo_HeaderImage::config</resource>
+            <group id="general" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>General Settings</label>
+                <field id="header_id" translate="label" sortOrder="5" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Header Slider Id</label>
+                </field>
+                <!--<field id="header_id" translate="label" sortOrder="5" type="image" showInDefault="1" showInWebsite="1" showInStore="1">-->
+                <!--<label>Header Slider Id</label>-->
+                <!--</field>-->
+                <field id="hero1" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero Product 1</label>
+                </field>
+                <field id="position1" translate="label" sortOrder="15" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero 1 Image Position</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\HeroPosition</source_model>
+                </field>
+
+                <field id="hero2" translate="label" sortOrder="20" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero Product 2</label>
+                </field>
+                <field id="position2" translate="label" sortOrder="25" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero 2 Image Position</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\HeroPosition</source_model>
+                </field>
+                <field id="hero3" translate="label" sortOrder="30" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero Product 3</label>
+                </field>
+                <field id="position3" translate="label" sortOrder="35" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero 3 Image Position</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\HeroPosition</source_model>
+                </field>
+                <field id="hero4" translate="label" sortOrder="40" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero Product 4</label>
+                </field>
+                <field id="position4" translate="label" sortOrder="45" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero 4 Image Position</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\HeroPosition</source_model>
+                </field>
+                <field id="hero5" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero Product 5</label>
+                </field>
+                <field id="position5" translate="label" sortOrder="55" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Hero 5 Image Position</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\HeroPosition</source_model>
+                </field>
+            </group>
+
+
+            <group id="uspbanner" translate="label" sortOrder="15" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Usp Banner</label>
+                <field id="count" translate="label" sortOrder="5" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Max Item Count</label>
+                </field>
+                <field id="icon1" translate="label" sortOrder="9" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>1. Item Icon</label>
+                </field>
+                <field id="title1" translate="label" sortOrder="10" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>1. Item Title</label>
+                </field>
+                <field id="caption1" translate="label" type="textarea" sortOrder="11" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>1. Item Text</label>
+                </field>
+                <field id="icon2" translate="label" sortOrder="19" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>2. Item Icon</label>
+                </field>
+                <field id="title2" translate="label" sortOrder="20" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>2. Item Title</label>
+                </field>
+                <field id="caption2" translate="label" type="textarea" sortOrder="21" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>2. Item Text</label>
+                </field>
+                <field id="icon3" translate="label" sortOrder="29" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>3. Item Icon</label>
+                </field>
+                <field id="title3" translate="label" sortOrder="30" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>3. Item Title</label>
+                </field>
+                <field id="caption3" translate="label" type="textarea" sortOrder="31" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>3. Item Text</label>
+                </field>
+                <field id="icon4" translate="label" sortOrder="39" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>4. Item Icon</label>
+                </field>
+                <field id="title4" translate="label" sortOrder="40" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>4. Item Title</label>
+                </field>
+                <field id="caption4" translate="label" type="textarea" sortOrder="41" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>4. Item Text</label>
+                </field>
+                <field id="icon5" translate="label" sortOrder="49" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>5. Item Icon</label>
+                </field>
+                <field id="title5" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>5. Item Title</label>
+                </field>
+                <field id="caption5" translate="label" type="textarea" sortOrder="51" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>5. Item Text</label>
+                </field>
+                <field id="icon6" translate="label" sortOrder="59" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>6. Item Icon</label>
+                </field>
+                <field id="title6" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>6. Item Title</label>
+                </field>
+                <field id="caption6" translate="label" type="textarea" sortOrder="61" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>6. Item Text</label>
+                </field>
+            </group>
+            <group id="slider1" translate="label" sortOrder="20" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 1</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider2" translate="label" sortOrder="30" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 2</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider3" translate="label" sortOrder="40" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 3</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider4" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 4</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider5" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 5</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider6" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 6</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider7" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 7</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider8" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 8</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider9" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 9</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider10" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 10</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider11" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 11</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider12" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 12</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider13" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 13</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+            <group id="slider14" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Slider 14</label>
+                <comment>
+                    <![CDATA[<div style="background-color: #fafafa; padding: 15px;">In this tab you can configure additional banners displayed at the side of the main slideshow on the home page.<br/>These settings are applied <strong>only</strong> to the main slideshow on the home page.</div>]]></comment>
+                <!-- <field id="heading_home_slideshow" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Additional Banners for the Main Slideshow on the Home Page</label>
+                    <comment>These settings are applied only to the main slideshow on the home page.</comment>
+                    <frontend_model>Infortis\Infortis\Block\Adminhtml\System\Config\Form\Field\Heading</frontend_model>
+                </field> -->
+                <field id="category" translate="label" sortOrder="10" type="multiselect" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Slider Category</label>
+                    <source_model>Dovo\HeaderImage\Model\Source\Categories</source_model>
+                    <comment><![CDATA[Leave empty to use simple horizontal scrolling animation.]]></comment>
+                </field>
+                <field id="captionfirst" translate="label" sortOrder="20" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>First Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionsecond" translate="label" sortOrder="30" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Second Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="captionthird" translate="label" sortOrder="40" type="text" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Third Row</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="linkcaption" translate="label" sortOrder="50" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Link Label</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="position" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Main Item Position</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+                <field id="items" translate="label" sortOrder="60" type="text" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Shown Items Count</label>
+                    <comment>
+                        <![CDATA[Identifier of a single static block which contains additional banners for the slideshow. Banners will be displayed at the side of the slideshow. You can use the default static block: <code style="background-color: #eaf5f8; color: #00a3db; padding: 1px 2px; display: inline-block;">sample_slideshow_additional_banners_1</code><br/>The content of that static block will be added only to the main slideshow on the home page.<br/><strong style="color:#F00;">Important:</strong> Leave this field empty if you don't want to add side banners to the main slideshow on the home page.]]></comment>
+                </field>
+            </group>
+        </section>
+
+    </system>
+</config>

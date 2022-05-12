@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>161479</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>30451201</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010563</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Lame per rasoio DOVO SUPER PLATINUM 10 (10 pezzi)</Title>
+        <Brand>DOVO</Brand>
+        <Description>Prodotto&lt;p&gt;Le lamette DOVO SUPER PLATINUM DE(Double Edge) si sono dimostrate per la loro nitidezza e ritenzione del bordo. Sono appositamente progettati per i requisiti dei nostri rasoi. Le lame sono imballate individualmente in carta paraffinata, qui è possibile romperle in modo sicuro e quindi prepararle per l'uso in una SHAVETTE®. Made in Germany, naturalmente.&lt;/p&gt;Materiale&lt;p&gt;Queste lamette sono fatte di acciaio inossidabile. Il metallo mostra una buona resistenza alla corrosione ed è anche perfetto per fare lame di alta qualità grazie alla sua durezza quando viene temperato. Inoltre, le lame sono rivestite di platino e le copriamo anche con un rivestimento antiaderente, così il rasoio o lo shavette scivolano senza problemi e senza sforzo sulla pelle.&lt;/p&gt;.</Description>
+        <BulletPoint>✔︎ Qualità garantita: oltre 100 anni di qualità, design ed esperienza - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisione garantita: look elegante e contorni precisi come un maestro barbiere.</BulletPoint>
+        <BulletPoint>✔︎ Barba curata garantita: la cura della barba è facile per un look fresco ogni giorno.</BulletPoint>
+        <BulletPoint>Art: Lame di rasoio intercambiabili 10 pezzi in acciaio inossidabile di DOVO Solingen</BulletPoint>
+        <BulletPoint>Lame e materiale: Lama di rasoio intercambiabile - acciaio inossidabile - qualità Platinum</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

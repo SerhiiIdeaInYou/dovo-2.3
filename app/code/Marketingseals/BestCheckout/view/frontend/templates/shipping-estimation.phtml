@@ -1,0 +1,24 @@
+<div class="shipping-time-estimation">
+    <div class="block-title">
+        <strong><?= __('Voraussichtliche Lieferung') ?></strong>
+    </div>
+    <div class="block-content">
+        <?php
+        setlocale(LC_TIME, "de_DE");
+        $minDelivery=strftime('%a, %d.%m.', strtotime("+2 days"));
+        $maxDelivery=strftime('%a, %d.%m.', strtotime("+3 days"));
+
+        $minDay = strftime('%u',strtotime("+2 days"));
+        $maxDay = strftime('%u',strtotime("+3 days"));
+        if($minDay == 7) {
+            $minDelivery=strftime('%a, %d.%m.', strtotime("+3 days"));
+            $maxDelivery=strftime('%a, %d.%m.', strtotime("+5 days"));
+        }
+        if($maxDay == 7) {
+            $maxDelivery = strftime('%a, %d.%m.', strtotime("+5 days"));
+        }
+        ?>
+        <p><?= $minDelivery . ' - ' .$maxDelivery ?></p>
+
+    </div>
+</div>

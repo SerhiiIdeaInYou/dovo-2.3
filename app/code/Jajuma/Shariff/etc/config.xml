@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <shariff>
+            <setting>
+                <css_config>1</css_config>
+                <js_config>1</js_config>
+            </setting>
+            <icon>
+                <limit>5</limit>
+                <services_list><![CDATA[{"twitter":{"sort_number":"1","active":"1","value":"twitter","label":"Twitter"},"facebook":{"sort_number":"1","active":"1","value":"facebook","label":"Facebook"},"googleplus":{"sort_number":"1","active":"1","value":"googleplus","label":"Google Plus"},"linkedin":{"sort_number":"1","active":"1","value":"linkedin","label":"Linkedin"},"pinterest":{"sort_number":"1","active":"1","value":"pinterest","label":"Pinterest"},"xing":{"sort_number":"1","active":"1","value":"xing","label":"Xing"},"whatsapp":{"sort_number":"1","active":"1","value":"whatsapp","label":"Whatsapp"},"mail":{"sort_number":"1","active":"1","value":"mail","label":"Mail"},"info":{"sort_number":"1","active":"1","value":"info","label":"Info"},"addthis":{"sort_number":"1","active":"1","value":"addthis","label":"Add This"},"tumblr":{"sort_number":"1","active":"1","value":"tumblr","label":"Tumblr"},"flattr":{"sort_number":"1","active":"1","value":"flattr","label":"Flattr"},"diaspora":{"sort_number":"1","active":"1","value":"diaspora","label":"Diaspora"},"reddit":{"sort_number":"1","active":"1","value":"reddit","label":"Reddit"},"stumbleupon":{"sort_number":"1","active":"1","value":"stumbleupon","label":"StumbleUpon"},"threema":{"sort_number":"1","active":"1","value":"threema","label":"Threema"},"weibo":{"sort_number":"1","active":"1","value":"weibo","label":"Weibo"},"tencent-weibo":{"sort_number":"1","active":"1","value":"tencent-weibo","label":"Tencent Weibo"},"qzone":{"sort_number":"1","active":"1","value":"qzone","label":"Qzone"},"print":{"sort_number":"1","active":"1","value":"print","label":"Print"},"telegram":{"sort_number":"1","active":"1","value":"telegram","label":"Telegram"},"vk":{"sort_number":"1","active":"1","value":"vk","label":"Vk"},"flipboard":{"sort_number":"1","active":"1","value":"flipboard","label":"Flipboard"}}]]></services_list>
+                <lang>en</lang>
+            </icon>
+        </shariff>
+    </default>
+</config>

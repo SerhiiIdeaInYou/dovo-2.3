@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>11319</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>43450</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005040</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartschere 43 Moustache&lt;/p&gt;&lt;p&gt;Die DOVO Bartschere 43 Moustache in vernickeltem Kohlenstoffstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Durch die Mikrozahnung wird jedes Barthaar zuverlässig erfasst und kann so besonders sauber abgetrennt werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11320</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>43456</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284006344</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartschere 43 Moustache&lt;/p&gt;&lt;p&gt;Die DOVO Bartschere 43 Moustache in mattiertem Edelstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten um einfachste Handhabung und genaueste Schnitte möglich zu machen. Durch die Mikrozahnung wird jedes Barthaar zuverlässig erfasst und kann so besonders sauber abgetrennt werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11321</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>585051</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026731</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartschere 43 Moustache&lt;/p&gt;&lt;p&gt;Die DOVO Bartschere 43 Moustache in vernickeltem Kohlenstoffstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Das Lederetui schützt deine Bartschere nicht nur vor Feuchtigkeit, sondern macht sie auch zum perfekten Reisebegleiter.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Wir verwenden für dieses Produkt ausschließlich Rindleder. Die Stabilität und Zugfestigkeit eignet sich hervorragend für die Herstellung hochwertiger und langlebiger Erzeugnisse. Gerne kannst du das Leder von Zeit zu Zeit mit einem Pflegemittel behandeln, um den natürlichen Geruch und die Flexibilität über Jahre hinweg aufrecht zu halten.&lt;/p&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11322</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>585056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026755</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartschere 43 Moustache&lt;/p&gt;&lt;p&gt;Die DOVO Bartschere 43 Moustache in mattiertem Edelstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Das Lederetui schützt deine Bartschere nicht nur vor Feuchtigkeit, sondern macht sie auch zum perfekten Reisebegleiter.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Wir verwenden für dieses Produkt ausschließlich Rindleder. Die Stabilität und Zugfestigkeit eignet sich hervorragend für die Herstellung hochwertiger und langlebiger Erzeugnisse. Gerne kannst du das Leder von Zeit zu Zeit mit einem Pflegemittel behandeln, um den natürlichen Geruch und die Flexibilität über Jahre hinweg aufrecht zu halten.&lt;/p&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11323</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>1028056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284025949</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartplege Etui 1028</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bartplege Etui 1028&lt;/p&gt;&lt;p&gt;Das DOVO Bartpflege-Etui enthält alles, was du für deinen Bart brauchst. Mit der Bartschere sorgst du erst für den perfekten Trimm, der Bartkamm hilft dir danach dein Gesichtshaar zu bändigen und mit der Bartbürste gibst du deinem Styling den letzten Schliff. Im hochwertigen Etui aus Nubukleder auch auf Reisen unerlässlich!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Um das hochwertige Nubukleder herzustellen, wird die glatte Narbenseite einer Rindlederhaut behutsam aufgeraut. Die feine Struktur und der warme Griff machen es zum perfekten Material für dieses edle Bartpflegeetui. Mit einer Lederbürste kannst du die Oberfläche abreiben, um sie schonend zu säubern und pflegen.&lt;/p&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11324</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>44356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005095</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bart-/Nasenhaarschere 44</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bart-/Nasenhaarschere 44&lt;/p&gt;&lt;p&gt;Mit der DOVO Nasenhaarschere 44 sorgst du auch bei deiner Nasenbehaarung für geregelte Verhältnisse. Die Scherenspitze haben wir abgerundet - durch diesen Kugelkopf schützt du dich zuverlässig vor Verletzungen im Nasenraum. Der DOVO-Handschliff garantiert Schnitte mit allerhöchster Präzision. Schmerzhaftes Haarausreißen beim Trimmen gehört damit endlich der Vergangenheit an.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Infektionen und Verletzungen im Naseninnenraum können nicht nur unangenehm sein, sondern auch gefährlich. Die Nase besitzt eine empfindliche Nasenschleimhaut und dünne Äderchen, die mit einer spitzen Spitze schnell verletzt werden können. Die Kugelspitze ist eine besonders sichere Form der Klingenenden, die dich vor solchen Gefahren schützt. Die sogenannte Kugelspitze ist vorne stumpf und großzügig abgerundet, sodass du verletzungsfrei und sorgenfrei arbeiten kannst.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11327</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>31349</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004005</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 31</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Hautschere 31&lt;/p&gt;&lt;p&gt;Die DOVO Hautschere 31 ist das ideale Werkzeug für feinste und diffizilste Aufgaben. Die handliche Größe gepaart mit der vergoldeten Turmspitze sorgen dafür, dass du Hautreste und Niednägel extrem präzise bearbeiten kannst, um ein perfektes Finish zu erreichen. Mit dem DOVO Handschliff wirst du lange Freude an deinem scharfen Begleiter haben!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Diese Schere ist mit einer Turmspitze ausgestattet. Sie zeichnet sich durch schmale Scherenblätter aus, die sich zur Spitze hin immer weiter verjüngen. Vor allem bei sehr feinen Arbeiten kann diese Bauart ihre Stärken voll ausspielen. Daher wird sie besonders gerne im Manikürebereich zum Kürzen von Fingernägeln oder Nagelhaut verwendet.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11328</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>234356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004159</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 234</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Hautschere 234&lt;/p&gt;&lt;p&gt;Die DOVO Hautschere 234 ist ein kleiner Alleskönner. Die Klingenlänge haben wir für dich so gewählt, dass du damit perfekt Haut und Niednägel an deinen Händen und Füßen entfernen kannst. Die ergonomisch geformten Augen helfen dir dabei, die Hautschere präzise zu führen und durch den DOVO Handschliff setzt du präzise Schnitte. Jedes Mal.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11329</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>379356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004630</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 379</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Hautschere 379&lt;/p&gt;&lt;p&gt;Du bist Linkshänder? Wir lassen dich nicht im Stich! Vorbei sind die Zeiten, in denen du versucht hast, dich an eine Rechtshänderschere zu gewöhnen. Mit der DOVO Hautschere 379 kannst du jetzt endlich mit einem Werkzeug arbeiten, das perfekt an die Führung mit der linken Hand angepasst ist. Exakter Handhabung und präzisen Schnitten steht nun nichts mehr im Wege.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11330</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>3650356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004487</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Hautschere 3650</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Hautschere 3650&lt;/p&gt;&lt;p&gt;Die DOVO Hautschere 3650 kommt mit allem, was eine gute Hautschere charakterisiert. Die Größe ist perfekt dimensioniert, damit du die Schere sicher im komplizierten Bereich der Nagelhaut und der Niednägel führen kannst. Durch den DOVO-Handschliff hast du volle Kontrolle beim Schnitt und kannst fehlerfrei arbeiten. So wird Nagelpflege wieder sexy!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Die Hautschere ist aus Edelstahl mit der Werkstoffkennung 1.4028 hergestellt. Diese moderne Metalllegierung hat sich als besonders zäh und langlebig erwiesen, auch die hervorragende Schärfbarkeit ist positiv herauszustellen. Wir veredeln die Oberfläche des rostfreien Edelstahls mit einer Mattierung, um die einzigartige Haptik und Optik zu unterstreichen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11359</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>525356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004371</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere Lanza 525</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere Lanza 525&lt;/p&gt;&lt;p&gt;Die DOVO Nagelschere Lanza 525 hat nicht umsonst den Reddot Award gewonnen. Denn die Nagelschere sieht nicht nur cool aus, sondern liegt auch perfekt in der Hand. Der lange Griff und die kurze Schneide vereinen sich zu voller Präzision und starker Hebelwirkung. Der einseitig gezahnte Schliff tut sein Übriges, um perfekte Schnittergebnisse zu erreichen&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11360</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>579356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004647</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 579</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere 579&lt;/p&gt;&lt;p&gt;Die DOVO Nagelschere 579 wurde zur Nutzung mit der linken Hand konzipiert. Die Nagelschere gibt dir den Blick auf die Schnittkante frei, sodass du immer weißt, wo du ansetzen musst. Die einseitig gezahnte Klinge verhindert ein Abrutschen bei der Nagelpflege, während die gebogene Schneide dir den maximalen Komfort beim Schneiden bietet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11450</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>16556</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000229</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 16</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Haarschere 16&lt;/p&gt;&lt;p&gt;Mit der DOVO Haarschere 16 in 5,5 Zoll in Edelstahl hast du deine Frisur stets unter Kontrolle. Dicke Haare und Spliss meistert unsere Schere mit Leichtigkeit. Dank der ausgeglichenen Gewichtsbalance und der Mikrozahnung sind die Zeiten des Abrutschens und Rupfens vorbei. Der Fingerhaken verleiht der Schere höchste Ergonomie, sodass auch langes Arbeiten zum Vergnügen wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11451</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>16606</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000236</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 16</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Haarschere 16&lt;/p&gt;&lt;p&gt;Mit der DOVO Haarschere 16 in 6,0 Zoll in Edelstahl hast du deine Frisur stets unter Kontrolle. Dicke Haare und Spliss meistert unsere Schere mit Leichtigkeit. Dank der ausgeglichenen Gewichtsbalance und der Mikrozahnung sind die Zeiten des Abrutschens und Rupfens vorbei. Der Fingerhaken verleiht der Schere höchste Ergonomie, sodass auch langes Arbeiten zum Vergnügen wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11452</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>20706</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000328</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Haarschere 20</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Haarschere 20&lt;/p&gt;&lt;p&gt;Mit der DOVO Haarschere 20 in 7,0” wirst du selbst zum Barbier. Durch die langen Scherenblätter kannst du selbst großflächige Arbeiten an deinem Bart präzise meistern. Dank der Mikrozahnung greift jeder Schnitt sofort, sodass Ziehen und Reißen der Vergangenheit angehören. Die Schere ist aus geschmiedetem rostfreien Edelstahl hergestellt und liegt ergonomisch in der Hand. Somit musst du keine Kompromisse bei deinem Bart eingehen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei Haar- und Bartscheren hat sich die Konstruktion mit einem bündigen Schliff als besonders vorteilhaft etabliert. Im Detail bedeutet das, dass die Scherenbecken vorne nicht spitz, sondern abgerundet sind. Das minimiert das Verletzungsrisiko und ist bei der Nutzung von Scheren im Gesichtsbereich zu empfehlen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11453</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>5040546</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000427</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Modellierschere 50</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Modellierschere 50&lt;/p&gt;&lt;p&gt;Die DOVO Modellierschere 50 in 5,25” haben wir mit einem 40-fach gezahnten Scherenblatt ausgestattet. Auf jedem dieser Zähne schleifen wir zudem ein Prisma ein, damit das gegenüberliegende Scherenblatt nur einen Teil der Haare erfasst und sauber abtrennt. So dünnst du Haare effektiv aus. Die Stellschraube ist mit dem mitgelieferten Werkzeug leicht justierbar.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Der Prismenschliff erlaubt dem Nutzer das präzise Ausdünnen von Haaren. Da bei diesem Schliff die Gegenseite einen glatten Schliff besitzt, wird knapp die Hälfte der Haare geschnitten. Die Prismenfräsung des gezahnten Scherenblattes erfolgt bei uns unter minimalen Fertigungstoleranzen und wird nur von unseren erfahrensten Mitarbeitern ausgeführt.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11454</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>5046656</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284000465</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Modellierschere 50</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Modellierschere 50&lt;/p&gt;&lt;p&gt;Die DOVO Modellierschere 50 in 6,5” ist unser Topmodell und für professionelle Friseure gedacht. Jeder der 46 Zähne am Scherenblatt ist zusätzlich mit einem Prisma versehen, um millimetergenaues Ausdünnen möglich zu machen. Dieses Modell wird aus rostfreiem Edelstahl geschmiedet und von Hand geschärft, um höchsten Ansprüchen gerecht zu werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Der Prismenschliff erlaubt dem Nutzer das präzise Ausdünnen von Haaren. Da bei diesem Schliff die Gegenseite einen glatten Schliff besitzt, wird knapp die Hälfte der Haare geschnitten. Die Prismenfräsung des gezahnten Scherenblattes erfolgt bei uns unter minimalen Fertigungstoleranzen und wird nur von unseren erfahrensten Mitarbeitern ausgeführt.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11455</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>255706</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002339</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 255</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Schere 255&lt;/p&gt;&lt;p&gt;Die DOVO 255 ist ein treuer Begleiter für Heim und Handwerk. Die DOVO 255 ist aus geschmiedetem Edelstahl und selbst schwierige Schnitte durch Stoffe, Pappe und sogar Leder meistert sie mit Leichtigkeit. Für besonders widerspenstige Materialien erlaubt das sogenannte Langauge jederzeit exakte Dosierbarkeit und genug Kraftreserven. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11456</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>285506</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002483</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Schere 285&lt;/p&gt;&lt;p&gt;Die DOVO Schere 285 in 6,0 Zoll ist eine Haushaltsschere aus geschmiedetem Edelstahl zum Basteln oder für diffizile Arbeiten im Beruf. Durch die Gesamtlänge von 15,5 cm ist eine sehr präzise Führung möglich. Gleichzeitig schneidet sie auch robuste Stoffen, Pappe und Leder. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11457</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>285606</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002520</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Schere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Schere 285&lt;/p&gt;&lt;p&gt;Die DOVO Schere 285 ist aus geschmiedetem Edelstahl und ist mit 5,0 Zoll, die kompakteste unserer Haushaltsscheren. Sie meistert mit Leichtigkeit auch schwierige Aufgaben, wie das Schneiden von robustem Papier, Pappe und Stoff. Durch die kurze Länge ist das Schneiden von Kurven und Ecken kein Problem. Wie alle unsere Scheren wird sie per Hand geschliffen und justiert.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11458</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>700401</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005972</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Kinderschere 700</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Kinderschere 700&lt;/p&gt;&lt;p&gt;„Messer, Gabel, Schere, Licht sind für kleine Kinder nicht” - Richtig? 
+Nicht ganz, auch Kinder müssen den sicheren Umgang mit einer Schere lernen. Deshalb haben wir bei der DOVO 700 die Scherenspitze abgerundet, damit das Unfallrisiko während des Unterrichts oder beim Basteln verringert wird. Die Schneide ist jedoch scharf geschliffen, so wie es sein sollte. 
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11459</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>285408</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284002469</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 285</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Stickschere 285&lt;/p&gt;&lt;p&gt;Die DOVO 285 ist eine Stickschere aus geschmiedetem Edelstahl, die mit ihrer feinen Spitze dazu konzipiert ist, diffizile Arbeiten beim Sticken oder Nähen zu meistern. Mit einer Gesamtlänge von circa 10 cm ist sie auch für normalgroße Hände geeignet. Um saubere Ergebnisse zu liefern, ist diese Schere von uns per Hand geschärft worden. Edel verpackt in einer rotbraunen Rindlederstulpe.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Die Problematik beim Sticken entsteht oft dadurch, dass man das Werk nur schwer mit einer herkömmlichen Schere erreicht. Damit dich widerspenstige Sprungfäden und Fadenreste nicht zur Weißglut treiben, ist diese Schere mit zwei spitz zulaufenden Klingen und einer scharfen Spitze konstruiert. So kannst du sehr präzise arbeiten und es sollte wieder alles wie am Schnürchen laufen!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Wir verwenden für dieses Produkt ausschließlich Rindleder. Die Stabilität und Zugfestigkeit eignet sich hervorragend für die Herstellung hochwertiger und langlebiger Erzeugnisse. Gerne kannst du das Leder von Zeit zu Zeit mit einem Pflegemittel behandeln, um den natürlichen Geru</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11460</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>44350026</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005064</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 44</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Stickschere 44&lt;/p&gt;&lt;p&gt;Die DOVO Stickschere 44 ist mit einer besonders feinen Spitze versehen, um die Aufgaben rund ums Sticken und Nähen problemlos meistern zu können. Durch Ihre Länge von 3,5” ist sie besonders leicht zu führen und trennt so zuverlässig und zielsicher Fadenreste ab. Gefertigt aus rostfreiem Edelstahl und ausgeliefert in einem edlen, schwarzen Rindleder-Etui.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Die Problematik beim Sticken entsteht oft dadurch, dass man das Werk nur schwer mit einer herkömmlichen Schere erreicht. Damit dich widerspenstige Sprungfäden und Fadenreste nicht zur Weißglut treiben, ist diese Schere mit zwei spitz zulaufenden Klingen und einer scharfen Spitze konstruiert. So kannst du sehr präzise arbeiten und es sollte wieder alles wie am Schnürchen laufen!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Wir verwenden für dieses Produkt ausschließlich Rindleder. Die Stabilität und Zugfestigkeit eignet sich hervorragend für die Herstellung hochwertiger und langlebiger Erzeugnisse. Gerne kannst du das Leder von Zeit zu Zeit mit einem Pflegemittel behandeln, um den natürlichen Geruch und die Flexibilität über Jah</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11461</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>44350526</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284006399</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Stickschere 44 Hardanger</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Stickschere 44 Hardanger&lt;/p&gt;&lt;p&gt;Die DOVO 44 Hardanger ist eine kleine Stickschere. Dieses Modell haben wir speziell für Hardanger-Durchbruchstickereien entwickelt. Das Besondere an ihr ist, dass die Spitze sehr dünn ist, um auch feinste Arbeiten sauber auszuführen. Natürlich eignet sich die Schere auch zum Durchtrennen von Fadenresten. Dieses Spezialwerkzeug fertigen wir aus rostfreiem Edelstahl und schärfen es per Hand.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Solltest du an einer Hardanger-Durchbruchstickerei arbeiten, kennst du dich bestens mit den Problemen einer zu massiven Scherenspitze aus. Um diese Arbeiten zu erleichtern, bieten wir hier ein höchst spezialisiertes Modell an: Die 10mm schmale, eingesetzte Spitze eignet sich hervorragend für ein solches Aufgabenfeld und kann ebenso zum Abtrennen feiner Fäden verwendet werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Leder&lt;/p&gt;&lt;p&gt;Wir verwenden für dieses Produkt ausschließlich Rindleder. Die Stabilität und Zugfestigkeit eignet sich hervorragend für die Herstellung hochwertiger und langlebiger Erzeugnisse. Gerne kannst du das Leder von Zeit zu Zeit mit einem Pflegemittel behandeln, um den natü</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21416</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>3580</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007020</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 3 Bergischer Löwe</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 3 Bergischer Löwe&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 3 in 5/8 Zoll trägt den Beinamen „Bergischer Löwe” und gehört mit seinem spanischen Kopf, der fein bearbeiteten, mit Gold verzierten Klinge sowie den edlen Griffschalen zu den Besten der Besten. Als Hommage an unsere Heimatregion und deren Historie ziert der Löwe als Wappentier jedes der per Hand hergestellten Rasiermesser. Für höchste Griffigkeit ist die Unterseite des Erls geriffelt.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Rinderhorn ist ein besonders edles Material und daher bestens geeignet, um daraus das Heft des BERGISCHEN LÖWEN zu formen. Jedes Griffteil weist eine individuelle Maserung und ein einzigartiges Farbspiel auf. In einem aufwändigen Verfahren wird das afrikanische Horn in Form gebracht, um in einem weiteren Arbeitsschritt aufwendig geschliffen zu werden. Zuletzt wird das Unikat mehrfach feinpoliert.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen Passagen rund um </Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21417</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>3680</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008874</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 3 Bergischer Löwe</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 3 Bergischer Löwe&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 3 in 6/8 Zoll trägt den Beinamen „Bergischer Löwe” und gehört mit seinem Spanischen Kopf, der fein bearbeiteten, mit Gold verzierten Klinge sowie den edlen Griffschalen zu den Besten der Besten. Als Hommage an unsere Heimatregion und deren Historie ziert der Löwe als Wappentier jedes der per Hand hergestellten Rasiermesser. Für eine optimale Führung des Rasiermessers besitzt es eine Daumen-Griffmulde.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Rinderhorn ist ein besonders edles Material und daher bestens geeignet, um daraus das Heft des BERGISCHEN LÖWEN zu formen. Jedes Griffteil weist eine individuelle Maserung und ein einzigartiges Farbspiel auf. In einem aufwändigen Verfahren wird das afrikanische Horn in Form gebracht, um in einem weiteren Arbeitsschritt aufwendig geschliffen zu werden. Zuletzt wird das Unikat mehrfach feinpoliert.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen P</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21418</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>4580</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007037</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 4 Prima Silver Steel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 4 Prima Silver Steel&lt;/p&gt;&lt;p&gt;Das DOVO Nr. 4 PRIMA STEEL SILVER in 5/8 Zoll ist seit Jahrzehnten ein Klassiker in unserem Rasiermesser-Sortiment. Mit der dezenten Verzierung auf der rasurstarken vollhohlen Kohlenstoffstahlklinge und dem seidenglänzenden Ebenholz-Griffstück bietet es ein luxuriöses Rasurerlebnis. Jedes dieser Messer wird größtenteils in Handarbeit gefertigt und verlässt Solingen als Unikat.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde K</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21419</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>26810</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008287</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 2 Bismarck</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 2 Bismarck&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser Nr. 2 in 6/8 Zoll hat den Namen BISMARCK®. Der Name steht im 20. Jahrhundert wie auch heute noch für höchste Rasiermesserkunst aus Solingen. Das Besondere an diesem Modell sind seine charakteristische edle Optik, das hohe Gewicht und sein unvergleichbares Handling.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbreite&lt;/p&gt;&lt;p&gt;Eine breite Klinge eignet sich vor allem für Herre</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21420</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>26820</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008300</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 2 Bismarck</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 2 Bismarck&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser Nr. 2 in 6/8 Zoll hat den Namen BISMARCK®. Der Name steht im 20. Jahrhundert wie auch heute noch für höchste Rasiermesserkunst aus Solingen. Das Besondere an diesem Modell sind seine charakteristische edle Optik, das hohe Gewicht und sein unvergleichbares Handling.
+Ausschließlich unsere erfahrensten Schleifer stellen dieses Unikat mit einem Handarbeitsanteil von über 90% her.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Natürliche Perlen werden schon seit über 7000 Jahren als kostbares Kleinod gehandelt. Der seidenmatte Glanz, kombiniert mit einem einmaligen Farbspiel machen sie bis heute zu einem gefragten Rohstoff bei der Schmuckproduktion. Aus ethischen Gründen arbeiten wir ausnahmslos mit einem Perlen-Imitat aus Acrylglas. Ausgewählte Fertigungsprozesse ermöglichen es das bekannte Kolorit perfekt zu replizieren.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann.</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21421</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>26830</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008812</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 2 Bismarck</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 2 Bismarck&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser Nr. 2 in 6/8 Zoll hat den Namen BISMARCK®. Der Name steht im 20. Jahrhundert wie auch heute noch für höchste Rasiermesserkunst aus Solingen. Das Besondere an diesem Modell sind seine charakteristische schwarze Optik, das hohe Gewicht und sein unvergleichbares Handling. 
+Ausschließlich unsere erfahrensten Schleifer stellen dieses Unikat mit einem Handarbeitsanteil von über 90% her. Unter vielen Fans wird die brünierte Version auch der „schwarze Fürst” genannt. 
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Das schwarze Finish erreichen wir durch eine abriebfeste Brünierung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohre</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21422</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>36830</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008881</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 3 Bergischer Löwe</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 3 Bergischer Löwe&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 3 in 6/8 Zoll trägt den Beinamen „Bergischer Löwe” und gehört mit seinem Spanischen Kopf, der fein bearbeiteten, mit Gold verzierten Klinge sowie den edlen Griffschalen zu den Besten der Besten. Als Hommage an unsere Heimatregion und deren Historie ziert der Löwe als Wappentier jedes der per Hand hergestellten Rasiermesser. Für eine optimale Führung des Rasiermessers besitzt es eine Daumen-Griffmulde.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen Passagen rund um Ohren, Nase und Grübc</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21423</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>42385</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007327</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 42</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 42&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 42 ist das letzte Friseurmesser in unserem Sortiment. Vor der Erfindung von Wechselklingenmessern waren derb geschliffene Messer sehr üblich zum Ausrasieren. Durch die geringe Breite von 3/8” und dem französischen Kopf ist es eine gute Wahl für erfahrene Nutzer zum millimetergenauen Rasieren von Konturen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser ist aus Edelstahl der Sorte 1.4034 gefertigt. Das Metall zeigt gute Korrosionsbeständigkeit gegen Seifen, Wasser sowie Wasserdampf und ist daher ideal für die Herstellung von hochwertigen und superscharfen Klingen geeignet. Die moderne Metalllegierung ist kaum pflegebedürftig, leicht zu reinigen und somit besonders für Neueinsteiger zu empfehlen. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasiermesser. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Ein derb geschliffenes Rasiermesser wird unter Kennern und erfahrenen Barbieren auch gerne als Beil bezeichnet. Die Klinge ist relativ starr und stellt ihre Vorteile nicht nur beim Schneiden von Haaren in Kombination mit einem Kamm, sondern auch beim sicheren Ausrasieren von Konturen zur Schau.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Ein Rasiermesser mit Französischem Kopf zeichnet sich durch den viertelkreisförmigen, leicht gerundeten Übergang des Kopfes hin zur Klinge aus. Dies hat vor allem beim Ausrasieren deiner Bartkonturen den Vorteil, dass du mit der Klingenspitze millimetergenau arbeiten kannst. Aus dem Grund ist eine solche Klingenausprägung gerade bei professionellen Barbieren sehr beliebt.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbreite&lt;/p&gt;&lt;p&gt;Rasiermesser mit einer Klingenbrei</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21424</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>45581</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008829</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser Barbarossa</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser Barbarossa&lt;/p&gt;&lt;p&gt;Das DOVO Barbarossa in 5/8 Zoll ist für die Bedürfnisse von Barbieren und Bartträgern konzipiert worden. Das Besondere an diesem Rasiermesser ist seine kurze Klinge. Diese ist besonders wendig und präzise zu führen. Somit kann der Nutzer seine Bartpracht und Konturen millimetergenau in Form bringen. Als optisches Highlight präsentiert sich die feine Gravur des Abbilds des berühmten Bartträgers Kaiser Barbarossa.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser ist aus Edelstahl der Sorte 1.4034 gefertigt. Das Metall zeigt gute Korrosionsbeständigkeit gegen Seifen, Wasser sowie Wasserdampf und ist daher ideal für die Herstellung von hochwertigen und superscharfen Klingen geeignet. Die moderne Metalllegierung ist kaum pflegebedürftig, leicht zu reinigen und somit besonders für Neueinsteiger zu empfehlen. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen Passagen rund um Ohren, Nase und Grübchen. </Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21425</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>100581</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007426</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 100 Best Quality</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 100 Best Quality&lt;/p&gt;&lt;p&gt;Das DOVO 100 in 5/8 Zoll ist ein hervorragendes Rasiermesser für Einsteiger und Personen, die ein robustes und schnörkelloses Messer bevorzugen. In seinen Eigenschaften Schärfe, Gründlichkeit und Handling steht es seinen Brüdern in nichts nach. Alle Flächen des Rasiermessers werden in mehreren Stufen von Hand fein geschliffen. Die Ober- und Unterseite des Erls ist geriffelt, somit hast du ihn auch mit nassen oder schaumigen Fingern fest im Griff.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasiermesser. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzu</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21426</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>100681</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007457</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 100 Best Quality</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 100 Best Quality&lt;/p&gt;&lt;p&gt;Das DOVO 100 in 6/8 Zoll ist ein hervorragendes Rasiermesser für Einsteiger und Personen, die ein robustes und schnörkelloses Messer bevorzugen. In seinen Eigenschaften Schärfe, Gründlichkeit und Handling steht es seinen Brüdern in nichts nach. Alle Flächen des Rasiermessers werden in mehreren Stufen von Hand fein geschliffen. Die Ober- und Unterseite des Erls ist geriffelt, somit hast du ihn auch mit nassen oder schaumigen Fingern fest im Griff.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasiermesser. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzu</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21427</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>101581</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007518</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 101 Best Quality</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 101 Best Quality&lt;/p&gt;&lt;p&gt;Das DOVO 101 in 5/8 Zoll ist ein hervorragendes Rasiermesser für Einsteiger und Personen, die ein robustes und schnörkelloses Messer bevorzugen. In seinen Eigenschaften Schärfe, Gründlichkeit und Handling steht es seinen Brüdern in nichts nach. Alle Flächen des Rasiermessers werden in mehreren Stufen von Hand fein geschliffen. Die Ober- und Unterseite des Erls ist geriffelt, somit hast du ihn auch mit nassen oder schaumigen Fingern fest im Griff.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasiermesser. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Der halbhohle Schliff vereint die individuellen Vorteile des vollhohlen und derben Schliffs. Einerseits weist die Klinge immer noch genug Flexibilität auf, um sich deiner Haut anzupassen und eine sehr sanfte Rasur zu bewerkstelligen, andererseits kann sie es auch bestens mit festeren Bartstoppeln oder starkem Bartwuchs aufnehmen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingen</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21428</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>255831</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007976</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 25</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 25&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 25 in 5/8 Zoll ist das einzige Rasiermesser mit Gradkopf in unserem Sortiment. Das Rasiermesser besticht durch eine edle Optik mit 24 Karat vergoldetem Erl und Ebenholz Griffschalen. Neben seinen optischen Fähigkeiten bietet dir das Rasiermesser eine voll-hohl geschliffene Kohlenstoffstahlklinge, die im Bereich Schärfe und Gründlichkeit keine Wünsche offenlässt.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei einem Rasiermesser mit klassischem Gradkopf endet die Schneide direkt vorne an der Spitze des Messers im 90°-Winkel. Mit etwas Übung erreichst du so formidable Ergebnisse sowohl beim exakten Formen von Konturen, als auch beim Ausrasieren von Grübchen. Eine solche Klingenausprägung ermöglicht dir absolute Präzision, so</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21429</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>305870</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008898</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser Barbarossa</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser Barbarossa&lt;/p&gt;&lt;p&gt;Das DOVO Barbarossa in 5/8 Zoll ist für die Bedürfnisse von Barbieren und Bartträgern konzipiert worden. Das Besondere an diesem Rasiermesser ist seine kurze Klinge. Diese ist besonders wendig und präzise zu führen. Somit kann der Nutzer seine Bartpracht und Konturen millimetergenau in Form in bringen. Als optisches Highlight präsentiert sich die feine Gravur des Abbilds des berühmten Bartträgers Kaiser Barbarossa.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Olivenholz ist ein einzigartiger Werkstoff der Natur. Es ist härter als heimisches Eichen- oder Buchenholz und zeigt dabei eine hohe Widerstandsfähigkeit vor Schimmelbefall. Selbst unbehandelte Olive zeichnet sich schon durch eine überdurchschnittliche Resistenz gegenüber Wasser aus, was es natürlich zum perfekten Material für Rasiermesser, Rasierpinsel und Shavetten macht.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen Passagen rund um Ohren, Nase und Grübchen. Eine solche Bauart bietet dir hohe Präzision ohne dabei auf ein Min</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21430</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>415875</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007242</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 41 Inox</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 41 Inox&lt;/p&gt;&lt;p&gt;Das DOVO Nr. 41 in 5/8 Zoll ist eines der wenigen Rasiermesser, die wir aus rostfreiem Edelstahl fertigen. Dieses Rasiermesser schleifen wir natürlich in mehreren Stufen von Hand und verzieren die Klinge mit 24 karätigem Gold. Der geriffelte Erl bietet deinen Fingern Halt, während sie die vollhohl geschliffene Klinge sanft über dein Gesicht gleiten lassen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser ist aus Edelstahl der Sorte 1.4034 gefertigt. Das Metall zeigt gute Korrosionsbeständigkeit gegen Seifen, Wasser sowie Wasserdampf und ist daher ideal für die Herstellung von hochwertigen und superscharfen Klingen geeignet. Die moderne Metalllegierung ist kaum pflegebedürftig, leicht zu reinigen und somit besonders für Neueinsteiger zu empfehlen. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Olivenholz ist ein einzigartiger Werkstoff der Natur. Es ist härter als heimisches Eichen- oder Buchenholz und zeigt dabei eine hohe Widerstandsfähigkeit vor Schimmelbefall. Selbst unbehandelte Olive zeichnet sich schon durch eine überdurchschnittliche Resistenz gegenüber Wasser aus, was es natürlich zum perfekten Material für Rasiermesser, Rasierpinsel und Shavetten macht.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21431</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>558130</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007167</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 5 Astrale</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 5 Astrale&lt;/p&gt;&lt;p&gt;Mit dem DOVO Rasiermesser Nr. 5 greifst du nach den Sternen! Dank halb hohlem Schliff, doppelt geriffeltem Erl und echter Goldverzierung nimmt dich das ASTRALE mit auf eine spannende Reise in die Galaxie der klassischen Nassrasur. Auf die eingelegte Neusilberplatte im Ebenholzheft kannst du gerne dein persönliches Startdatum eingravieren…&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbreite&lt;/p&gt;&lt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21432</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>985810</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007365</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 98</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 98&lt;/p&gt;&lt;p&gt;Das DOVO Nr. 98 überzeugt unsere Kunden schon seit vielen Jahrzehnten. Die prächtigen Ornamente auf Klinge und Rücken in Kombination mit dem seidenen, perlmuttschimmernden Glanz seiner Griffschalen, verleihen ihm majestätische Anmut. Stolz trägt das Heft die DOVO Intarsie und versichert dir zusammen mit der vollhohl geschliffenen 5/8 Zoll Klinge ein hochwertiges Rasurerlebnis.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Egal ob als Möbelintarsie oder Schmuck - Perlmutt wird seit Jahrhunderten zur luxuriösen Veredlung hochwertiger Erzeugnisse verwendet. Aus ethischen Gründen arbeiten wir ausnahmslos mit einem Perlmutt-Imitat aus Acrylglas. Durch ausgewählte Fertigungsprozesse ist es uns möglich, das irisierende Farbspiel von echtem Perlmutt zu imitieren und gleichzeitig mit den langlebigen Eigenschaften von Acryl zu kombinieren.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle ei</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21433</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>1165831</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008799</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 116 Forestal</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 116 Forestal&lt;/p&gt;&lt;p&gt;Das Rasiermesser 116 Forestal in 5/8 Zoll trägt seinen Namen aufgrund seiner prunkvollen Ornamente auf Klinge und Rücken. Neben seinem seidenmattpoliertem Heft aus Rotholz, besitzt das Rasiermesser eine Kohlenstoffklinge, die durch seinen Rundkopf und vollhohlen Schliff in Sachen Gründlichkeit und Schärfe keine Wünsche offen lässt.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Rotholz eignet sich vortrefflich zur Herstellung eines Rasiermesserhefts. Dieses natürliche Material ist hart genug, um auch in einer feuchten Umgebung seine Form zu halten und die geringen Fertigungstoleranzen zu bewahren. Das seidenmatt polierte Holz liefert ein einzigartiges Farbspiel und die schimmernden Rottöne werden deine Blicke auf sich ziehen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbreite&lt;/p&gt;&lt;p&gt;Rasiermess</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21434</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>1516580</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284007815</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 1516</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 1516&lt;/p&gt;&lt;p&gt;Einen gewissen Retrocharme kann man dem DOVO Nr. 1516 SPECIAL einfach nicht absprechen. Mit seiner golden verzierten Klinge und seinem Heft aus Schildpattimitat ist es in den Jahrzehnten zu einem Klassiker in unserem Sortiment geworden. Mit dem DOVO SPECIAL entscheidest du dich für ein handgeschliffenes Rasiermesser in der Größe 5/8 Zoll und vollhohlem Schliff. Gut möglich, dass dein Großvater schon dieselbe Wahl getroffen hat!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Schon seit der Antike wird das teure Schildpatt zur Herstellung von exquisiter Kunst und Mobiliar verwendet. Früher wurde es fast mit Gold aufgewogen und schmückt seither unzählige Königshöfe. Um die vom Aussterben bedrohte Schildkröte zu schützen, arbeiten wir ausschließlich mit einem Imitat aus seidenmatt poliertem Acrylglas.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der rund</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

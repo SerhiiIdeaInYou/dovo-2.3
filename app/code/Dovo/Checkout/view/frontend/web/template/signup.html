@@ -1,0 +1,76 @@
+<!--Use 'stepCode' as id attribute-->
+<li data-bind="fadeVisible: isVisible(), attr: { id: stepCode }">
+    <!--<div class="step-title" data-bind="i18n: stepTitle" data-role="title"></div>-->
+    <div id="checkout-step-title"
+         class="step-content"
+         data-role="content">
+
+        <div class="grid-container">
+            <div class="grid12-6">
+                <div class="checkout-authentication-wrapper">
+                    <!-- ko foreach: getRegion('auth') -->
+                    <!-- ko template: getTemplate() --><!-- /ko -->
+                    <!--/ko-->
+                </div>
+
+            </div>
+            <div class="grid12-6">
+                <div class="checkout-guest">
+                    <div class="block-title">
+                        <strong data-bind="i18n:'Order as Guest'"></strong>
+                    </div>
+                    <div class="guest-wrapper" data-bind="visible: welcomeFormVisible">
+                        <!-- <div class="container-content">
+                             <<p data-bind="i18n:'Order as Guest Text'"></p>
+                         </div>-->
+                        <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+                            <div class="actions-toolbar">
+                                <div class="primary">
+                                    <button data-role="opc-register" type="button"
+                                            class="button action continue secondary" data-bind="click: showRegister">
+                                        <span data-bind="i18n:'Weiter'"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="checkout-register" data-bind="visible: registerVisible">
+                        <div class="checkout-register-choice">
+                            <div class="field choice">
+                                <input type="radio" class="checkbox" id="register" name="register"
+                                       data-bind="checked: checkRegister" value="register"
+                                       checked/>
+                                <label class="label" for="register">
+                                    <span class="boxbox"></span>
+                                    <span class="boxcontent" data-bind="i18n:'Register'"></span>
+                                </label>
+                            </div>
+                            <div class="field choice">
+                                <input type="radio" class="checkbox" id="guest" name="register"
+                                       data-bind="checked: checkRegister" value="guest"/>
+                                <label class="label" for="guest">
+                                    <span class="boxbox"></span>
+                                    <span class="boxcontent" data-bind="i18n:'Als Gast fortfahren'"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div id="registerblock" class="register-form"
+                             data-bind="visible: registerFormVisible()"></div>
+                        <div class="guest-form" data-bind="visible: guestFormVisible()">
+                            <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+                                <div class="actions-toolbar" id="shipping-method-buttons-container">
+                                    <div class="primary">
+                                        <button data-role="opc-continue" type="submit"
+                                                class="button action continue primary">
+                                            <span><!-- ko i18n: 'Continue as guest'--><!-- /ko --></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>

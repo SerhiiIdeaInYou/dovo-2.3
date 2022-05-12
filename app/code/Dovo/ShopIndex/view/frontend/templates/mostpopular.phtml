@@ -1,0 +1,109 @@
+<?php
+/**
+ * Product list template
+ *
+ * @see \Dovo\ShopIndex\Block\MostPopular
+ */
+?>
+<?php
+$type = $block->getData('slidertype');
+$h = $block->getHelperTheme();
+
+$catId = $h->getCfg($type . '/category');
+if (!$catId) {
+    $catId = 2;
+}
+$categoryIds = explode(',', $catId);
+$catUrl = $block->getCategoryUrl($catId);
+$sliderId = 'category-' . $type;
+$mainPosition = (int)$h->getCfg($type . '/position');
+
+?>
+<section class="mostpopular">
+    <div class="container products-carousel">
+        <?php $collection = $block->getProductsByCatId($catId) ?>
+
+        <div id="<?= $sliderId ?>" class="mostpopular-products-list product-items main-caro owl-carousel owl-theme"
+             data-mage-init='{"Dovo_ShopIndex/js/mostpopular": {
+             "sliderId": "<?= $sliderId ?>",
+             "items": "<?= $h->getCfg($type . '/items') ?>"
+             }}'>
+            <?php
+            $count = 1;
+            foreach ($collection as $product) {
+                if ($count === $mainPosition) {
+                    ?>
+                    <div class="products-list-item first-item">
+                        <div class="inner-container">
+                            <div class="item-text-wrapper">
+                                <p class="item-text first"><?= $h->getCfg($type . '/captionfirst') ?></p>
+                                <p class="item-text second"><?= $h->getCfg($type . '/captionsecond') ?></p>
+                                <p class="item-text third"><?= $h->getCfg($type . '/captionthird') ?></p>
+                            </div>
+                            <?php if (count($categoryIds) <= 1): ?>
+                                <div class="actions">
+                                    <a href="<?= $catUrl ?>" class="action primary">
+                                        <span><?= $h->getCfg($type . '/linkcaption') ?></span>
+                                    </a>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+                <div class="products-list-item product">
+                    <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                        <div class="product-image-container">
+                            <img class="product-image lazyOwl"
+                                 src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                 max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                        </div>
+                        <div class="product-info-container">
+                            <div class="product-name">
+                                <?= $product->getName(); ?>
+                            </div>
+                            <div class="price">
+                                <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <?php
+                $count++;
+            }
+            foreach ($collection as $product) {
+                ?>
+                <div class="products-list-item product">
+                    <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                        <div class="product-image-container">
+                            <img class="product-image" src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                 max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                        </div>
+                        <div class="product-info-container">
+                            <div class="product-name">
+                                <?= $product->getName(); ?>
+                            </div>
+                            <div class="price">
+                                <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <?php
+                $count++;
+            }
+            ?>
+        </div>
+        <div class="progress-container">
+            <a class="prev">
+            </a>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <a class="next">
+            </a>
+        </div>
+    </div>
+
+</section>

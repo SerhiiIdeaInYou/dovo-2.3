@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>111365</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10630006</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014745</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Kopfschneider 10630</Title>
+        <Brand>DOVO</Brand>
+        <Description>Material&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;Schliff&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;Klingenbeschreibung&lt;p&gt;Bei dieser Konstruktion liegt die Rasierklinge direkt auf dem offenen Zahnkamm auf. Die grobe Zahnung leitet der Klinge den Weg und fixiert sie sicher am Rasierkopf. Gerade bei langen Haaren oder einem besonders hohen und starken Bartwuchs ist eine solche Bauart von Vorteil, da der Kopf kaum von abgeschnittenen Haaren oder Seifenresten verstopft werden kann.&lt;/p&gt;</Description>
+      </DescriptionData>
+      <ProductData>
+        <Health>
+          <ProductType>
+            <PersonalCareAppliances></PersonalCareAppliances>
+          </ProductType>
+        </Health>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

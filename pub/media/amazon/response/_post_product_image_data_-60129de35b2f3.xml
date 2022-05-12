@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>53588018655</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>136</MessagesProcessed>
+				<MessagesSuccessful>121</MessagesSuccessful>
+				<MessagesWithError>15</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>513278</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>31349</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513278</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>31349</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513308</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513308</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513317</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>109000526</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513317</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>109000526</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133610</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133610</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513368</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513369</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134010</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>505016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134010</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>505016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513408</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>505016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513409</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>505016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513558</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513558</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513568</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251406</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513568</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251406</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513628</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513628</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513657</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513657</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513677</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>513677</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>514670</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>20005</ResultMessageCode>
+				<ResultDescription>We cannot associate an image with this SKU because the SKU was not created due to another error. Correct all other errors associated with it and resubmit your inventory file to resolve this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>110001</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

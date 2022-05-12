@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="Harrigo_RegisterCheckout::js/ajax-register.js"/>
+        <!--<script src="Dovo_Checkout::js/input.js"/>-->
+    </head>
+    <body>
+        <move element="site-logo" destination="micro-header-container"/>
+        <referenceContainer name="base-main-top-container">
+            <block class="Dovo\HeaderImage\Block\HeaderImage" name="header-image-container" template="headerImage.phtml"
+                   before="-"/>
+        </referenceContainer>
+        <referenceContainer name="page.wrapper">
+            <block class="Dovo\Checkout\Block\Footer" name="checkout-footer-container" template="checkoutFooter.phtml"
+                   before="before.body.end"/>
+        </referenceContainer>
+
+        <referenceContainer name="page.messages">
+            <block class="Magento\Checkout\Block\Cart\ValidationMessages" name="checkout.cart.validationmessages"/>
+        </referenceContainer>
+        <referenceBlock name="checkout.root">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="checkout" xsi:type="array">
+                            <item name="children" xsi:type="array">
+                                <item name="authentication" xsi:type="array">
+                                    <item name="component" xsi:type="string">Magento_Checkout/js/view/authentication</item>
+                                    <item name="config" xsi:type="array">
+                                        <item name="componentDisabled" xsi:type="boolean">true</item>
+                                    </item>
+                                </item>
+                                <item name="steps" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                        <!-- The new step you add -->
+                                        <item name="check-login-step" xsi:type="array">
+                                            <item name="component" xsi:type="string">Dovo_Checkout/js/view/signupStep
+                                            </item>
+                                            <!--To display step content before shipping step "sortOrder" value should be < 1-->
+                                            <!--To display step content between shipping step and payment step  1 < "sortOrder" < 2 -->
+                                            <!--To display step content after payment step "sortOrder" > 2 -->
+                                            <item name="sortOrder" xsi:type="string">0</item>
+                                            <item name="children" xsi:type="array">
+                                                <!--add here child component declaration for your step-->
+                                                <item name="authentication" xsi:type="array">
+                                                    <item name="component" xsi:type="string">
+                                                        Dovo_Checkout/js/view/authentication
+                                                    </item>
+                                                    <item name="displayArea" xsi:type="string">auth</item>
+                                                    <item name="children" xsi:type="array">
+<!--                                                        <item name="msp_recaptcha" xsi:type="array">-->
+<!--                                                            <item name="component" xsi:type="string">MSP_ReCaptcha/js/reCaptcha</item>-->
+<!--                                                            <item name="displayArea" xsi:type="string">additional-login-form-fields</item>-->
+<!--                                                            <item name="configSource" xsi:type="string">checkoutConfig</item>-->
+<!--                                                            <item name="reCaptchaId" xsi:type="string">msp-recaptcha-checkout-login</item>-->
+<!--                                                            <item name="zone" xsi:type="string">login</item>-->
+<!--                                                        </item>-->
+                                                        <!--Additional authentication fields-->
+                                                        <item name="errors" xsi:type="array">
+                                                            <item name="sortOrder" xsi:type="string">0</item>
+                                                            <item name="component" xsi:type="string">
+                                                                Magento_Checkout/js/view/authentication-messages
+                                                            </item>
+                                                            <item name="displayArea" xsi:type="string">messages</item>
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                        <item name="billing-step" xsi:type="array">
+                                            <item name="children" xsi:type="array">
+                                                <item name="payment" xsi:type="array">
+                                                    <item name="component" xsi:type="string">
+                                                        Dovo_Checkout/js/view/payment
+                                                    </item>
+                                                    <item name="children" xsi:type="array">
+                                                        <item name="agree-terms-form" xsi:type="array">
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="title" xsi:type="string" translate="true">Legal Heading</item>
+                                                            </item>
+                                                            <!-- uiComponent is used as a wrapper for form fields (its template will render all children as a list) -->
+                                                            <item name="component" xsi:type="string">
+                                                                uiComponent
+                                                            </item>
+                                                            <!-- the following display area is used in template (see below) -->
+                                                            <item name="displayArea" xsi:type="string">
+                                                                terms
+                                                            </item>
+                                                            <item name="children" xsi:type="array">
+                                                                <item name="agreeTerms" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">
+                                                                        Dovo_Checkout/js/view/form/boolean
+                                                                    </item>
+                                                                    <item name="config" xsi:type="array">
+                                                                        <!--customScope is used to group elements within a single form (e.g. they can be validated separately)-->
+                                                                        <item name="template" xsi:type="string">
+                                                                            ui/form/field
+                                                                        </item>
+                                                                        <item name="elementTmpl"
+                                                                              xsi:type="string">
+                                                                            Dovo_Checkout/payment/element/agreeTerms
+                                                                        </item>
+                                                                    </item>
+                                                                    <item name="validation" xsi:type="array">
+                                                                        <item name="required-entry" xsi:type="boolean">true</item>
+                                                                    </item>
+                                                                    <item name="provider" xsi:type="string">
+                                                                        checkoutProvider
+                                                                    </item>
+                                                                    <item name="dataScope" xsi:type="string">
+                                                                        agree-terms-form.agreeTerms
+                                                                    </item>
+                                                                    <item name="description" xsi:type="string" translate="true">
+                                                                        akzeptieren
+                                                                    </item>
+                                                                    <item name="sortOrder" xsi:type="string">1
+                                                                    </item>
+                                                                </item>
+                                                            </item>
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                    </item>
+                                </item>
+                                <item name="sidebar" xsi:type="array">
+                                    <item name="sortOrder" xsi:type="string">50</item>
+                                    <item name="component" xsi:type="string">Dovo_Checkout/js/view/sidebar</item>
+                                    <item name="displayArea" xsi:type="string">sidebar</item>
+                                    <item name="config" xsi:type="array">
+                                        <item name="template" xsi:type="string">Dovo_Checkout/sidebar</item>
+                                        <item name="deps" xsi:type="array">
+                                            <item name="0" xsi:type="string">checkout.steps</item>
+                                        </item>
+                                    </item>
+                                    <item name="children" xsi:type="array">
+                                        <item name="summary" xsi:type="array">
+                                            <item name="component" xsi:type="string">Magento_Checkout/js/view/summary</item>
+                                            <item name="displayArea" xsi:type="string">summary</item>
+                                            <item name="config" xsi:type="array">
+                                                <item name="template" xsi:type="string">Magento_Checkout/summary</item>
+                                            </item>
+                                            <item name="children" xsi:type="array">
+                                                <item name="totals" xsi:type="array">
+                                                    <item name="component" xsi:type="string">Magento_Checkout/js/view/summary/totals</item>
+                                                    <item name="displayArea" xsi:type="string">totals</item>
+                                                    <item name="config" xsi:type="array">
+                                                        <item name="template" xsi:type="string">Magento_Checkout/summary/totals</item>
+                                                    </item>
+                                                    <item name="children" xsi:type="array">
+                                                        <!-- sort order for this totals is configured on admin panel-->
+                                                        <!-- Stores->Configuration->SALES->Sales->General->Checkout Totals Sort Order -->
+                                                        <item name="subtotal" xsi:type="array">
+                                                            <item name="component" xsi:type="string">Magento_Tax/js/view/checkout/summary/subtotal</item>
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="title" xsi:type="string" translate="true">Subtotal</item>
+                                                            </item>
+                                                        </item>
+                                                        <item name="shipping" xsi:type="array">
+                                                            <item name="component" xsi:type="string">Magento_Tax/js/view/checkout/summary/shipping</item>
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="title" xsi:type="string" translate="true">Shipping Cost</item>
+                                                                <item name="notCalculatedMessage" xsi:type="string" translate="true">Not yet calculated</item>
+                                                            </item>
+                                                        </item>
+                                                        <item name="grand-total" xsi:type="array">
+                                                            <item name="component" xsi:type="string">Magento_Tax/js/view/checkout/summary/grand-total</item>
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="title" xsi:type="string" translate="true">Total</item>
+                                                            </item>
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                                <item name="itemsBefore" xsi:type="array">
+                                                    <item name="component" xsi:type="string">uiComponent</item>
+                                                    <item name="children" xsi:type="array">
+                                                        <!-- merge your components here -->
+                                                    </item>
+                                                </item>
+                                                <item name="cart_items" xsi:type="array">
+                                                    <item name="component" xsi:type="string">Dovo_Checkout/js/view/summary/cart-items</item>
+                                                    <item name="children" xsi:type="array">
+                                                        <item name="details" xsi:type="array">
+                                                            <item name="component" xsi:type="string">Magento_Checkout/js/view/summary/item/details</item>
+                                                            <item name="children" xsi:type="array">
+                                                                <item name="thumbnail" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Magento_Checkout/js/view/summary/item/details/thumbnail</item>
+                                                                    <item name="displayArea" xsi:type="string">before_details</item>
+                                                                </item>
+                                                                <item name="subtotal" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Magento_Checkout/js/view/summary/item/details/subtotal</item>
+                                                                    <item name="displayArea" xsi:type="string">after_details</item>
+                                                                </item>
+                                                            </item>
+                                                        </item>
+                                                    </item>
+                                                </item>
+                                            </item>
+                                        </item>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

@@ -1,0 +1,36 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php /** @var $block \Magento\Checkout\Block\Onepage\Success */ ?>
+<div class="checkout-success">
+    <div class="block-title">
+        <div class="logo-wrapper">
+            <img src='<?php echo $this->getViewFileUrl('images/logo_dovo.png'); ?>' alt="Dovo Solingen Logo">
+        </div>
+        <h2><?= __('Vielen Dank für deine Bestellung') ?></h2>
+    </div>
+    <div class="block-content">
+        <?= $block->getAdditionalInfoHtml() ?>
+        <div class="text-wrapper">
+            <p>
+                <?= __('In der Bestellbestätigung, die wir dir per Email zusenden, findest du alle Details.') ?>
+            </p>
+            <p>
+                <?= __('Die Versanddauer beträgt voraussichtlich 2 - 3 Tage.') ?>
+            </p>
+        </div>
+        <div class="actions-toolbar">
+            <div class="primary">
+                <a class="action primary continue" href="<?= /* @escapeNotVerified */
+                $block->getContinueUrl() ?>"><span><?= /* @escapeNotVerified */
+                        __('Back to Website') ?></span></a>
+            </div>
+        </div>
+    </div>
+</div>

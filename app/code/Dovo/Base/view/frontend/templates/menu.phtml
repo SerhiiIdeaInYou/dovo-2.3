@@ -1,0 +1,36 @@
+<?php
+$lang = $block->getStoreManager()->getStore()->getId();
+$homepage = file_get_contents('https://dovo.com/api/nav.php?lang='.intval($lang));
+$theme = $block->getHelperTheme();
+$helperHeader = $block->getHelperHeader();
+$connectorMenu = $block->getHelperConnectorMenu();
+
+$mobileLanguageSwitcherHtml = $block->getChildHtml('ds.store_language');
+$accountLinks = $block->getChildHtml('ds.account-links');
+$links = $this->getLayout()->getBlock('top.links')->toHtml();
+?>
+<div class="ms-dropdown-menu hide-on-desktop">
+    <button class="ms-dropdown-toggle">
+        <span class="ms-dropdown-icon">
+            <i class="material-icons">
+                menu
+            </i>
+            <?= __('Menu') ?>
+        </span>
+    </button>
+    <div class="ms-dropdown-content">
+        <div class="ms-dropdown-inner">
+            <div id="primary-menu-mobile" class="main-nav-mobile">
+                <?= $homepage ?>
+                <div class="utility-menu">
+                    <div class="ms-account"><?= $links ?></div>
+                    <div class="lang-switcher"><?= $mobileLanguageSwitcherHtml ?></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="primary-menu" class="main-nav hide-on-tablet">
+    <?= $homepage ?>
+</div>

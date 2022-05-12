@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>151381</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>201071</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010273</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Shavette Rasiermesser mit Olivenholz-Griff</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produkt&lt;p&gt;Die Shavette ist ein Rasiermesser für Wechselklingen. Sie kann genauso wie ein klassisches Rasiermesser eingesetzt werden. Durch die Möglichkeit zum Klingenwechsel ist sie aber gerade im Barbierhandwerk extrem beliebt, da jeder Kunde so eine frische Klinge erhält. Dieses Modell fertigen wir aus leichtem Aluminium und veredeln es mit einem Heft aus gemasertem Olivenholz.&lt;/p&gt;Material&lt;p&gt;Diese Shavette fertigen wir aus hochwertigem Aluminium. Durch das verwendete Eloxal-Verfahren wird die oberste Metallschicht verändert und erhält neben der edlen Materialanmutung auch korrosionsresistente Eigenschaften. Aluminium ist aufgrund der geringen Dichte ein wahres Leichtgewicht, was zu der einzigartigen Gewichtsverteilung dieser Shavette führt.&lt;/p&gt;Griffmaterial&lt;p&gt;Olivenholz ist ein einzigartiger Werkstoff der Natur. Es ist härter als heimisches Eichen- oder Buchenholz und zeigt dabei eine hohe Widerstandsfähigkeit vor Schimmelbefall. Selbst unbehandelte Olive zeichnet sich schon durch eine überdurchschnittliche Resistenz gegenüber Wasser aus, was es natürlich zum perfekten Material für Rasiermesser, Rasierpinsel und Shavetten macht.&lt;/p&gt;Lieferumfang&lt;p&gt;DOVO Shavette 201071, 2 Rasierklingenhalter transparent, MERKUR SUPER Klinge, Metalbox blau&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Garantierte Qualität: über 100 Jahre Qualität, Design und Erfahrung - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Garantierte Präzision: Eleganter Look und präzise Konturen wie beim Meister-Barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantiert gepflegter Bart: Bartpflege leicht gemacht für einen täglich frischen Look.</BulletPoint>
+        <BulletPoint>Art: Shavette Rasiermesser für Wechselklingen mit Griff aus Olivenholz von DOVO Solingen</BulletPoint>
+        <BulletPoint>Material &amp; Maße: Kinge aus Aluminium schwarz eloxiert - Griff aus Olivenholz - 14.4 cm x 2.5 cm x 1.5 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

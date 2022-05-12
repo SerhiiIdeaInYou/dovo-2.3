@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>66067018745</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>89</MessagesProcessed>
+				<MessagesSuccessful>38</MessagesSuccessful>
+				<MessagesWithError>51</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>101320</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00H1CSWIC, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;43456&apos;), item_name (Merchant: &apos;DOVO Ciseaux à barbe 43 Moustache&apos; / Amazon: &apos;DOVO Bartschere 43 Moustache&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;43456&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>43456</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101322</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B07KCNWBQJ, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;do-585056&apos;), item_name (Merchant: &apos;Ciseaux à barbe DOVO 43 Moustache avec manchette en cuir&apos; / Amazon: &apos;DOVO Bartschere 43 Moustache&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>585056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101325</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00H1CSUH0, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: item_name (Merchant: &apos;Ciseaux DOVO pour barbe et nez 44&apos; / Amazon: &apos;DOVO Bart-/Nasenhaarschere 44&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B005DSFT8M, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;44.406&apos;), item_name (Merchant: &apos;Ciseaux DOVO pour barbe et nez 44&apos; / Amazon: &apos;Dovo - 44.406 - Ciseaux Poils du Nez - 10 cm - Droits - Inox Satine&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>44406</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101329</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B004GV655S, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;379356&apos;), item_name (Merchant: &apos;Ciseaux à cuticules DOVO 379 pour gauchers&apos; / Amazon: &apos;DOVO Hautschere 379&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;379356&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>379356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101357</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B003GTZH14, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;502.006&apos;), item_name (Merchant: &apos;DOVO coupe-ongles 502 avec manchette en cuir&apos; / Amazon: &apos;DOVO Nagelknipser 502&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;DOV502006&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>502006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101358</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B003SP9BGS, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;504.006&apos;), item_name (Merchant: &apos;DOVO coupe-ongles 504 avec manchette en cuir&apos; / Amazon: &apos;DOVO Nagelknipser 504&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;DOV504006&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>504006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101359</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B000G0EKXC, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;525.356&apos;), item_name (Merchant: &apos;DOVO Ciseaux à ongles Lanza 525&apos; / Amazon: &apos;DOVO Nagelschere Lanza 525&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;525.356&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>525356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101365</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10630006, Missing Attributes manufacturer. SKU 10630006 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101367</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10661506, Missing Attributes manufacturer. SKU 10661506 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101374</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00BHKPA6Q, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;DOV515171&apos;), item_name (Merchant: &apos;DOVO Baume pour le cuir 515&apos; / Amazon: &apos;Dovo - DOV515171 - Couteau de Poche Mixte - Adulte, Multicolore, Taille&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;DOV515171&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>515171</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101376</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B005HFK54E, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;15240001&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 152&apos; / Amazon: &apos;Dovo Pendantes iemen cuir de vachette – pour l&amp;apos;extraction de rasiermessern Solingen – 2183&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B000Q85ODE, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;42359&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 152&apos; / Amazon: &apos;Dovo Dovo Razor Strop&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B002VRXRGO, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;DOV15240001&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 152&apos; / Amazon: &apos;DOVO Abziehriemen 152&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;DOV15240001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>15240001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101377</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FS1DSRB, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B002VRUEWO, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;ME-18535001&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 185&apos; / Amazon: &apos;DOVO Abziehriemen 185&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;ME-18535001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B0087Q98WA, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284009239&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 185&apos; / Amazon: &apos;DOVO Abziehriemen 185&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004XKD6AO, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;WHONLINE1976&apos;), item_name (Merchant: &apos;Courroie d&amp;apos;extraction DOVO 185&apos; / Amazon: &apos;Hängeriemen cuir/chanvre-pour le montage de rasoirs dovo-solingen - 2184&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>18535001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101378</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B074CQMV8W, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284010365&apos;), item_name (Merchant: &apos;Vis de tension de la courroie DOVO 186&apos; / Amazon: &apos;DOVO Spannschraubriemen 186&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;186210011&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>186210011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101379</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FS3ZK2X, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B001QJTYVA, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;DOV201006&apos;), item_name (Merchant: &apos;Coupe choux DOVO Shavette en acier inoxydable&apos; / Amazon: &apos;DOVO Shavette Edelstahl&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;201006&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B0028QFHUM, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;LUXURY_BEAUTY&apos;), ean (Merchant: &apos;4045284009338&apos; / Amazon: &apos;4045284009338&apos;), item_package_quantity (Merchant: &apos;&apos; / Amazon: &apos;50&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>201006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101380</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B07CKK86C3, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284010372&apos;), item_name (Merchant: &apos;DOVO Shavette coupe choux en acier inoxydable et ébène&apos; / Amazon: &apos;DOVO Shavette Ebenholz&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;4045284010372&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>201061</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101381</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B01CG9KJCG, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284010273&apos;), item_name (Merchant: &apos;Coupe choux DOVO Shavette avec manche en bois d&amp;apos;olivier&apos; / Amazon: &apos;DOVO Shavette Olivenholz&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;4045284010273&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>201071</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101385</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FRR59NW, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00OZQR7CO, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;575056&apos;), item_name (Merchant: &apos;DOVO set de soins pour la barbe 575&apos; / Amazon: &apos;DOVO Bartplegeset 575&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;575056&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>575056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101390</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002CLL85Q, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;9015001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 15C&apos; / Amazon: &apos;MERKUR Safety Rasoir 15C, Argent&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9015001&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9015001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101391</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B005DSGUEO, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;MERKUR&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9020011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101392</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00374F5CY, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;MK-23001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 23C&apos; / Amazon: &apos;Rasoir de Sécurité Merkur 23C - Manche Long - Chrome&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;Model 180&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B000NL0T1G, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;23001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 23C&apos; / Amazon: &apos;Sérum à l’acide hyaluronique par Eclat – Sérum hydratant anti-âge à l’acide hyaluronique pour faire disparaître rides et ridules. Absorption facile et formule anti-âge pour contour des yeux et visage&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;180&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00361IL60, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284011096&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 23C&apos; / Amazon: &apos;Dovo Stahlwaren Merkur 9023001 Rasierhobel 23C&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9023001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101393</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B07V4N8VP3, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032008&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 23 noir&apos; / Amazon: &apos;MERKUR 23 black&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032008&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9023011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101394</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B08CNC368C, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), ean (Merchant: &apos;4045284032015&apos; / Amazon: &apos;4045284032015&apos;), item_package_quantity (Merchant: &apos;&apos; / Amazon: &apos;2&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07RQSQNMP, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032015&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 24C&apos; / Amazon: &apos;MERKUR Rasierer 24C&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032015&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9024001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101395</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004VBISXU, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;25.C&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 25C&apos; / Amazon: &apos;Rasoir de Sûreté Merkur 25C&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;MK23C&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07CRL4GCN, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;9025001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 25C&apos; / Amazon: &apos;Dovo Rasoir Merkur Solingen Peigne à dents K&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9025001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9025001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101396</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B002A8JO48, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;90 33 001--&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 33C&apos; / Amazon: &apos;Merkur - 33.001 - Rasoir Chrome&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9033001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00MCLW1V6, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;9033001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 33C&apos; / Amazon: &apos;Dovo Stahlwaren Merkur 9033001 Rasierhobel, Kurz 33C&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9033001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B0048FREHA, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;MERK33001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 33C&apos; / Amazon: &apos;MERKUR Rasierer 33C&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;33001&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9033001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101397</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [9034001]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9034001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101398</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B01N5VZQ49, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;BEAUTY&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B002CLJ8KS, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;9034003-Gold plated&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 34 G plaqué or&apos; / Amazon: &apos;Merkur Safety Rasoir 34G Hd Gold&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9034003&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9034003</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101399</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B002RBGYXW, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;MERKUR&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9038001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004V59IYE, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;9038011-Black&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 38C manche noir&apos; / Amazon: &apos;MERKUR Rasierer 38C Black Handle&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9038011&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00E2BPNRI, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;MK9038001&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 38C manche noir&apos; / Amazon: &apos;Maquinilla Afeitar Merkur 38.1 C&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9038011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101403</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00H1CSX3Q, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;46002&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR 46C dans un étui de voyage&apos; / Amazon: &apos;Rasoir Merkur Solingen 46.002&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9046002&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B009CW9A58, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;MK-SR-12&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR 46C dans un étui de voyage&apos; / Amazon: &apos;MERKUR Rasierset 46C&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;MK-SR-12&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9046002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101408</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004XU6E4Y, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;do-90750002&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR FUTUR 750&apos; / Amazon: &apos;Duoclip kit de rasage 4 pièces-mate merkur dOVO - 2320&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B002VTM2EA, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;750&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR FUTUR 750&apos; / Amazon: &apos;Merkur Futur 700 4-Piece Shave Set - Satin Finish&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;750&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90750002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101410</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B0043BW5OG, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;907.000&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 907&apos; / Amazon: &apos;MERKUR Rasoir pour Moustache/Sourcils&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;907.000&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B001LY92D0, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;907 000&apos;), item_name (Merchant: &apos;Rasoir DOVO MERKUR 907&apos; / Amazon: &apos;Dovo - Produits en acier - Merkur schnurrbart- &amp;amp; augenbrauenrasierer chromé 907&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;90907000&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90907000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101411</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FLH4YH2, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;90933000&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR 933 dans un étui en cuir&apos; / Amazon: &apos;Merkur Solingen – Rasoir de sécurité de voyage, étui en cuir, 90933000&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;90933000&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B008BMTYCY, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284012185&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR 933 dans un étui en cuir&apos; / Amazon: &apos;MERKUR Rasierset 933&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004GQSUTW, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;210&apos;), item_name (Merchant: &apos;DOVO set de rasage MERKUR 933 dans un étui en cuir&apos; / Amazon: &apos;Voyage rasoir de sécurité Merkur avec étui en cuir noir&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;90933000&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90933000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101429</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8005</ResultMessageCode>
+				<ResultDescription>You are attempting to change an identity attribute for this SKU. To proceed, please delete this SKU and recreate the SKU with the appropriate identity attribute. For more information and detailed instructions, see: http://sellercentral.amazon.de/gp/help/23191</ResultDescription>
+				<AdditionalInfo>
+					<SKU>305870</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101437</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>6039</ResultMessageCode>
+				<ResultDescription>Merchant is not authorized to sell products under this restricted product group.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>514002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101439</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FS1NRS4, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B0019LMCN2, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;7&apos;), item_name (Merchant: &apos;DOVO blaireau de voyage&apos; / Amazon: &apos;Reise-Rasierpinsel&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918096</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101440</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00CSWGNAY, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;DOV918106&apos;), item_name (Merchant: &apos;DOVO blaireau en bois d&amp;apos;olivier et poils de blaireau&apos; / Amazon: &apos;Rasierpinsel Olivenholz&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;DOV918106&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918106</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101441</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00GBJ4EO2, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;6918918118&apos;), item_name (Merchant: &apos;DOVO blaireau acrylique ivoire &amp;amp; poils de blaireau&apos; / Amazon: &apos;Rasierpinsel Acryl Elfenbein&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;918 118&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B07FS22GWF, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;HEALTH_PERSONAL_CARE&apos;), distribution_designation (Merchant: &apos;&apos; / Amazon: &apos;jp_parallel_import&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918118</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101442</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B07SL5FDXL, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;do-9024001-24c&apos;), item_name (Merchant: &apos;DOVO blaireau en fibre d&amp;apos;ébène ®.&apos; / Amazon: &apos;Rasierpinsel Ebenholz fibre ®&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918218</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101443</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B0096O8QCU, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;ME-90120011&apos;), item_name (Merchant: &apos;DOVO blaireau MERKUR&apos; / Amazon: &apos;MERKUR Rasierpinsel&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;ME-90120011&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90120011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101444</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B004XQX5AE, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;ME-90138001&apos;), item_name (Merchant: &apos;DOVO blaireau MERKUR&apos; / Amazon: &apos;MERKUR Rasierpinsel&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;ME-90138001&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90138001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101445</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B007ITEKRA, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: item_name (Merchant: &apos;DOVO blaireau acrylique noir&apos; / Amazon: &apos;Rasierpinsel Acryl schwarz&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B007PPG9P8, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: item_name (Merchant: &apos;DOVO blaireau acrylique noir&apos; / Amazon: &apos;Pinceau à raser Dovo Pure Badger acrylique noir&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B003JSLGF8, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;918052&apos;), item_name (Merchant: &apos;DOVO blaireau acrylique noir&apos; / Amazon: &apos;Dovo Shaving Brush Acrylic, Black by Dovo&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;918052&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B004XKD672, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;do-918052&apos;), item_name (Merchant: &apos;DOVO blaireau acrylique noir&apos; / Amazon: &apos;Rasierpinsel Acryl schwarz&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B016ABR0Y6, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;918052&apos;), item_name (Merchant: &apos;DOVO blaireau acrylique noir&apos; / Amazon: &apos;Rasierpinsel Acryl schwarz&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918052</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101449</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00IUHMHGA, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;ME-499906&apos;), item_name (Merchant: &apos;Support de rasage DOVO 499&apos; / Amazon: &apos;DOVO Rasierständer 499&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;ME-499906&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>499906</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101452</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B0032QG1CA, but the following data is different from what&apos;s already in the Amazon catalog: item_name (Merchant: &apos;Ciseaux à cheveux DOVO 20&apos; / Amazon: &apos;DOVO Haarschere 20&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>20706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101453</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B003SPBA30, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;50.40546&apos;), item_name (Merchant: &apos;Ciseaux de modelage DOVO 50 (5,25 pouces)&apos; / Amazon: &apos;DOVO Modellierschere 50&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;50.40546&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>5040546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101454</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B003UGWJAU, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;5046656&apos;), item_name (Merchant: &apos;Ciseaux de modelage DOVO 50 (6,5 pouces)&apos; / Amazon: &apos;DOVO Modellierschere 50&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;5046656&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>5046656</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101460</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00ZRXS5K2, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;D008&apos;), item_name (Merchant: &apos;Ciseaux de broderie DOVO 44&apos; / Amazon: &apos;DOVO Stickschere 44&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;D008&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350026</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101461</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B01KEJ5TSO, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;D101&apos;), item_name (Merchant: &apos;Ciseaux à broderie DOVO 44 Hardanger&apos; / Amazon: &apos;DOVO Stickschere 44 Hardanger&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101476</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B0851LHYPV, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032039&apos;), item_name (Merchant: &apos;MERKUR rasoir 24G&apos; / Amazon: &apos;Merkur Rasoir de Sécurité 1 Unité&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;4045284032039&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9024003</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101477</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B084MLXRF7, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;BEAUTY&apos;), ean (Merchant: &apos;4045284013014&apos; / Amazon: &apos;4045284013014&apos;), item_package_quantity (Merchant: &apos;&apos; / Amazon: &apos;3&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B084MKTRRM, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;9091000086&apos;), item_name (Merchant: &apos;Lames de rasoir DOVO SUPER PLATINUM paquet en vrac avec 100 lames&apos; / Amazon: &apos;Rasierklingen DOVO SUPER PLATINUM&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9091000086&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B084MLSRZJ, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: product_type (Merchant: &apos;PERSONAL_CARE_APPLIANCE&apos; / Amazon: &apos;RAZOR_BLADE_CARTRIDGE&apos;), ean (Merchant: &apos;4045284013014&apos; / Amazon: &apos;4045284013014&apos;), item_package_quantity (Merchant: &apos;&apos; / Amazon: &apos;3&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9091010086</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101479</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 30451201, Missing Attributes manufacturer. SKU 30451201 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>30451201</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101486</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B0875RHZ4S, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;918 217&apos;), item_name (Merchant: &apos;DOVO blaireau en bois d&amp;apos;ébène et blaireau d&amp;apos;épilation&apos; / Amazon: &apos;Rasierpinsel Ebenholz Dachs&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>918217</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

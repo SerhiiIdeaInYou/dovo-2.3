@@ -1,0 +1,158 @@
+& when (@media-common = true) {
+	.shariff-postion {
+		left: 0;
+		position: fixed;
+		top: 30%;
+		z-index: 899;
+		&:hover .hide-shariff {
+			display: block;
+		}
+		&.postion-left {
+			left: 0;
+		}
+		&.postion-right {
+			right: 0;
+			left: inherit;
+			.shariff-content.hide-share, .hide-shariff.hide {
+				transform: translateX(110px);
+			}
+			.hide-shariff {
+				text-align: left;
+				padding-left: 10px;
+				.fa-caret-left::before {
+					content: "\F0DA";
+				}
+			}
+			.show-shariff {
+				right: -100px;
+				position: absolute;
+				transform: inherit;
+				&.active {
+					right: 0;
+				}
+			}
+		}
+
+		&.postion-below{
+			position: static;
+			margin-top: 10px;
+			text-align: left;
+			.shariff {
+				display: inline-block;
+				vertical-align: middle;
+				ul {
+					li {
+						float: left;
+						display: inline-block;
+						width: auto;
+						margin-right: 10px;
+					}
+					&.button-style-standard {
+						li {
+							min-width: 85px;
+							max-width: 160px;
+						}
+					}
+				}
+			}
+			.shariff-more {
+				float: none;
+				min-width: 85px;
+				max-width: 160px;
+				width: auto;
+				display: inline-block;
+				margin-top: 5px;
+			}
+			&.button-style-icon {
+				text-align: left;
+				.shariff-more {
+					float: none;
+					min-width: 30px;
+					max-width: 30px;
+					display: inline-block;
+					vertical-align: middle;
+					padding: 0;
+					margin-top: 5px;
+					text-align: center;
+				}
+
+			}
+			.show-shariff, .hide-shariff {
+				display: none;
+			}
+			.shariff-content {
+				transform: inherit;
+			}
+		}
+
+	}
+
+	.shariff-popup {
+		.shariff ul {
+			display: block;
+			li {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.shariff-more {
+		width: 100%;
+		display: block;
+		height: 30px;
+		background: #d8d8d8;
+		padding: 0 10px;
+		box-sizing: border-box;
+		line-height: 30px;
+		text-align: center;
+	}
+
+	.show-shariff, .hide-shariff {
+		background: #262b30 none repeat scroll 0 0;
+		color: #888;
+		cursor: pointer;
+		font-size: 15px;
+		min-height: 15px;
+	}
+
+	.hide-shariff {
+		padding-right: 10px;
+		text-align: right;
+		display: none;
+	}
+
+	.show-shariff {
+		height: 30px;
+		line-height: 30px;
+		width: 30px;
+		text-align: center;
+		position: relative;
+	}
+
+	.shariff-content, .hide-shariff, .show-shariff {
+		transition: all .4s ease 0s;
+	}
+
+	.shariff-content.hide-share, .hide-shariff.hide, .show-shariff {
+		transform: translateX(-110px);
+	}
+	.show-shariff.active {
+		transform: inherit;
+	}
+
+
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.shariff ul li {
+		&.threema,
+		&.whatsapp {
+			display: none !important;
+		}
+	}
+
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__s) {
+
+}

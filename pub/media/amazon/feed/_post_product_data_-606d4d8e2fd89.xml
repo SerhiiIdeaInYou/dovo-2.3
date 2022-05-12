@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>161419</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>26810</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008287</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Bismarck</Title>
+        <Brand>DOVO</Brand>
+        <Description>Material&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;Griffmaterial&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;Schliff&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;Klingenbeschreibung&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;Klingenbreite&lt;p&gt;Eine breite Klinge eignet sich vor allem für Herren mit starkem Bartwuchs oder dickeren Haaren. Ein Rasiermesser in 6/8 Zoll gleitet unbeirrt auch durch dichteste Gesichtsbehaarung. Der erfahrene Barbier schätzt das hohe Eigengewicht der Klinge und das daraus resultierende ruhige Laufverhalten. Vor allem auf glatten Gesichtspartien erzielst du so eine unerreicht gründlich sowie komfortable Rasur.&lt;/p&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>50014018344</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>23</MessagesProcessed>
+				<MessagesSuccessful>17</MessagesSuccessful>
+				<MessagesWithError>6</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>1321</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 40.5. The value &quot;40.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1323</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 74.6. The value &quot;74.6&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1028056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1324</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 36.5. The value &quot;36.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1330</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 28.5. The value &quot;28.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1458</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 16.3. The value &quot;16.3&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>700401</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1461</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 41.9. The value &quot;41.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

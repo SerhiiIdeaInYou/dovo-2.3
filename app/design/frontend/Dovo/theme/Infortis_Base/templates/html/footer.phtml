@@ -1,0 +1,34 @@
+<?php
+/**
+ * @var \Infortis\Base\Block\Html\Header $block
+ */
+?>
+<?php
+$theme = $block->getHelperTheme();
+
+// //Get HTML of header blocks
+// $storeSwitcherHtml = $block->getChildHtml('store_switcher');
+// $copyrightHtml = $block->getChildHtml('copyright');
+// $footerLinksHtml = $block->getChildHtml('footer_links');
+// $cmsFooterLinksContainerHtml = $block->getChildHtml('cms_footer_links_container');
+// $newsletterHtml = $block->getChildHtml('subscribe');
+// $magentoDefaultFooterContainerHtml = $block->getChildHtml('footer');
+?>
+<div class="footer-container page-footer">
+    <div class="footer-top-container section-container">
+        <div class="footer-top footer">
+            <?= $block->getChildHtml('footy-top-container') ?>
+        </div>
+    </div>
+    <div class="footer-menu-container footer-primary-container">
+        <div class="footer-primary footer max-container">
+            <?= $block->getChildHtml('footy-menus-container') ?>
+        </div>
+    </div>
+    <div class="footer-bottom-container">
+        <div class="footer-bottom footer max-container">
+                 <?= $block->getChildHtml('footy-bottom-container') ?>
+        </div> <!-- end: footer-bottom -->
+    </div>
+    <a id="scroll-to-top" class="ic ic-up" href="#top"></a>
+</div> <!-- end: footer-container -->

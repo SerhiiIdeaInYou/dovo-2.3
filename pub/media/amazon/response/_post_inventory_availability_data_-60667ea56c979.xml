@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>63542018719</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>100</MessagesProcessed>
+				<MessagesSuccessful>97</MessagesSuccessful>
+				<MessagesWithError>3</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>16137200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>96006</ResultMessageCode>
+				<ResultDescription>Conflicting updates were detected and not processed. This occurs when conflicting values are provided for the same SKU in the same feed. Do not provide multiple values for the same attribute on a SKU to avoid seeing this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>491356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>16137300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>96006</ResultMessageCode>
+				<ResultDescription>Conflicting updates were detected and not processed. This occurs when conflicting values are provided for the same SKU in the same feed. Do not provide multiple values for the same attribute on a SKU to avoid seeing this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>491356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>16147300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>96006</ResultMessageCode>
+				<ResultDescription>Conflicting updates were detected and not processed. This occurs when conflicting values are provided for the same SKU in the same feed. Do not provide multiple values for the same attribute on a SKU to avoid seeing this error.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

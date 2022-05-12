@@ -1,0 +1,31 @@
+<section class="hero-product hero-left flex-vertical">
+    <?php $product = $block->getHeroProduct(); ?>
+    <div class="product-info-main grid12-6">
+        <div class="hero-container no-right-gutter">
+            <div class="hero-heading"><h2><?php echo $product->getName(); ?></h2></div>
+            <div class="hero-short"><?php echo $product->getShortDescription(); ?></div>
+            <div class="hero-actions clearfix">
+                <div class="grid12-6"><a class="action tertiary" href="/pflege"><?= __('Pflegetipps') ?></a></div>
+                <div class="grid12-6">
+                    <a class="action primary" href="<?php echo $product->getProductUrl(); ?>">
+                        <?= __('mehr erfahren') ?>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-socials">
+                <span><?= __('Anderen davon erzählen') ?>: </span>
+                <a href="https://www.facebook.com/DOVO.Stahlwaren/"><i class="fa fa-facebook-square"
+                                                                       aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/dovo_solingen/"><i class="fa fa-instagram"
+                                                                      aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="product-image-container grid12-6">
+        <div class="image-container">
+            <div class="inner-container">
+                <img src="<?php echo $block->getProductImage(); ?>" alt="Hero Image 2"/>
+            </div>
+        </div>
+    </div>
+</section>

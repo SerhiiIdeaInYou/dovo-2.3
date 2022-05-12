@@ -1,0 +1,26 @@
+<div class="dovo-contact">
+    <div class="contact-container">
+        <h2 class="block-heading">
+            <?= __('Hast du Fragen über unsere Produkte?') ?>
+        </h2>
+        <div class="block-content">
+
+            <div class="text"><p><?= __('Kontaktiere uns per Chat oder Anfrage-Formular und wir beantworten dir alles was es über unsere Produkte zu wissen gibt.') ?></p></div>
+            <div class="actions">
+                <div class=" contact">
+                    <?php
+                    if(intval($block->getStoreView()) === 1):
+                        $lang = 'de';
+                    else:
+                        $lang = 'en-150';
+                    endif;
+                    ?>
+                    <a href="https://dovo.zendesk.com/hc/<?= $lang ?>/requests/new" class="action tocontact"><?= __('Kontaktformular') ?></a>
+                </div>
+                <div class="chat">
+                    <a href="javascript:$zopim.livechat.window.show();" class="action tochat secondary"><?= __('Chat starten') ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

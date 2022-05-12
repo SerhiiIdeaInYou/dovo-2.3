@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <notification>
+            <settings>
+                <notification_active></notification_active>
+                <notification_start></notification_start>
+                <notification_end></notification_end>
+                <text_area></text_area>
+            </settings>
+        </notification>
+        <dovoshopindex>
+            <general>
+                <header_id>3</header_id>
+                <hero1>1033</hero1> <!-- boxed -->
+                <position1>right</position1>
+                <hero2>1033</hero2> <!-- boxed -->
+                <position2>left</position2>
+                <hero3>1033</hero3> <!-- boxed -->
+                <position3>left</position3>
+                <hero4>1033</hero4> <!-- boxed -->
+                <position4>left</position4>
+                <hero5>1033</hero5> <!-- boxed -->
+                <position5>left</position5>
+            </general>
+
+            <uspbanner>
+                <count>4</count>
+                <icon1>sample_slideshow_1</icon1>
+                <title1>1</title1> <!-- boxed -->
+                <caption1>42</caption1>
+                <icon2>sample_slideshow_1</icon2>
+                <title2>1</title2> <!-- boxed -->
+                <caption2>42</caption2>
+                <icon3>sample_slideshow_1</icon3>
+                <title3>1</title3> <!-- boxed -->
+                <caption3>42</caption3>
+                <icon4>sample_slideshow_1</icon4>
+                <title4>1</title4> <!-- boxed -->
+                <caption4>42</caption4>
+                <icon5>sample_slideshow_1</icon5>
+                <title5>1</title5> <!-- boxed -->
+                <caption5>42</caption5>
+                <icon6>sample_slideshow_1</icon6>
+                <title6>1</title6> <!-- boxed -->
+                <caption6>42</caption6>
+            </uspbanner>
+            <slider1>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider1>
+            <slider2>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider2>
+            <slider3>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider3>
+            <slider4>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider4>
+            <slider5>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider5>
+            <slider6>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider6>
+            <slider7>
+                <category />
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider7>
+            <slider8>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider8>
+            <slider9>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider9>
+            <slider10>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider10>
+            <slider11>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider11>
+            <slider12>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider12>
+            <slider13>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider13>
+            <slider14>
+                <category/>
+                <captionfirst>unsere</captionfirst>
+                <captionsecond>beliebtesten</captionsecond>
+                <captionthird>rasiermesser</captionthird>
+                <linkcaption>Alle Rasiermesser</linkcaption>
+                <position>1</position>
+                <items>4</items>
+            </slider14>
+        </dovoshopindex>
+    </default>
+</config>

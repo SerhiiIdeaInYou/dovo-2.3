@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>60666018702</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>148</MessagesProcessed>
+				<MessagesSuccessful>7</MessagesSuccessful>
+				<MessagesWithError>141</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>0</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90215</ResultMessageCode>
+				<ResultDescription>94% of the products in your file did not process successfully.</ResultDescription>
+			</Result>
+			<Result>
+				<MessageID>1132000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284006344. The value &quot;4045284006344&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43456</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1132100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026731. The value &quot;4045284026731&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1132200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026755. The value &quot;4045284026755&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1132400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284005095. The value &quot;4045284005095&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1132500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284005156. The value &quot;4045284005156&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44406</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1137700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009239. The value &quot;4045284009239&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>18535001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284000229. The value &quot;4045284000229&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16556</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284000236. The value &quot;4045284000236&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16606</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284000328. The value &quot;4045284000328&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>20706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284000427. The value &quot;4045284000427&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5040546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284000465. The value &quot;4045284000465&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5046656</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284002339. The value &quot;4045284002339&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>255706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284005972. The value &quot;4045284005972&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>700401</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1145900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284002469. The value &quot;4045284002469&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285408</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1146000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284005064. The value &quot;4045284005064&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350026</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1146100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284006399. The value &quot;4045284006399&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2137500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284024423. The value &quot;4045284024423&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9022011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2141600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007020. The value &quot;4045284007020&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2141700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008874. The value &quot;4045284008874&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3680</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2141800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007037. The value &quot;4045284007037&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>4580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2141900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008287. The value &quot;4045284008287&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26810</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008300. The value &quot;4045284008300&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26820</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008812. The value &quot;4045284008812&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26830</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008881. The value &quot;4045284008881&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>36830</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007327. The value &quot;4045284007327&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>42385</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008829. The value &quot;4045284008829&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>45581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007426. The value &quot;4045284007426&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>100581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007457. The value &quot;4045284007457&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>100681</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007518. The value &quot;4045284007518&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>101581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007976. The value &quot;4045284007976&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>255831</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2142900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 40452840088980. The value &quot;40452840088980&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>305870</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2143000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007242. The value &quot;4045284007242&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>415875</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2143100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007167. The value &quot;4045284007167&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>558130</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2143200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007365. The value &quot;4045284007365&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>985810</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2143300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008799. The value &quot;4045284008799&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1165831</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2143400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284007815. The value &quot;4045284007815&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1516580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>2148700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284008928. The value &quot;4045284008928&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>45850</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011072. The value &quot;4045284011072&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9015001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012772. The value &quot;4045284012772&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9020011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011096. The value &quot;4045284011096&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9023001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284032008. The value &quot;4045284032008&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9023011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284032015. The value &quot;4045284032015&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9024001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011102. The value &quot;4045284011102&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9025001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011119. The value &quot;4045284011119&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9033001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011133. The value &quot;4045284011133&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9034001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011140. The value &quot;4045284011140&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9034003</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3139900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012413. The value &quot;4045284012413&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9038001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012659. The value &quot;4045284012659&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9038011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012475. The value &quot;4045284012475&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9039001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011201. The value &quot;4045284011201&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9042001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011225. The value &quot;4045284011225&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90500001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012574. The value &quot;4045284012574&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90510001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011720. The value &quot;4045284011720&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90700002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3140700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011751. The value &quot;4045284011751&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90701001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3141000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012123. The value &quot;4045284012123&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90907000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3141100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012185. The value &quot;4045284012185&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90933000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>3147600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284032039. The value &quot;4045284032039&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9024003</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4137900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009338. The value &quot;4045284009338&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>201006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4138000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010372. The value &quot;4045284010372&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>201061</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4138100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010273. The value &quot;4045284010273&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>201071</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4138200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009376. The value &quot;4045284009376&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>201081</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4138300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009390. The value &quot;4045284009390&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>201087</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>4138600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026243. The value &quot;4045284026243&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>577056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5132600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009437. The value &quot;4045284009437&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>385006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5132700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004005. The value &quot;4045284004005&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>31349</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5132800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004159. The value &quot;4045284004159&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>234356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5132900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004630. The value &quot;4045284004630&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>379356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004487. The value &quot;4045284004487&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014523. The value &quot;4045284014523&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>109000526</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284018200. The value &quot;4045284018200&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>223016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284021323. The value &quot;4045284021323&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>279016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284021743. The value &quot;4045284021743&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>301016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284021767. The value &quot;4045284021767&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>301036</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284021781. The value &quot;4045284021781&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284025581. The value &quot;4045284025581&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302036</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284018767. The value &quot;4045284018767&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>344016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5133900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284022979. The value &quot;4045284022979&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>407066</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284018934. The value &quot;4045284018934&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>505016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284024539. The value &quot;4045284024539&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>507016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284019696. The value &quot;4045284019696&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>771018</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284019832. The value &quot;4045284019832&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>800016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026076. The value &quot;4045284026076&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1041056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026274. The value &quot;4045284026274&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1047056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026472. The value &quot;4045284026472&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1058056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026489. The value &quot;4045284026489&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>2056056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026816. The value &quot;4045284026816&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>2080016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5134900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026335. The value &quot;4045284026335&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>4048056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026847. The value &quot;4045284026847&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>4079016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026632. The value &quot;4045284026632&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>6063016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284025086. The value &quot;4045284025086&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>7010126</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026861. The value &quot;4045284026861&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>8078068</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284013052. The value &quot;4045284013052&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>148506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004180. The value &quot;4045284004180&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004210. The value &quot;4045284004210&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>251406</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284016831. The value &quot;4045284016831&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>502006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284016855. The value &quot;4045284016855&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>504006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5135900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004371. The value &quot;4045284004371&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>525356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004647. The value &quot;4045284004647&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>579356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284013755. The value &quot;4045284013755&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1570541</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004517. The value &quot;4045284004517&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014738. The value &quot;4045284014738&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10600546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014783. The value &quot;4045284014783&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10601546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014745. The value &quot;4045284014745&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014639. The value &quot;4045284014639&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10660508</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284014806. The value &quot;4045284014806&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284004555. The value &quot;4045284004555&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>56150356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5136900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284015728. The value &quot;4045284015728&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>370010</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5137000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284015735. The value &quot;4045284015735&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>371010</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>5137100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284017401. The value &quot;4045284017401&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>491356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6132300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284025949. The value &quot;4045284025949&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1028056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6137400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010167. The value &quot;4045284010167&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>515171</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6137600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009178. The value &quot;4045284009178&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>15240001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6137800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010365. The value &quot;4045284010365&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>186210011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6138500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026038. The value &quot;4045284026038&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>575056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6143500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009543. The value &quot;4045284009543&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>507000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6143600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 40452840100075. The value &quot;40452840100075&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>514001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6143700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010082. The value &quot;4045284010082&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>514002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6143800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010174. The value &quot;4045284010174&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>514004</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6143900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009604. The value &quot;4045284009604&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918096</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6144000</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010136. The value &quot;4045284010136&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918106</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6144100</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010198. The value &quot;4045284010198&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918118</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6144200</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010396. The value &quot;4045284010396&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918218</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6144900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010150. The value &quot;4045284010150&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>499906</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>6148600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010389. The value &quot;4045284010389&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918217</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7138400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026014. The value &quot;4045284026014&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>570051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7138700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284026250. The value &quot;4045284026250&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>578051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7140300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012888. The value &quot;4045284012888&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9046002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7140800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011850. The value &quot;4045284011850&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90750002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7140900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284011874. The value &quot;4045284011874&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90751001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7144300</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012796. The value &quot;4045284012796&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90120011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7144400</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012482. The value &quot;4045284012482&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90138001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7144600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012819. The value &quot;4045284012819&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>902081001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7144700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012833. The value &quot;4045284012833&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>903881001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7144800</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284012802. The value &quot;4045284012802&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>904002001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7147700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284013014. The value &quot;4045284013014&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9091010086</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>7147900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284010563. The value &quot;4045284010563&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9091001086</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>8131900</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284005040. The value &quot;4045284005040&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43450</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>9144500</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284009598. The value &quot;4045284009598&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918052</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>9145600</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284002483. The value &quot;4045284002483&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>9145700</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Inventory/Quantity field contains an invalid value: 4045284002520. The value &quot;4045284002520&quot; is not a valid INTEGER.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285606</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

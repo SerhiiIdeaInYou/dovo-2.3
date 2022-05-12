@@ -1,0 +1,614 @@
+.hero-product {
+  margin: 30px 0;
+  max-height: 520px;
+
+  .hero-container {
+    max-width: 60%;
+    margin: 0 auto;
+
+    .hero-actions {
+      margin-top: 100px;
+      padding-left: 40px;
+      max-width: 280px;
+
+      .action.tertiary {
+        color: #c31924;
+
+        &:hover {
+          color: #2f3235;
+        }
+
+        &:after {
+          font-family: FontAwesome;
+          content: "\f0eb";
+          padding-left: 10px;
+        }
+      }
+
+      .action.primary {
+        border-radius: 50px !important;
+        width: 170px;
+        text-align: center;
+        &:hover {
+          color: white !important;
+        }
+      }
+    }
+
+    .hero-socials {
+      position: relative;
+      margin-top: 60px;
+      font-size: 12px;
+    }
+  }
+
+  .shariff-postion {
+    position: relative;
+    z-index: 1;
+
+    .shariff-cap {
+      display: inline-block;
+      line-height: 20px;
+    }
+
+    .shariff-content {
+      position: relative;
+      top: 0;
+      display: inline-block;
+      line-height: 20px;
+      transform: none !important;
+
+      ul {
+        li {
+          width: unset;
+        }
+      }
+
+      .fa-envelope {
+        line-height: unset !important;
+
+        &:before {
+          position: absolute;
+          left: 0;
+          right: 0;
+        }
+      }
+
+      .fa-twitter {
+        &:before {
+          position: absolute;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+.hero-product {
+  .hero-socials {
+    &:before {
+      content: '';
+      background-repeat: no-repeat;
+      background-size: 700px 5px;
+      position: absolute;
+      height: 5px;
+      width: 170%;
+      top: -5px;
+    }
+  }
+
+  .hero-socials.dot-left {
+    text-align: right;
+
+    &:before {
+      background-image: url('@{baseDir}images/Dovo_Linie_long_left.svg');
+      background-position: center left;
+      right: -5px;
+      left: unset;
+    }
+  }
+
+  .hero-socials.dot-right {
+    text-align: left;
+
+    &:before {
+      background-image: url('@{baseDir}images/Dovo_Linie_long_right.svg');
+      background-position: center right;
+      left: -5px;
+    }
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .hero-product {
+    .hero-container {
+      max-width: 70%;
+    }
+    .hero-actions {
+      margin-top: 40px !important;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0 !important;
+      max-width: 100% !important;
+      .care-action {
+        text-align: center;
+        margin-top:20px;
+      }
+    }
+    .hero-socials {
+      margin-top: 30px;
+      &:before {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-socials.dot-left {
+    &:before {
+      background-image: url('@{baseDir}images/Dovo_Linie_long_right.svg') !important;
+      background-position: center right !important;
+      right: unset;
+      left: -5px;
+    }
+    .shariff-postion {
+      text-align: left;
+    }
+  }
+
+}
+
+//.hero-product.hero-left {
+//  text-align: left;
+//
+//  .hero-socials {
+//    &:before {
+//      content: '';
+//      background-image: url('@{baseDir}images/Dovo_Linie_long_right.svg');
+//      background-repeat: no-repeat;
+//      background-size: 700px 5px;
+//      background-position: center right;
+//      position: absolute;
+//      height: 5px;
+//      width: 170%;
+//      left: -5px;
+//      top: -5px;
+//    }
+//  }
+//}
+
+
+/*.mostpopular, .newest, .equipment, .mostpopular-hobel {
+  max-height: 500px;
+  !*width: 100vw;*!
+  margin: 0 auto;
+  !*background-color: #f9f9f9;*!
+  padding: 40px 0 20px;
+  clear: both;
+
+  .product-image-container {
+    max-width: 260px;
+  }
+  .product-list-item {
+    max-width: 260px;
+  }
+
+  .products-list-item.first-item {
+    overflow: hidden;
+    left: -10px;
+    max-width: 260px;
+    .inner-container {
+      padding: 50px 10px 0;
+    }
+    .actions {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .item-text {
+      text-transform: uppercase;
+      font-size: 42px;
+      line-height: 1;
+      color: #c31924;
+    }
+
+    .item-text.first, .item-text.third {
+      color: lighten(#c31924, 40%);
+    }
+
+    .actions {
+      margin-top: 20px;
+    }
+  }
+
+  .products-list-item.product {
+    .product-info-container {
+      position: relative;
+      padding-left: 40px;
+
+      &:before {
+        content: '';
+        background-image: url('@{baseDir}images/Dovo_Linie_rot.svg');
+        background-repeat: no-repeat;
+        background-size: 5px 120px;
+        background-position: bottom center;
+        position: absolute;
+        width: 5px;
+        height: 80px;
+        left: 20px;
+        top: -35px;
+        transition: 0.4s ease-out;
+      }
+
+      .product-name {
+        margin: 15px 0 10px;
+        font-size: 1.6em;
+        line-height: 1em;
+        font-family: 'Barlow Condensed', sans-serif;
+      }
+
+      .price {
+        font-size: 1.6rem;
+        font-weight: 100;
+        font-style: italic;
+      }
+    }
+  }
+
+  .progress-container {
+    text-align: center;
+
+    .prev, .next {
+      &:hover {
+        color: #2f3235;
+        transition: .4s ease-out;
+      }
+    }
+
+    .prev {
+      display: inline-block;
+      color: #c31924;
+      line-height: 24px;
+
+      &:before {
+        font-family: FontAwesome;
+        content: "\f0a8";
+        padding-top: 1px;
+      }
+    }
+
+    .next {
+      display: inline-block;
+      color: #c31924;
+      line-height: 24px;
+
+      &:before {
+        font-family: FontAwesome;
+        content: "\f0a9";
+        padding-top: 1px;
+      }
+    }
+  }
+
+  .progress-bar {
+    display: inline-block;
+    height: 8px;
+    width: 92%;
+    background-color: #ececec;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    margin-bottom: 1px;
+  }
+
+  .progress {
+    width: 0;
+    background-color: #c31924;
+    height: 100%;
+    border-radius: 15px;
+    transition: .4s ease-out;
+    left: 0;
+  }
+}*/
+
+/*@media only screen and (max-width: 767px) {
+  .mostpopular {
+    .first-item {
+      .item-text {
+        font-size: 34px !important;
+      }
+      .actions {
+        padding: 0 !important;
+        .action {
+          padding: 5px 15px !important;
+          width: 100% !important;
+        }
+      }
+    }
+    .product-info-container {
+      padding-left: 15px !important;
+
+      &:before {
+        left: 5px !important;
+        top: -20px !important;
+      }
+
+      .product-name {
+        font-size: 1.2em !important;
+      }
+    }
+    .product-image-container {
+      max-width: 160px !important;
+    }
+    .product-list-item {
+      max-width: 160px !important;
+    }
+    .product-list-item.first-item {
+      height: 160px !important;
+    }
+    .item-text {
+      font-size: 36px !important;
+    }
+  }
+}*/
+
+//.cms-index-index {
+//  //background-color: #f9f9f9;
+//  .main-container {
+//    background-color: #f9f9f9;
+//  }
+//
+//  .main.container {
+//    padding-top: 20px;
+//    background-color: #f9f9f9;
+//  }
+//
+//  .dovo-contact {
+//    background-color: white;
+//    width: 100vw;
+//    position: relative;
+//    margin-left: -50vw !important;
+//    left: 50%;
+//    padding: 50px 0;
+//
+//    .contact-container {
+//      max-width: 420px;
+//      margin: 0 auto;
+//    }
+//
+//    .block-content {
+//      width: 70% !important;
+//
+//      .text {
+//        padding-left: 15px;
+//      }
+//
+//      .actions {
+//        padding-left: 20px;
+//
+//        .contact {
+//          margin-right: 10%;
+//        }
+//      }
+//
+//      &:before {
+//        content: '';
+//        background-image: url('@{baseDir}images/Dovo_Linie.svg');
+//        background-repeat: no-repeat;
+//        background-size: 5px 130px;
+//        background-position: center right;
+//        position: absolute;
+//        height: 150px;
+//        width: 5px;
+//        left: 0;
+//        bottom: -5px;
+//      }
+//    }
+//  }
+//}
+
+/* ---------------- HEader slider ------------------*/
+/*---------------------------------------------------*/
+.dovo-slides {
+  .owl-item {
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+
+    .item {
+      height: 100%;
+    }
+  }
+
+  .item-inner-container {
+    max-width: 1580px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 520px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .slider-text {
+    padding: 0 20px 20px;
+    //background-color: lighten(#cfd4d8, 10%);
+
+    &:after {
+      content: '';
+      background-image: url('@{baseDir}images/Dovo_Linie_2.svg');
+      background-repeat: no-repeat;
+      background-size: 250px 5px;
+      background-position: center right;
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      left: 18%;
+      bottom: 0;
+    }
+  }
+
+  .hint {
+    float: right;
+    font-size: 1.6em;
+    p {
+      font-size: 1em !important;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .heading {
+    clear: both;
+  }
+
+  .heading h2 {
+    font-weight: 300;
+    line-height: 1.15;
+    font-size: 2.8em !important;
+    color: #2f3235;
+  }
+
+  //.text, .link {
+  //  text-transform: lowercase;
+  //}
+
+  .text {
+    padding: 10px 25px 25px;
+  }
+
+  .link {
+    position: relative;
+    float: right;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    span {
+      font-size: 1.1em;
+      color: @color-cta;
+    }
+    &:hover {
+      span {
+        color: @color-font;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1580px) {
+  .dovo-slides {
+    .item-inner-container {
+      max-width: 82%;
+    }
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .dovo-slides {
+    .heading h2 {
+      font-size: 2.25em !important;
+    }
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .dovo-slides {
+    .item-inner-container {
+      max-width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .hide-on-tablet-s {
+    display: none;
+  }
+  .dovo-slides {
+    height: 360px;
+    .slider-text {
+      max-height: 240px;
+    }
+    .owl-item {
+      .item {
+        height: unset !important;
+      }
+    }
+    .flex-vertical {
+      flex-direction: column-reverse;
+    }
+    .image-container {
+      max-height: 160px;
+    }
+    .item-inner-container {
+      max-height: 200px;
+      margin-top: 160px;
+      width: 100%;
+    }
+    .first-column, .last-column {
+      width: 100%;
+    }
+    .hint {
+      text-align: center;
+      float: none;
+    }
+  }
+}
+//@media only screen and (max-width: 767px) {
+//   .dovo-slides {
+//     .owl-item {
+//       width: ;
+//     }
+//   }
+//}
+
+.usp-banner {
+  margin-bottom: 50px;
+
+  .icon {
+    color: #c31924;
+    text-align: center;
+    position: relative;
+    font-size: 4em;
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    &:before {
+      font-family: FontAwesome;
+      content: "\f058";
+    }
+
+    &:after {
+      content: '';
+      background-image: url('@{baseDir}images/Dovo_Linie_rot.svg');
+      background-repeat: no-repeat;
+      background-size: 5px 40px;
+      background-position: bottom center;
+      position: absolute;
+      width: 5px;
+      height: 40px;
+      left: 0;
+      right: 0;
+      transition: 0.4s ease-out;
+      margin: 0 auto;
+      bottom: 0;
+    }
+  }
+
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em !important;
+    color: #c31924;
+  }
+
+  .text {
+    padding: 0 50px;
+  }
+}

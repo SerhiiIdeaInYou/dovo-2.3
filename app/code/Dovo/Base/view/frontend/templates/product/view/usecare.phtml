@@ -1,0 +1,155 @@
+<div id="usecare" class="product info detailed dovo-usecare">
+    <?php
+    $product = $block->getProduct();
+
+    $useBool = false;
+    $careBool = false;
+
+    try {
+        $anwendung = $product->getCustomAttribute('anwendung');
+
+        if(!empty($anwendung)) {
+            $useBool = true;
+            $anwendungValue = $anwendung->getValue();
+        }
+    } catch (Exception $e) {
+
+    }
+    try {
+        $pflege =  $product->getCustomAttribute('pflege');
+        if(!empty($pflege)) {
+            $careBool = true;
+            $pflegeValue = $pflege->getValue();
+        }
+    } catch (Exception $e) {
+
+    }
+    ?>
+    <?php if($useBool && $careBool): ?>
+        <div class="application-container no-left-gutter grid12-6">
+            <h2 class="block-heading">
+                <?= __('Anwendung') ?>
+            </h2>
+            <div class="block-content">
+                <?php
+                $productImageAttr = $block->getProduct()->getCustomAttribute('anwendung_image');
+                if (!empty($productImageAttr)) {
+                    ?>
+                    <div class="image-container">
+                        <?php
+                        $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                            ->init($block->getProduct(), 'anwendung_image')
+                            ->setImageFile($productImageAttr->getValue());
+                        ?>
+                        <img src="<?php echo $productImage->getUrl() ?>"
+                             alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                    </div>
+                    <?php
+                }
+                ?>
+                <div class="text-container">
+
+                    <div class="text">
+                        <?= $anwendungValue ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="care-container no-right-gutter grid12-6">
+            <h2 class="block-heading">
+                <?= __('Pflege') ?>
+            </h2>
+            <div class="block-content">
+                <?php
+                $productImageAttr = $block->getProduct()->getCustomAttribute('pflege_image');
+                if (!empty($productImageAttr)) {
+                    ?>
+                    <div class="image-container">
+                        <?php
+                        $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                            ->init($block->getProduct(), 'pflege_image')
+                            ->setImageFile($productImageAttr->getValue());
+                        ?>
+                        <img src="<?php echo $productImage->getUrl() ?>"
+                             alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                    </div>
+                    <?php
+                }
+                ?>
+                <div class="text-container">
+                    <div class="text">
+                        <?= $pflegeValue ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php elseif($useBool): ?>
+    <div class="application-container single-container ">
+        <h2 class="block-heading">
+            <?= __('Anwendung') ?>
+        </h2>
+        <div class="block-content">
+            <?php
+            $productImageAttr = $block->getProduct()->getCustomAttribute('anwendung_image');
+            if (!empty($productImageAttr)) {
+                ?>
+                <div class="image-container">
+                    <?php
+                    $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                        ->init($block->getProduct(), 'anwendung_image')
+                        ->setImageFile($productImageAttr->getValue());
+                    ?>
+                    <img src="<?php echo $productImage->getUrl() ?>"
+                         alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                </div>
+                <?php
+            }
+            ?>
+            <div class="text-container">
+                <div class="divider divider-vertical">
+<!--                    <object type="image/svg+xml" data="--><?php //echo $block->getViewFileUrl('images/Dovo_Linie.svg') ?><!--"-->
+<!--                            width="100%" height="100%" class="svg-content">-->
+<!--                    </object>-->
+                </div>
+                <div class="text">
+                    <?= $anwendungValue ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php elseif($careBool): ?>
+    <div class="care-container single-container">
+        <h2 class="block-heading">
+            <?= __('Pflege') ?>
+        </h2>
+        <div class="block-content">
+            <?php
+            $productImageAttr = $block->getProduct()->getCustomAttribute('pflege_image');
+            if (!empty($productImageAttr)) {
+                ?>
+                <div class="image-container">
+                    <?php
+                    $productImage = $this->helper('Magento\Catalog\Helper\Image')
+                        ->init($block->getProduct(), 'pflege_image')
+                        ->setImageFile($productImageAttr->getValue());
+                    ?>
+                    <img src="<?php echo $productImage->getUrl() ?>"
+                         alt="<?php echo $block->escapeHtml($block->getProduct()->getTitle()) ?>"/>
+                </div>
+                <?php
+            }
+            ?>
+            <div class="text-container">
+                <div class="divider divider-vertical">
+<!--                    <object type="image/svg+xml" data="--><?php //echo $block->getViewFileUrl('images/Dovo_Linie.svg') ?><!--"-->
+<!--                            width="100%" height="100%" class="svg-content">-->
+<!--                    </object>-->
+                </div>
+                <div class="text">
+                    <?= $pflegeValue ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>
+</div>

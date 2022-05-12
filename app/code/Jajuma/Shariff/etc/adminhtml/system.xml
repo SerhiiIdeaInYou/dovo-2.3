@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="jajuma" sortOrder="999" translate="label">
+            <label>Jajuma</label>
+        </tab>
+        <section id="shariff" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>Shariff Social Share</label>
+            <tab>jajuma</tab>
+            <resource>Jajuma_Shariff::config_jajuma_shariff</resource>
+            <group id="setting" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>JS / CSS Configuration</label>
+                <field id="css_config" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Css</label>
+                    <comment>If Font Awesome is already included in your site use sheriff.min.css</comment>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\Css</source_model>
+                </field>
+                <field id="js_config" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="select">
+                    <label>Javascript</label>
+                    <comment>If jQuery is already included in your site use sheriff.min.js</comment>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\Js</source_model>
+                </field>
+            </group>
+            <group id="position" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+                <label>Button Position</label>
+                <field id="homepage" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Homepage</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\PositionCommon</source_model>
+                </field>
+                <field id="cms_page" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="select">
+                    <label>CMS Pages</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\PositionCommon</source_model>
+                </field>
+                <field id="category_page" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="30" translate="label" type="select">
+                    <label>Category Pages</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\PositionCommon</source_model>
+                </field>
+                <field id="product_page" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="30" translate="label" type="select">
+                    <label>Product Pages</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\PositionProduct</source_model>
+                </field>
+            </group>
+            <group id="icon" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+                <label>Button Configuration</label>
+                <field id="button_style" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+                    <label>Icon Style</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\Icon\ButtonStyle</source_model>
+                </field>
+                <field id="theme" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="select">
+                    <label>Icon Theme</label>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\Icon\Theme</source_model>
+                </field>
+                <field id="limit" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="40" translate="label" type="text">
+                    <label>Limit</label>
+                </field>
+                <field id="services_list" translate="label" sortOrder="220" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Sharing Services</label>
+                    <frontend_model>Jajuma\Shariff\Block\Adminhtml\Form\Field\ServicesListing</frontend_model>
+                    <backend_model>Jajuma\Shariff\Model\Adminhtml\System\Config\ServicesSharing</backend_model>
+                    <config_path>shariff/icon/services_list</config_path>
+                </field>
+                <field id="lang" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="40" translate="label" type="text">
+                    <label>Localisation</label>
+                    <comment><![CDATA[
+                            Available: <span style="color:red">bg, cs, da, de, en, es, fi, fr, hr, hu, it, ja, ko, nl, no, pl, pt, ro, ru, sk, sl, sr, sv, tr, zh</span>
+                        ]]>
+                    </comment>
+                </field>
+                <field id="twitter_via" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="50" translate="label" type="text">
+                    <label>Twitter Name</label>
+                    <comment><![CDATA[
+                            Screen name of the user to attribute the Tweet to
+                        ]]>
+                    </comment>
+                </field>
+                <field id="flattr_user" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="60" translate="label" type="text">
+                    <label>Flattr User</label>
+                    <comment><![CDATA[
+                            User that receives Flattr donation.
+                        ]]>
+                    </comment>
+                </field>
+                <field id="flattr_category" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="60" translate="label" type="text">
+                    <label>Flattr Category</label>
+                    <comment><![CDATA[
+                            Category to be used for Flattr.
+                        ]]>
+                    </comment>
+                </field>
+                <field id="mail_subject" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="60" translate="label" type="text">
+                    <label>Mail-To Subject</label>
+                    <comment><![CDATA[
+                            This value is used as the mail subject.
+                        ]]>
+                    </comment>
+                </field>
+                <field id="mail_body" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="70" translate="label" type="text">
+                    <label>Mail-To Body</label>
+                    <comment><![CDATA[
+                            This value is used as the mail body.
+                            The body text should contain the placeholder {url} which will be replaced with the share URL.
+                        ]]>
+                    </comment>
+                </field>
+                <field id="info_url" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="90" translate="label" type="text">
+                    <label>Info URL</label>
+                    <comment><![CDATA[
+                            URL of the info page.
+                        ]]></comment>
+                </field>
+                <field id="info_display" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="100" translate="label" type="select">
+                    <label>Info URL Display</label>
+                    <comment><![CDATA[
+                            How to display the info page.
+                        ]]>
+                    </comment>
+                    <source_model>Jajuma\Shariff\Model\Config\Source\Icon\InfoDisplay</source_model>
+                </field>
+                <field id="referrer_track" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="110" translate="label" type="text">
+                    <label>Referrer</label>
+                    <comment><![CDATA[
+                            A string that will be appended to the share url. Can be disabled using null.
+                        ]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

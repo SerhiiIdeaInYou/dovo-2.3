@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>ProductImage</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>1914790</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>30451201</SKU>
+      <ImageType>PT1</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/9/5/95-anwendung-rasierhobel_6.jpg</ImageLocation>
+    </ProductImage>
+  </Message>
+  <Message>
+    <MessageID>1914791</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>30451201</SKU>
+      <ImageType>PT2</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/9/0/9091001086_dovo_rasierklingen_d1_1.png</ImageLocation>
+    </ProductImage>
+  </Message>
+  <Message>
+    <MessageID>1914792</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>30451201</SKU>
+      <ImageType>PT3</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/9/0/9091001086_dovo_rasierklingen_d2.png</ImageLocation>
+    </ProductImage>
+  </Message>
+  <Message>
+    <MessageID>1914792</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>30451201</SKU>
+      <ImageType>Main</ImageType>
+      <ImageLocation>https://shop.dovo.com/pub/media/catalog/product/9/0/9091001086_dovo_rasierklingen_p2.png</ImageLocation>
+    </ProductImage>
+  </Message>
+</AmazonEnvelope>

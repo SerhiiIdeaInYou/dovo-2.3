@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>161492</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10580356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009017</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Barbarossa Razor - Rasoio dritto in acciaio al carbonio - 5/8 di pollice - Testa rotonda - Retro appuntito - Molatura completa - DOVO Solingen Barber Knife</Title>
+        <Brand>DOVO</Brand>
+        <Description>Prodotto&lt;p&gt;Questo rasoio è fatto di acciaio al carbonio con la designazione del materiale 1.2210, meglio conosciuto come acciaio d'argento. Per raggiungere una durezza di circa 61 HRC, il materiale viene riscaldato a oltre 1000 gradi e poi immediatamente temprato con un olio speciale. Il successivo rinvenimento a circa 200 gradi conferisce alla lama elasticità e durezza.&lt;/p&gt;Materiale dell'impugnatura&lt;p&gt;Dai tempi antichi, il costoso guscio di tartaruga è stato usato per fare arte e mobili squisiti. In passato, è stato quasi superato dall'oro e da allora ha adornato innumerevoli corti reali. Per proteggere la tartaruga, che è minacciata di estinzione, lavoriamo esclusivamente con un'imitazione in acrilico lucido opaco come la seta.&lt;/p&gt;Ground&lt;p&gt;Con l'hollow grind, il rasoio è molato concavo dal retro fino al tagliente. Questo design combina una grande flessibilità con un'elevata rigidità torsionale longitudinale. La dinamica della lama assicura una rasatura liscia accompagnata da un suono molto caratteristico, che viene innescato dall'oscillazione del rasoio alla sezione del pelo.&lt;/p&gt;Descrizione della lama&lt;p&gt;La testa rotonda è la forma classica di un rasoio e si adatta alla maggior parte delle situazioni di rasatura. Questo design di lama è stato molto popolare per secoli, in quanto la forma bulbosa può essere utilizzata in modo molto sicuro nella zona delle orecchie, del naso e delle fossette. La testa rotonda ti protegge anche da lesioni in caso di caduta.&lt;/p&gt;Larghezza della lama&lt;p&gt;I rasoi da barba nella misura di 5/8 di pollice sono dei veri tuttofare e possono superare a pieni voti ogni compito intorno alla classica rasatura a umido. La lama è relativamente pesante e può quindi scivolare delicatamente sulla pelle senza molta pressione. Allo stesso tempo, è ancora abbastanza maneggevole da poter gestire con agilità i passaggi tecnicamente più impegnativi intorno al naso, alle orecchie e al mento.</Description>
+        <BulletPoint>✔︎ Qualità garantita: oltre 100 anni di qualità, design ed esperienza - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisione garantita: look elegante e contorni precisi come un maestro barbiere.</BulletPoint>
+        <BulletPoint>✔︎ Barba curata garantita: la cura della barba è facile per un look fresco ogni giorno.</BulletPoint>
+        <BulletPoint>Tipo: Rasoio a mano libera in acciaio al carbonio Barbarossa 5/8 di pollice con molatura intera cava di DOVO Solingen.</BulletPoint>
+        <BulletPoint>Lama e taglio: Acciaio al carbonio - con incisione Barbarossa - larghezza 5/8' = circa 1,6 cm - VERSIONE CORTA - dorso appuntito - testa rotonda - affilatura intera - molto affilata.</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

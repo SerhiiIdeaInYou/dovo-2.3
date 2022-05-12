@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>111381</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>201071</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010273</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Shavette scheermes met olijfhouten handvat</Title>
+        <Brand>DOVO</Brand>
+        <Description>Product&lt;p&gt;De Shavette is een scheermes voor verwisselbare mesjes. Het kan net als een klassiek scheermes gebruikt worden. Door de mogelijkheid om de messen te verwisselen, is het echter bijzonder populair, vooral in de kappersbranche, omdat elke klant zo een vers mes krijgt. Wij vervaardigen dit model van lichtgewicht aluminium en werken het af met een handvat van generfd olijfhout.&lt;/p&gt;Materiaal&lt;p&gt;Wij vervaardigen deze shavette van hoogwaardig aluminium. Door het toegepaste anodiseringsproces wordt de toplaag van het metaal veranderd en krijgt het naast het edele materiaaluiterlijk ook corrosiebestendige eigenschappen. Aluminium is een echt lichtgewicht door zijn lage dichtheid, wat leidt tot de unieke gewichtsverdeling van deze shavette.&lt;/p&gt;Handvat materiaal&lt;p&gt;Olijfhout is een uniek materiaal van de natuur. Het is harder dan inlands eiken- of beukenhout, terwijl het een hoge weerstand tegen meeldauw vertoont. Zelfs onbehandeld wordt olijf al gekenmerkt door een bovengemiddelde weerstand tegen water, wat het natuurlijk het perfecte materiaal maakt voor scheermesjes, scheerkwasten en shavettes.&lt;/p&gt;Wijs Leveringsomvang&lt;p&gt;DOVO Shavette 201071, 2 scheermesjeshouders transparant, MERKUR SUPER mesje, metalen doos blauw&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Gegarandeerde kwaliteit: meer dan 100 jaar kwaliteit, design en ervaring - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerde precisie: elegante look en precieze contouren als van een meester-kapper.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerd een verzorgde baard: Baardverzorging gemakkelijk gemaakt voor een frisse look elke dag.</BulletPoint>
+        <BulletPoint>Stijl: Shavette scheermes voor verwisselbare messen met olijfhouten handvat van DOVO Solingen</BulletPoint>
+        <BulletPoint>Materiaal &amp; afmetingen: zwart geanodiseerde aluminium ring - olijfhouten handvat - 14,4 cm x 2,5 cm x 1,5 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

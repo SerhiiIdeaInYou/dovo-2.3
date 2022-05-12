@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>53435018654</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>46</MessagesProcessed>
+				<MessagesSuccessful>2</MessagesSuccessful>
+				<MessagesWithError>44</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>0</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90215</ResultMessageCode>
+				<ResultDescription>93% of the products in your file did not process successfully. We recommend using Check My File to help you identify and correct common listing errors before updating your inventory. To use Check My File, upload your file on the &quot;Add Products via Upload&quot; page in the &quot;Check My File&quot; section.</ResultDescription>
+			</Result>
+			<Result>
+				<MessageID>1319</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 26.8. The value &quot;26.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43450</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1320</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 46.79. The value &quot;46.79&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>43456</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1321</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 39.4. The value &quot;39.4&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1322</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 58.49. The value &quot;58.49&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>585056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1323</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 72.7. The value &quot;72.7&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1028056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1324</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 35.5. The value &quot;35.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1328</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 45.8. The value &quot;45.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>234356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1329</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 38.99. The value &quot;38.99&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>379356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1330</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 27.7. The value &quot;27.7&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3650356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1359</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 52.6. The value &quot;52.6&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>525356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1360</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 38.99. The value &quot;38.99&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>579356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1384</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 112.1. The value &quot;112.1&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>570051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1385</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 165.7. The value &quot;165.7&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>575056</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1387</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 87.7. The value &quot;87.7&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>578051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1416</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 275.8. The value &quot;275.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1417</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 275.8. The value &quot;275.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>3680</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1418</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 122.8. The value &quot;122.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>4580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1419</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 157.9. The value &quot;157.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26810</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1420</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 138.4. The value &quot;138.4&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26820</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1421</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 154.99. The value &quot;154.99&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>26830</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1422</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 184.2. The value &quot;184.2&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>36830</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1423</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 103.3. The value &quot;103.3&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>42385</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1424</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 135.5. The value &quot;135.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>45581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1425</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 92.6. The value &quot;92.6&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>100581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1426</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 96.5. The value &quot;96.5&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>100681</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1427</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 84.8. The value &quot;84.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>101581</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1428</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 119.9. The value &quot;119.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>255831</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1429</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 121.8. The value &quot;121.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>305870</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1430</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 144.2. The value &quot;144.2&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>415875</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1431</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 131.6. The value &quot;131.6&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>558130</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1432</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 146.2. The value &quot;146.2&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>985810</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1433</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 157.9. The value &quot;157.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1165831</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1434</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 125.7. The value &quot;125.7&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>1516580</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1450</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 41.9. The value &quot;41.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16556</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1451</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 41.9. The value &quot;41.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>16606</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1452</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 82.8. The value &quot;82.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>20706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1453</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 65.3. The value &quot;65.3&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5040546</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1454</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 78.9. The value &quot;78.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>5046656</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1455</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 54.59. The value &quot;54.59&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>255706</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1456</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 40.9. The value &quot;40.9&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1457</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 43.8. The value &quot;43.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>285606</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1458</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 15.89. The value &quot;15.89&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>700401</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>1461</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>90111</ResultMessageCode>
+				<ResultDescription>The Message/Price/MinimumSellerAllowedPrice field contains an invalid value: 40.8. The value &quot;40.8&quot; is not a valid CURRENCY.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>44350526</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

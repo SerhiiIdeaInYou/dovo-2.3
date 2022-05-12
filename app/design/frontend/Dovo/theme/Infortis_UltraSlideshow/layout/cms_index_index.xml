@@ -1,0 +1,15 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="ultraslideshow_top">
+            <arguments>
+                <argument name="template" xsi:type="string">Dovo_Base::slider/slideshow.phtml</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="ultraslideshow">
+            <arguments>
+                <argument name="template" xsi:type="string">Dovo_Base::slideshow.phtml</argument>
+            </arguments>
+        </referenceBlock>
+
+    </body>
+</page>

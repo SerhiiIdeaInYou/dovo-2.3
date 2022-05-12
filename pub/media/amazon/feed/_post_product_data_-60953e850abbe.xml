@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>191381</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>201071</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010273</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Navaja de afeitar DOVO Shavette con mango de madera de olivo</Title>
+        <Brand>DOVO</Brand>
+        <Description>Producto&lt;p&gt;La Shavette es la navaja de afeitar de cuchillas intercambiables. Se puede utilizar como una maquinilla de afeitar clásica. Sin embargo, debido a la posibilidad de cambiar las cuchillas, es muy popular especialmente en el sector de la barbería, ya que cada cliente recibe así una cuchilla nueva. Fabricamos este modelo con aluminio ligero y lo rematamos con un mango de madera de olivo veteada.&lt;/p&gt; &lt;p&gt;Material&lt;/p&gt; &lt;p&gt;Fabricamos esta shavette con aluminio de alta calidad. Mediante el proceso de anodización utilizado, la capa superior de metal se modifica y obtiene propiedades de resistencia a la corrosión, además de la apariencia de material noble. El aluminio es un verdadero peso ligero debido a su baja densidad, lo que conduce a la distribución de peso única de esta shavette.&lt;/p&gt; &lt;p&gt;Material del mango&lt;/p&gt; &lt;p&gt;La madera de olivo es un material único de la naturaleza. Es más dura que la madera de roble o haya doméstica, al tiempo que presenta una gran resistencia al moho. Incluso el olivo sin tratar ya se caracteriza por una resistencia al agua superior a la media, lo que, por supuesto, lo convierte en el material perfecto para maquinillas de afeitar, brochas de afeitar y shavettes.&lt;/p&gt; &lt;p&gt;Alcance de la entrega&lt;/p&gt; &lt;p&gt;DOVO Shavette 201071, 2 soportes para cuchillas de afeitar transparentes, cuchilla MERKUR SUPER, caja metálica azul&lt;/p&gt; &lt;p&gt;</Description>
+        <BulletPoint>✔︎ Calidad garantizada: más de 100 años de calidad, diseño y experiencia - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisión garantizada: aspecto elegante y contornos precisos como un maestro barbero.</BulletPoint>
+        <BulletPoint>✔︎ Garantiza una barba bien cuidada: el cuidado de la barba es fácil para un aspecto fresco cada día.</BulletPoint>
+        <BulletPoint>Estilo: Navaja de afeitar Shavette para hojas intercambiables con mango de madera de olivo de DOVO Solingen</BulletPoint>
+        <BulletPoint>Material y dimensiones: anillo de aluminio anodizado negro - mango de madera de olivo - 14,4 cm x 2,5 cm x 1,5 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>53570018655</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>75</MessagesProcessed>
+				<MessagesSuccessful>65</MessagesSuccessful>
+				<MessagesWithError>10</MessagesWithError>
+				<MessagesWithWarning>0</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>51336</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 302016, Missing Attributes product_type. SKU 302016 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: product_type. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>302016</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>51355</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B000G0JZXC, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;Dovo Stahlwaren&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>251356</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>51365</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10630006, Missing Attributes product_type. SKU 10630006 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: product_type. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>51367</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10661506, Missing Attributes product_type. SKU 10661506 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: product_type. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>61374</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>6039</ResultMessageCode>
+				<ResultDescription>Merchant is not authorized to sell products under this restricted product group.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>515171</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>61435</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>6039</ResultMessageCode>
+				<ResultDescription>Merchant is not authorized to sell products under this restricted product group.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>507000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>61437</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B005FFEN5S, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;Cibe Laboratori&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>514002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>71387</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B012ZZ1M5Y, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;Dovo&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>578051</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>71474</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B000JPMHWK, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;Shaving Factory&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90910010</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>71475</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B00278OSVK, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;MERKUR&apos; / Amazon: &apos;Merkur solingen&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90910100</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

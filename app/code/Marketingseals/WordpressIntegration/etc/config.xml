@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <!-- WP-Int settings -->
+        <wp_settings>
+            <base>
+                <base_url>example.com</base_url>
+            </base>
+            <main_menu>
+                <menu_id>primary</menu_id>
+            </main_menu>
+            <footy_top>
+                <mailchimp_title>Newsletter</mailchimp_title>
+                <mailchimp_text>Newsletter</mailchimp_text>
+                <mailchimp_snippet>Enter Snippet</mailchimp_snippet>
+                <mailchimp_hint>Hint text</mailchimp_hint>
+            </footy_top>
+            <footer_menus>
+                <footer_widget_count>4</footer_widget_count>
+                <footer_widget_1_id>10</footer_widget_1_id>
+                <footer_widget_2_id>11</footer_widget_2_id>
+                <footer_widget_3_id>12</footer_widget_3_id>
+                <footer_widget_4_id>12</footer_widget_4_id>
+                <footer_widget_legal>12</footer_widget_legal>
+                <footer_copyright>12</footer_copyright>
+            </footer_menus>
+        </wp_settings>
+    </default>
+</config>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+	<Header>
+		<DocumentVersion>1.02</DocumentVersion>
+		<MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+	</Header>
+	<MessageType>ProcessingReport</MessageType>
+	<Message>
+		<MessageID>1</MessageID>
+		<ProcessingReport>
+			<DocumentTransactionID>64206018722</DocumentTransactionID>
+			<StatusCode>Complete</StatusCode>
+			<ProcessingSummary>
+				<MessagesProcessed>82</MessagesProcessed>
+				<MessagesSuccessful>69</MessagesSuccessful>
+				<MessagesWithError>13</MessagesWithError>
+				<MessagesWithWarning>1</MessagesWithWarning>
+			</ProcessingSummary>
+			<Result>
+				<MessageID>101365</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10630006, Missing Attributes manufacturer. SKU 10630006 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10630006</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101367</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 10661506, Missing Attributes manufacturer. SKU 10661506 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>10661506</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101391</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B005DSGUEO, but the following data is different from what&apos;s already in the Amazon catalog: part_number (Merchant: &apos;&apos; / Amazon: &apos;9020011-Black&apos;), item_name (Merchant: &apos;MERKUR Rasierer 20C&apos; / Amazon: &apos;Merkur - Rasoir Manche Long - Noir Chrome&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;20C&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9020011</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101403</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8542</ResultMessageCode>
+				<ResultDescription>The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B00H1CSX3Q, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;46002&apos;), item_name (Merchant: &apos;MERKUR Rasierset 46C&apos; / Amazon: &apos;Rasoir Merkur Solingen 46.002&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;9046002&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. The SKU data provided conflicts with the Amazon catalog. The standard_product_id value(s) provided correspond to the ASIN  B009CW9A58, but some information contradicts with the Amazon catalog. The following are the attribute value(s) that are conflicting: part_number (Merchant: &apos;&apos; / Amazon: &apos;MK-SR-12&apos;), model_number (Merchant: &apos;&apos; / Amazon: &apos;MK-SR-12&apos;), brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;MERKUR&apos;), manufacturer (Merchant: &apos;&apos; / Amazon: &apos;Merkur solingen&apos;). If your product is this ASIN, then modify your data to reflect the Amazon catalog values. Else, check your value(s) for  standard_product_id are correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>9046002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101406</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [90700002]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90700002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101407</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [90701001]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90701001</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101408</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8541</ResultMessageCode>
+				<ResultDescription>The SKU data provided is different from what&apos;s already in the Amazon catalog. The standard_product_id data provided matches ASIN B004XU6E4Y, but the following data is different from what&apos;s already in the Amazon catalog: brand (Merchant: &apos;DOVO&apos; / Amazon: &apos;Merkur&apos;). If this is the right ASIN for your product, update your data to match what&apos;s in the Amazon catalog. If it&apos;s not the right ASIN, make sure that your data for standard_product_id is correct. </ResultDescription>
+				<AdditionalInfo>
+					<SKU>90750002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101411</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [90933000]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>90933000</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101423</MessageID>
+				<ResultCode>Warning</ResultCode>
+				<ResultMessageCode>17001</ResultMessageCode>
+				<ResultDescription>Please review your selling price and minimum price and ensure that your minimum price is less than or equal to your selling price.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>42385</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101429</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8005</ResultMessageCode>
+				<ResultDescription>You are attempting to change an identity attribute for this SKU. To proceed, please delete this SKU and recreate the SKU with the appropriate identity attribute. For more information and detailed instructions, see: http://sellercentral.amazon.de/gp/help/23191</ResultDescription>
+				<AdditionalInfo>
+					<SKU>305870</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101437</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>6039</ResultMessageCode>
+				<ResultDescription>Merchant is not authorized to sell products under this restricted product group.</ResultDescription>
+				<AdditionalInfo>
+					<SKU>514002</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101442</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [918218]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918218</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101479</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8560</ResultMessageCode>
+				<ResultDescription>SKU 9091001086, Missing Attributes manufacturer. SKU 9091001086 doesn&apos;t match any ASINs. Make sure that all standard product ids (such as UPC, ISBN, EAN, or JAN codes) are correct. To create a new ASIN, include the following attributes: manufacturer. Feed ID: 0. For more troubleshooting help, see http://sellercentral.amazon.de/gp/errorcode/200692370</ResultDescription>
+				<AdditionalInfo>
+					<SKU>9091001086</SKU>
+				</AdditionalInfo>
+			</Result>
+			<Result>
+				<MessageID>101486</MessageID>
+				<ResultCode>Error</ResultCode>
+				<ResultMessageCode>8058</ResultMessageCode>
+				<ResultDescription>The following attributes are missing for SKU: [918217]: [manufacturer].For more details, see http://sellercentral.amazon.de/gp/errorcode/8058</ResultDescription>
+				<AdditionalInfo>
+					<SKU>918217</SKU>
+				</AdditionalInfo>
+			</Result>
+		</ProcessingReport>
+	</Message>
+</AmazonEnvelope>

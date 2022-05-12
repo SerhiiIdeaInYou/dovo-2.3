@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>161443</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90120011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012796</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO pennello da barba MERKUR</Title>
+        <Brand>DOVO</Brand>
+        <Description>Prodotto&lt;p&gt;Con questo pennello da barba Merkur fai una scelta nobile. Il manico è fatto di un blocco di alluminio cromato con una sezione centrale anodizzata nera. Il peso elevato crea una sensazione ricca e unica quando si applica la crema da barba. Grazie al suo design di alta qualità, si sente a casa in bagno come in un barbiere di lusso.&lt;/p&gt;Materiale&lt;p&gt;Questo pennello da barba è realizzato in vera pelle di tasso con punta in argento. Per secoli, le spazzole di più alta qualità sono state fatte con questo materiale. Si riconosce dallo "specchio", la banda nera chiaramente disegnata sui capelli grigio-argento. Il Silvertip assorbe una quantità d'acqua particolarmente grande e aiuta la vostra schiuma da barba a raggiungere una consistenza particolarmente cremosa.&lt;/p&gt;Materiale dell'impugnatura&lt;p&gt;L'alluminio si distingue come materiale particolarmente per la sua resistenza e qualità di lavorazione. Questo materiale è estremamente resistente alla corrosione all'acqua, al vapore e all'umidità ed è quindi ideale per la fabbricazione di manici di pennelli da barba. Grazie alla finitura superficiale di alta qualità, il prodotto diventa un highlight assoluto in ogni bagno.&lt;p&gt;</Description>
+        <BulletPoint>✔︎ Qualità garantita: oltre 100 anni di qualità, design ed esperienza - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Precisione garantita: look elegante e contorni precisi come un maestro barbiere.</BulletPoint>
+        <BulletPoint>✔︎ Barba curata garantita: la cura della barba è facile per un look fresco ogni giorno.</BulletPoint>
+        <BulletPoint>Arte: Nobile pennello da barba in alluminio e punta d'argento in tasso da DOVO Solingen</BulletPoint>
+        <BulletPoint>Materiale e dimensioni: spiumatura a punta d'argento - manico in alluminio cromato lucido - dimensioni 4 cm x 4 cm x 10,6 cm - diametro del manico 4 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

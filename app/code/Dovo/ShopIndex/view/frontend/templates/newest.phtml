@@ -1,0 +1,90 @@
+<?php
+/**
+ * Product list template
+ *
+ * @see \Dovo\ShopIndex\Block\MostPopular
+ */
+?>
+<?php
+$mainCounter = 4;
+?>
+<section class="newest">
+    <div class="container">
+        <?php $collection = $block->getMostViewed(); ?>
+
+        <div class="products-list newest-carousel owl-carousel owl-theme"
+             data-mage-init='{"Dovo_ShopIndex/js/mostpopular": {}}'>
+            <?php
+            $count = 1;
+            foreach ($collection as $product) {
+                if($count === $mainCounter) {
+                    ?>
+                    <div class="products-list-item first-item">
+                        <div class="inner-container">
+                            <p class="item-text first">Unsere</p>
+                            <p class="item-text second">neusten</p>
+                            <p class="item-text third">Produkte</p>
+                            <div class="actions">
+                                <a href="/catalog" class="action primary">
+                                    <span>Alle neuen Produkte</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+                <div class="products-list-item product">
+                    <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                        <div class="product-image-container">
+                            <img class="product-image" src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                 max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                        </div>
+                        <div class="product-info-container">
+                            <div class="product-name">
+                                <?= $product->getName(); ?>
+                            </div>
+                            <div class="price">
+                                <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <?php
+                $count ++;
+            }
+            foreach ($collection as $product) {
+                ?>
+                <div class="products-list-item product">
+                    <a class="product-link" href="<?= $product->getProductUrl(); ?>">
+                        <div class="product-image-container">
+                            <img class="product-image" src="<?php echo $block->getProductImage($product->getId()); ?>"
+                                 max-height="260" max-width="260" alt="mostpopular-list-item"/>
+                        </div>
+                        <div class="product-info-container">
+                            <div class="product-name">
+                                <?= $product->getName(); ?>
+                            </div>
+                            <div class="price">
+                                <?= number_format($product->getPrice(), 2, ',', '.') . ' &euro;'; ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <?php
+                $count ++;
+            }
+            ?>
+        </div>
+        <div class="progress-container">
+            <a class="prev">
+            </a>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <a class="next">
+            </a>
+        </div>
+    </div>
+
+</section>

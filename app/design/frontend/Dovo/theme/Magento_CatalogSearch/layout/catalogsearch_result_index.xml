@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="base-main-top-container">
+            <block class="Dovo\HeaderImage\Block\HeaderImage" name="header-image-container" template="headerImage.phtml" before="-" />
+        </referenceContainer>
+        <referenceContainer name="sidebar.main">
+            <block class="Magento\Framework\View\Element\Template" name="sidebar.search" template="Magento_Search::form.mini.phtml" before="umm.sidemenu.catalog_category_view.main" />
+            <block class="Infortis\UltraMegamenu\Block\Navigation"
+                   name="umm.sidemenu.catalog_category_view.main"
+                   as="umm.sidemenu.catalog_category_view.main"
+                   template="Infortis_UltraMegamenu::categories.phtml"
+                   before="filter-section"
+                   ifconfig="ultramegamenu/sidemenu/enable_category_main"
+            />
+            <block class="Dovo\Base\Block\Catalog\FilterCategory" name="filter-section" template="Dovo_Base::catalog/filtercategory.phtml" after="umm.sidemenu.catalog_category_view.main" />
+            <block class="Dovo\Base\Block\Sidebar\Social" name="sidebar.social" template="Dovo_Base::sidebar/social.phtml" after="-" />
+            <block class="Dovo\Base\Block\Sidebar\Social" template="Dovo_Base::sidebar/service.phtml" after="-"/>
+        </referenceContainer>
+        <move element="breadcrumbs" destination="content" after="filter-section" />
+        <referenceContainer name="content">
+            <block class="Dovo\Base\Block\Catalog\FilterCategory" name="filter-section" template="Dovo_Base::catalog/filtercategory.phtml" before="-">
+                <block class="Magento\Framework\View\Element\Template" name="mobile.search" template="Magento_Search::form.mobile.phtml" before="-" />
+            </block>>
+        </referenceContainer>
+    </body>
+</page>

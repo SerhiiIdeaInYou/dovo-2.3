@@ -1,0 +1,39 @@
+<section class="usp-banner clearfix">
+    <?php
+    $helper = $block->getHelperData();
+    $maxCount = $helper->getCfg('uspbanner/count');
+    $gridClass = "grid12-3";
+    switch ($maxCount) {
+        case 1:
+            $gridClass = "grid12-12";
+            break;
+        case 2:
+            $gridClass = "grid12-6";
+            break;
+        case 3:
+            $gridClass = "grid12-4";
+            break;
+        case 4:
+            $gridClass = "grid12-3";
+            break;
+        case 5:
+            $gridClass = "grid12-5th";
+            break;
+        case 6:
+            $gridClass = "grid12-2";
+            break;
+        default:
+            $gridClass = "grid12-3";
+            break;
+    }
+    ?>
+    <?php for($i = 0; $i < $maxCount; $i++): ?>
+
+    <div class="<?= $gridClass ?>">
+        <div class="icon"></div>
+        <h4><?= $helper->getCfg('uspbanner/title'.($i+1)) ?></h4>
+        <p class="text"><?= $helper->getCfg('uspbanner/caption'.($i+1)) ?></p>
+    </div>
+    <?php endfor; ?>
+
+</section>

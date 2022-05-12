@@ -1,0 +1,57 @@
+<?php
+/**
+ * @var \Infortis\Base\Block\Html\Header $block
+ */
+?>
+<?php
+$theme = $block->getHelperTheme();
+
+// //Get HTML of header blocks
+// $storeSwitcherHtml = $block->getChildHtml('store_switcher');
+// $copyrightHtml = $block->getChildHtml('copyright');
+// $footerLinksHtml = $block->getChildHtml('footer_links');
+// $cmsFooterLinksContainerHtml = $block->getChildHtml('cms_footer_links_container');
+// $newsletterHtml = $block->getChildHtml('subscribe');
+// $magentoDefaultFooterContainerHtml = $block->getChildHtml('footer');
+?>
+<div class="footer-container page-footer micro-footer-container">
+    <div class="footer-container2">
+        <?php $id = $block->getStoreId(); ?>
+        <div class="footer-container3">
+            <div class="first-column">
+                <div class="backtoshop">
+                    <a href="<?php if($id !== '1') echo '/en'; ?>/"><?php echo __('Zurück zum Shop'); ?></a>
+                </div>
+            </div>
+            <div class="middle-column">
+                <div class="support">
+                    <?php
+                    $zendeskLink = 'https://dovo.zendesk.com/hc/';
+                    ?>
+                    <a href="<?= $zendeskLink ?><?php if($id === '1'): echo 'de'; else : echo 'en-150'; endif; ?>" target="_blank" rel="noopener">
+                        <?php echo __('Hilfecenter'); ?>
+                    </a>
+                </div>
+            </div>
+            <div class="last-column">
+                <?php $baseLink = 'https://dovo.com'; ?>
+                <ul class="legal">
+                    <li>
+                        <a href="<?= $baseLink ?><?php if($id === '1'): echo '/'; else : echo '/en/'; endif; ?>datenschutz" target="_blank" rel="noopener"><?php echo __('Datenschutz'); ?></a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseLink ?><?php if($id === '1'): echo '/'; else : echo '/en/'; endif; ?>agb" target="_blank" rel="noopener"><?php echo __('AGB'); ?></a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseLink ?><?php if($id === '1'): echo '/impressum'; else : echo '/en/imprint'; endif; ?>" target="_blank" rel="noopener"><?php echo __('Impressum'); ?></a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseLink ?><?php if($id === '1'): echo '/liefer-und-zahlungsbedingungen'; else : echo '/en/shipping-and-payment'; endif; ?>" target="_blank" rel="noopener"><?php echo __('Zahlungs- und Lieferbedingungen'); ?></a>
+                    </li>
+                </ul>
+            </div>
+            <a id="scroll-to-top" class="ic ic-up" href="#top"></a>
+
+        </div> <!-- end: footer-container3 -->
+    </div> <!-- end: footer-container2 -->
+</div> <!-- end: footer-container -->

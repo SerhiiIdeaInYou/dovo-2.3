@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>151492</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10580356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009017</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser Barbarossa - Carbonstahl Rasiermesser - 5/8 Zoll - Rundkopf - Spitzrücken - ganzer Hohlschliff - DOVO Solingen Barbiermesser</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produkt&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit.&lt;/p&gt;Griffmaterial&lt;p&gt;Schon seit der Antike wird das teure Schildpatt zur Herstellung von exquisiter Kunst und Mobiliar verwendet. Früher wurde es fast mit Gold aufgewogen und schmückt seither unzählige Königshöfe. Um die vom Aussterben bedrohte Schildkröte zu schützen, arbeiten wir ausschließlich mit einem Imitat aus seidenmatt poliertem Acrylglas.&lt;/p&gt;Schliff&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;Klingenbeschreibung&lt;p&gt;Der Rundkopf ist die klassische Form eines Rasiermessers und wird den meisten Rasiersituation gerecht. Diese Klingenausprägung ist seit Jahrhunderten sehr beliebt, da die bauchige Form sehr sicher im Bereich der Ohren, Nase und Grübchen eingesetzt werden kann. Auch im Falle eines Falles schützt dich der runde Kopf vor Verletzungen.&lt;/p&gt;Klingenbreite&lt;p&gt;Rasiermesser in der Größe 5/8 Zoll sind echte Allrounder und können jede Aufgabe rund um die klassische Nassrasur mit Bravour bestehen. Die Klinge ist relativ schwer und kann deshalb ohne großen Druck sanft über deine Haut gleiten. Gleichzeitig ist sie noch wendig genug, um auch technisch anspruchsvollere Passagen rund um Nase, Ohren und Kinn agil bewerkstelligen zu können.&lt;/p&gt;</Description>
+        <BulletPoint>✔︎ Garantierte Qualität: über 100 Jahre Qualität, Design und Erfahrung - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Garantierte Präzision: Eleganter Look und präzise Konturen wie beim Meister-Barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantiert gepflegter Bart: Bartpflege leicht gemacht für einen täglich frischen Look.</BulletPoint>
+        <BulletPoint>Art: Carbonstahl Rasiermesser Barbarossa 5/8 Zoll mit ganzem Hohlschliff von DOVO Solingen.</BulletPoint>
+        <BulletPoint>Klinge &amp; Schliff: Carbonstahl - mit Barbarossa Ätzung - Breite 5/8' = ca. 1,6 cm - KURZE VERSION - Spitzrücken - Rundkopf - ganzer Hohlschliff - sehr scharf.</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

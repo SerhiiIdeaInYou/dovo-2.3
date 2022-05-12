@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>111479</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>30451201</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010563</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Scheermesjes DOVO SUPER PLATINUM 10 (10 st.)</Title>
+        <Brand>DOVO</Brand>
+        <Description>Product&lt;p&gt;De DOVO SUPER PLATINUM DE(Double Edge) scheermesjes hebben zich bewezen door hun scherpte en randvastheid. Ze zijn speciaal ontworpen voor de vereisten van onze scheermessen. De mesjes zijn individueel verpakt in paraffinepapier, hierin kunt u ze veilig breken en zo klaarmaken voor gebruik in een SHAVETTE®. Gemaakt in Duitsland, natuurlijk.&lt;/p&gt;Materiaal&lt;p&gt;Deze scheermesjes zijn gemaakt van roestvrij staal. Het metaal vertoont een goede weerstand tegen corrosie en is ook perfect voor het maken van hoogwaardige lemmeten dankzij zijn hardheid wanneer het gehard is. Bovendien zijn de mesjes voorzien van een platina coating en hebben ze een antikleeflaag, zodat scheermes of shavette soepel en moeiteloos over de huid glijden.&lt;/p&gt;.</Description>
+        <BulletPoint>✔︎ Gegarandeerde kwaliteit: meer dan 100 jaar kwaliteit, design en ervaring - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerde precisie: elegante look en precieze contouren als van een meester-kapper.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerd een verzorgde baard: Baardverzorging gemakkelijk gemaakt voor een frisse look elke dag.</BulletPoint>
+        <BulletPoint>Art: Verwisselbare scheermesjes 10 st. van roestvrij staal van DOVO Solingen</BulletPoint>
+        <BulletPoint>Mesjes &amp; Materiaal: Verwisselbaar scheermesje - roestvrij staal - Platinum kwaliteit</BulletPoint>
+      </DescriptionData>
+      <ProductData>
+        <Health>
+          <ProductType>
+            <PersonalCareAppliances></PersonalCareAppliances>
+          </ProductType>
+        </Health>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <!-- Adding Sort by Bestsellers functionality -->
+    <type name="Magento\Catalog\Block\Product\ProductList\Toolbar">
+        <plugin name="before_set_collection" type="Dovo\Base\Plugin\Bestsellers" />
+    </type>
+    <type name="Magento\Catalog\Model\Config">
+        <plugin name="after_get_available_orders" type="Dovo\Base\Plugin\Bestsellers" />
+    </type>
+</config>

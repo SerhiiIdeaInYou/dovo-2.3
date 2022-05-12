@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>51331</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>109000526</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014523</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Hautzange 1090</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Hautzange 1090&lt;/p&gt;&lt;p&gt;Mit der DOVO Hautzange 10900 hast du volle Kontrolle bei der Pflege deiner Nagelhaut. Die Zange passt sich jeder Handgröße optimal an und unterstützt dich so bei der Mani- und Pediküre. Durch die Doppelfeder öffnet sich die Zange selbstständig nach jedem “Schnitt” und du kannst dich voll auf das Wesentliche konzentrieren: Präzise Schnitte für perfekte Nägel!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51332</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>223016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284018200</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 223</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 223&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 223 ist der optimale Einstieg zu hochwertiger Nagelpflege. Hier findest du neben einer Haut- auch eine Nagelschere, sowie Feile, Pinzette und Doppelinstrument! Das Metalletui wird mit Rindleder überzogen und ist durch seine robuste Konstruktion bestens geeignet, um den Inhalt vor dem harten Alltag im Reisegepäck oder einer Handtasche zu schützen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Die Nagelschere Nr. 251 im klassischen Design ist dank ihrer großen Augen auch mit kräftigen Fingern leicht zu bedienen. Die geschmiedete Hautschere mit handgeschliffenen Schneiden durchtrennt Nagelhäutchen sauber ohne sie zu reißen. Das Doppelinstrument dient als Nagelhautschieber und -reiniger zugleich. Mit dem Microfasertuch entfernst du Rückstände von deinen Instrumenten.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51333</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>279016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284021323</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 279</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 279&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 279 rüstet dich für alle Szenarien rund um Maniküre und Pediküre. Mit Hautzange und Nagelschere beginnst du deine Körperpflege, bevor du deinen Händen und Füßen mit Doppelinstrument und Feile den letzten Schliff verpasst. Dann noch kurz alles im luxuriösen Kalbslederetui verstaut und du bist bereit für die Komplimente deiner Arbeitskollegen!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Das angenehme Schneidegefühl verdankt die DOVO Nagelschere ihrer Konstruktion. Die gezahnte Schneide sichert die Schere gegen das Verrutschen und erleichtert somit die Nagelpflege. Mit der Nagelzange lassen sich feine Nagelhäutchen sehr kurz und glatt abschneiden. Auch Verhornungen und Hühneraugen können mit ihr bearbeitet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51334</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>301016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284021743</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 301</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 301&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 301 haben wir mit einer Haut- und einer Nagelschere ausgestattet. Somit kannst du besonders feine Arbeiten rund um Maniküre und Pediküre erledigen. Die Pinzette ermöglicht Greifen mit höchster Präzision und mit unserem Doppelinstrument und der Saphirfeile rundest du deine Nagelpflege ab. Noch kurz alles im Rindlederetui verstauen und fertig!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Es empfiehlt sich für die Pflege der Nagelhaut und des eigentlichen Nagels jeweils darauf spezialisierte Instrumente zu verwenden. Das ist der Grund, warum du in diesem Nagelpflegeset zwei Scheren vorfindest. Die Instrumente sind mattiert, damit du sie stets fest und sicher im Griff hast - auch bei feuchten Händen.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51335</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>301036</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284021767</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 301</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 301&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 301 haben wir mit einer Haut- und einer Nagelschere ausgestattet. Somit kannst du besonders feine Arbeiten rund um Maniküre und Pediküre erledigen. Die Pinzette ermöglicht Greifen mit höchster Präzision und mit Doppelinstrument sowie Saphirfeile rundest du deine Nagelpflege ab. Im roten Rindlederetui sind alle Instrumente übersichtlich angeordnet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Es empfiehlt sich für die Pflege der Nagelhaut und des eigentlichen Nagels jeweils darauf spezialisierte Instrumente zu verwenden. Das ist der Grund, warum du in diesem Nagelpflegeset zwei Scheren vorfindest. Die Instrumente sind mattiert, damit du sie stets fest und sicher im Griff hast - auch bei feuchten Händen.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51336</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>302016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284021781</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 302</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 302&lt;/p&gt;&lt;p&gt;Mit dem achtteiligen Maniküre-Set DOVO 302 bist du für alle Situationen gewappnet. Hier findest du eine ausgewählte Kollektion unserer besten Produkte: Nagelschere, Hautschere, Nagelzange, Pinzette, Saphirfeile sowie Nagelreiniger und einen Hautschieber. Sicher verpackt im luxuriösen, schwarzen Rindlederetui wird dieses Set fast schon zum mobilen Nagelstudio.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Um alle anfallenden Arbeiten rund um die Nagelpflege an Händen und Füßen zu bewerkstelligen, haben wir diesem Set auch die Nagelzange Nr. 148 beigelegt. Dieses handgeschärfte Instrument eignet sich bestens, um auch harte Fingernägel oder Fußnägel zu schneiden. Das Microfasertuch verwendest du zur gründlichen Reinigung.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51337</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>302036</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284025581</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 302</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 302&lt;/p&gt;&lt;p&gt;Mit dem achtteiligen Maniküre-Set DOVO 302 bist du für alle Situationen gewappnet. Hier findest du eine ausgewählte Kollektion unserer besten Produkte: Nagelschere, Hautschere, Nagelzange, Pinzette, Saphirfeile sowie Nagelreiniger und einen Hautschieber. Sicher verpackt im luxuriösen, roten Rindlederetui wird dieses Set fast schon zum mobilen Nagelstudio.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Um alle anfallenden Arbeiten rund um die Nagelpflege an Händen und Füßen zu bewerkstelligen, haben wir diesem Set auch die Nagelzange Nr. 148 beigelegt. Dieses handgeschärfte Instrument eignet sich bestens, um auch harte Fingernägel oder Fußnägel zu schneiden. Das Microfasertuch verwendest du zur gründlichen Reinigung.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51338</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>344016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284018767</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 344</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 344&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 344 ist dein treuer Begleiter für unterwegs. Mit Nagel- und Hautschere, sowie Pinzette und Saphirfeile kann dich kein Nagelnotfall aus der Ruhe bringen! Und auch die Verpackung ist ein Highlight: Das pflanzlich gegerbte Juchtenlederetui haben wir mit Birkenteeröl imprägniert. Der Geruch wird dich an eine schwedische Holzhütte erinnern!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Für dieses Set solltest du dich entscheiden, wenn du gerne mit leichtem Gepäck reist. Das vegetabil gegerbte Juchtenlederetui findet selbst im kleinsten Kulturbeutel einen Platz. Dennoch musst du nicht auf Qualität verzichten: Nagel und Nagelhaut pflegst du mit den beigelegten Scheren, bevor du dich mit der Nagelfeile an den Feinschliff machst.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51339</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>407066</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284022979</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 407</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 407&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre Set ist an die Gentleman unter uns gerichtet. Der stabile Nagelknipser ist auch für Fußnägel geeignet, die lange Pinzette und Dreihiebfeile können selbst mit großen Händen bequem geführt werden. Mit der Klipette trimmst du sicher und entspannt deine Nasenhaare. Alles verpackt im hochwertigen, nussbraunen Kalbslederetui.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Die beigelegte Klipette entfernt Ohren- und Nasenhaare ganz ohne Batterie. Du drehst einfach die beiden Edelstahl-Griffteile gegeneinander und entledigst dich so schmerzfrei von den kleinen Härchen. Die Dreihiebfeile verwendest du, um Schnittkanten an Finger- und Fußnägeln fein zu glätten, während das Doppelinstrument an deinen Nagelhäuten zum Einsatz kommt.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51340</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>505016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284018934</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 505</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 505&lt;/p&gt;&lt;p&gt;Das geschmeidige Nappaleder wurde ursprünglich nur für die Herstellung feinster Damenhandschuhe verwendet. Daher haben wir dieses edle Material auch für das Etui des DOVO 505 ausgewählt. Mit diesem Set kannst du die Grob- und Feinbehandlung deiner Nägel problemlos erledigen. Natürlich sind die enthaltenen Instrumente ebenso für die Nagelpflege eines Herrn anzuwenden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Im sechsteiligen Nagelpflegesortiment DOVO 505 findest du unter anderem eine Nagelschere, eine Hautschere, eine Pinzette sowie eine Feile und ein Doppelinstrument. Das beigelegte Microfasertuch eignet sich hervorragend zur Reinigung der Instrumente. Wir haben den Inhalt übersichtlich in einem Edelstahl-Etui mit Federdruckverschluss für dich verstaut.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51341</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>507016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284024539</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 507</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 507&lt;/p&gt;&lt;p&gt;Das schwarze Nappalederetui des DOVO 507 haben wir mit ganz besonderen Highlights gefüllt. Hinter dem Reisverschluss verbirgt sich ein Set aus Vollstahlinstrumenten mit Nagelknipser, Kombischere, Pinzette und Dreihiebfeile. Da wir ausschließlich rostfreien Stahl verwenden, wird dich dieses Set wahrscheinlich viele Jahre lang begleiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Schon bevor du das Etui öffnest, erwartet dich der Duft von feinem Nappaleder. Im Inneren findest du beispielsweise die kompaktere Variante unseres Nagelknipsers, mit dem du Finger- und Fußnägel gleichermaßen schneiden kannst. Auch die variable Kombischere nutzt du als Instrument für eine ausgiebige Maniküre und Pediküre.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51342</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>771018</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284019696</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 771</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 771&lt;/p&gt;&lt;p&gt;Für dich zählt nur das Beste? Dann ist das DOVO Maniküre-Etui 771 genau das Richtige für dich. Mit diesem zwölfteiligen Etui entscheidest du dich für das exklusivste Produkt unserer Nagelpflege-Kollektion. Im schwarzen Elchlederetui findest du wirklich alles, was du für deine umfängliche Nagelpflege benötigst. Die unerreichte Nummer 1.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Dieses Nagelstudio für den Hausgebrauch besteht aus zwei Scheren, zwei Zangen für Haut und Nägel, einer schrägen und einer spitzen Pinzette, sowie einer DreihiebFeile in 6,0”. Darüber hinaus kannst du auf ein Hautmesser, Skalpell, Nagelhautschieber sowie auf Nagelreiniger zurückgreifen. Zu guter Letzt findest du noch ein Microfasertuch für die Reinigung.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51343</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>800016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284019832</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 800</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 800&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Etui 800 ist der erste Schritt zu gepflegten Nägeln an Händen oder Füßen. Natürlich kannst du dich damit auch um deine Nagelhäutchen und Verhornungen kümmern. Hier findest du neben einer Nagelschere eine Nagelzange, unsere Saphirnagelfeile und eine Edelstahlpinzette. Diese Kollektion verstaust du im schwarzen Rindlederetui.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Bei unseren Taschenetuis versuchen wir immer besonders darauf zu achten, dass die Sets thematisch passend zusammengestellt sind. Diese Garnitur stellt die Grundausstattung für Mani- und Pediküre dar. Das DOVO 800 ist somit ein kleiner Alleskönner, der dennoch kompakt genug ist, um ihn auch problemlos in der Tasche oder Reisegepäck zu verstauen.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51344</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1041056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026076</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 1041</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 1041&lt;/p&gt;&lt;p&gt;Du suchst ein ultrakompaktes Set für unterwegs, willst aber nicht auf Qualität verzichten? Dann greif doch zum DOVO Maniküre-Set 1041. Mit der Kombischere und Dreihiebfeile kann dich kein Nagelnotfall mehr aus der Ruhe bringen. Wenn du Wert auf gepflegte Nägel legst, dann darf dieses Set in deinem Kulturbeutel oder deiner Damenhandtasche nicht fehlen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Die Maniküre-Nagelschere 56150 wird gänzlich aus rostfreiem Edelstahl gefertigt. Durch ihre angeschliffene Spitze ist sie bestens für die kombinierte Nutzung als Haut- und Nagelschere geeignet. Die kurze Dreihiebfeile trumpft durch ihre Wendigkeit bei Pflege von Finger- und Fußnägeln auf. Alles fest und sicher im Lederetui verstaut - kleiner geht‘s kaum!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51345</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1047056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026274</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre-Set 1047</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre-Set 1047&lt;/p&gt;&lt;p&gt;Nägel erst schneiden und dann schonend glätten sind die absoluten Grundsteine guter Nagelpflege. Deshalb haben wir das DOVO Maniküre-Etui 1047 mit einer Nagelschere und einer Dreihiebfeile ausgestattet. Egal ob als Einstieg in die hochwertige Nagelpflege oder als kompaktes Set für Handtasche und Kulturbeutel - hier bist du auf der sicheren Seite.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Sowohl die Schere als auch die Dreihiebfeile dieser Zusammenstellung sind aus rostfreiem Edelstahl gefertigt. Erstere kann mit ihrer Länge von 4,0 Zoll bestens doppelten Dienst als Instrument für Maniküre und Pediküre leisten. Auch die Nagelfeile benutzt du an Händen und Füßen. Gerade auf engem Raum kann sie aufgrund der kompakten Abmessung ihre Stärken voll ausspielen.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51346</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1058056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026472</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 1058</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 1058&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 1058 ist dein Alleskönner für die Nagelpflege unterwegs. Mit der Kombischere bearbeitest du Hände und Füße, bevor die Saphirfeile für den letzten Schliff zur Anwendung kommt. Du hast dir einen schmerzhaften Splitter eingezogen? Keine Sorge, die Pinzette schafft Abhilfe! Unerlässlich in Reisegepäck, Handtasche oder Rucksack.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Das Stulpenetui des 1058 wird aus hochwertigem Nubukleder hergestellt. Die samtartige Oberfläche des Materials ist ein wahrer Handschmeichler und beherbergt ein kleines Sortiment hochwertiger Produkte. Besonders herauszustellen ist, dass alle Instrumente aus mattiertem, rostfreiem Edelstahl gefertigt sind und dich daher lange begleiten werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51347</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>2056056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026489</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 2056</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 2056&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 2056 ist unter anderem mit drei speziellen Scheren aus unserem Sortiment ausgestattet. Neben einer Hautschere enthält es auch zwei Nagelscheren: Eine kompakte mit 3,5” und eine etwas größere mit 4,0”. Dieses Set ist perfekt für die Mani- und Pediküre geeignet, wenn man lieber mit Scheren als mit Zangen arbeiten möchte.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Im edlen Rindleder-Taschenetui werden die Instrumente klar und übersichtlich präsentiert. Fest eingenähte Lederschlaufen sichern die Werkzeuge gegen das Verrutschen, weshalb dieses Set auch für eine umfängliche Kosmetikbehandlung auf Reisen zu empfehlen ist. Eine schnelle Reinigung der Ausrüstung gelingt dir am besten, wenn du das beigelegte Microfasertuch verwendest.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51348</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>2080016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026816</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 2080</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 2080&lt;/p&gt;&lt;p&gt;Wer auch unterwegs oder im Urlaub nicht auf eine gute Nagelpflege verzichten will, sollte sich für das DOVO Maniküre-Set 2080 entscheiden. Hier findest du eine Nagelschere, eine Hautschere sowie eine Pinzette und eine Dreihiebfeile. Das schwarze Lederetui mit Magnetverschluss schützt deine Werkzeuge im Gepäck und wird so zu deinem treuen Weggefährten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Wenn dir die Gesundheit deiner Hände und Füße am Herzen liegt, dann ist stete Pflege unumgänglich. Dieses aus edlem Rindleder gefertigte Taschenetui stattet dich mit allen nötigen Instrumenten für Maniküre und Pediküre aus. Somit kannst du alle grundlegenden Arbeiten an deinen Nägeln und Nagelhäuten vollziehen. Sie werden es dir danken!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51349</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>4048056</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026335</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 4048</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 4048&lt;/p&gt;&lt;p&gt;Du arbeitest lieber mit einem Nagelknipser statt mit einer Nagelschere? Dann schau dir doch mal das DOVO Taschenetui 4048 an. Hier findest du einen großen Nagelknipser, mit dem du deine Maniküre und Pediküre durchführen kannst und auch eine Nagelfeile, um scharfe Kanten zu beseitigen. Platzsparend verpackt in einem braunen Rindlederetui.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Die Nutzungsvorteile eines Knipsers liegen auf der Hand: Durch seinen Aufbau kannst du ihn sehr nah an deine Finger und Zehen anlegen. So erhälst du einen klare und sauberen Abschnitt. Die Kopfform des Nagelknipsers unterstützt diesen Vorgang. Darüber hinaus sorgt der lange Hebel des Auslegers dafür, dass nur ein geringer Kraftaufwand nötig ist.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51350</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>4079016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026847</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 4079</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 4079&lt;/p&gt;&lt;p&gt;Das DOVO Set 4079 deckt alle grundlegenden Arbeiten für eine saubere Maniküre ab. Die Instrumente sind übersichtlich und platzsparend am mit schwarzem Leder bezogenen Ständer angeordnet. Mit dem massiven Edelstahlstandfuß ein absoluter Hingucker im Badezimmer und perfekt für die Bedürfnisse des Gentlemans. Auch als hochwertiges Geschenkset eine Überlegung wert!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Neben der Saphirfeile in 3,0 Zoll und der Edelstahlpinzette mit schrägem Kopf, findest du in diesem Sortiment auch den DOVO Nagelknipser Nr. 504. Mit diesem Modell in der größeren Ausführung, durchtrennst du auch starke Finger- oder Fußnägel ohne signifikanten Kraftaufwand. Die Schere verwendest du, um deine Nagelhäute immer gesund und schön zu halten.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51351</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>6063016</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026632</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 6063</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 6063&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 6063 ist dein Nagelstudio für Zuhause. Mit Nagelschere, Hautschere, Pinzette und Saphirfeile findest du alles, um immer mit makellosen Nägeln zu glänzen. Alle Instrumente sind auf einem soliden Standfuß aus rostfreiem Edelstahl und schwarzem Rindleder angeordnet, damit du immer schnell und problemlos das richtige Werkzeug findest!&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Dieses Set ist wunderbar für dich geeignet, wenn du zur Maniküre und Pediküre das Arbeiten mit Scheren bevorzugst. Die einseitig gezahnten Schneiden der DOVO Nagelschere Nr. 251 erleichtern dir das präzise Arbeiten rund um deine Nägel. Das Bearbeiten deiner Nagelhaut überlässt du am besten der handgeschliffenen Hautschere DOVO Nr. 234.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51352</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>7010126</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284025086</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 7010</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 7010&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 7010 ist ein absolutes optisches Highlight. Alle Instrumente sind im wunderschönen Etui aus Rindleder in einem dunklen Lavendelfarbton verstaut. Aber auch der Inhalt muss sich nicht verstecken: Mit großer Hautzange und Nagelschere sowie Pinzette, Saphirfeile und Doppelinstrument bist du für alles gerüstet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Wir alle entwickeln unterschiedliche Präferenzen bei der Nagelpflege. Solltest du die Nutzung einer Hautzange für die Bearbeitung deiner Nagelhaut bevorzugen, dann ist dieses Sortiment ein guter Tipp. Dazu findest du noch die bewährte DOVO Maniküreschere 5650, eine handgeschliffene Nagelschere aus mattem Edelstahl. In der Lederstulpe sind alle Instrumente übersichtlich angeordnet.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51353</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>8078068</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284026861</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Maniküre Set 8078</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Maniküre Set 8078&lt;/p&gt;&lt;p&gt;Das DOVO Maniküre-Set 8078 ist ein siebenteiliges Nagelpflegeset für höchste Ansprüche. Alle Metallinstrumente sind aus mattiertem, rostfreiem Edelstahl gefertigt und bestechen durch minimalste Fertigungstoleranzen. Ein Mindestmaß an Pflege vorausgesetzt, wird dich diese Kollektion dein ganzes Leben lang begleiten. Kompromissloser Luxus für deine Hände und Füße.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Beschreibung&lt;/p&gt;&lt;p&gt;Im eleganten Rahmenetui aus pflanzlich gegerbtem, braunem Rindleder findest du Highlights wie unsere Nagelschere Nr. 251, die 5” Nagelzange mit Drahtfeder, sowie unsere klassische Hautschere Nr. 234. Die Edelstahlfeile mit gehauenem Profil dient der Feinbearbeitung der geschnittenen Nägel. Abgerundet von Hautschieber und Nagelreiniger gelingt dir immer das perfekte Nagelfinish.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51354</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>148506</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284013052</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Nagelzange 148</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelzange 148&lt;/p&gt;&lt;p&gt;Die Nagelzange 148 macht die Nagelpflege komfortabel und spart Zeit. Durch die langen Griffe mit Ausklappfeder trennst du harte und starke Nägel effizient und sicher ab. Natürlich wird diese Nagelzange per Hand geschärft, sodass du lange Freude an diesem Instrument haben wirst. Durch die gebogene Zangenspitze folgst du der leichten Rundung deiner Nagelform.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51357</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>502006</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284016831</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Nagelknipser 502</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelknipser 502&lt;/p&gt;&lt;p&gt;Du willst schnell und unkompliziert deine Nägel schneiden? Dann bist du mit dem DOVO Nagelknipser 502 bestens versorgt. Einfach den Zangenarm ausklappen und schon kann‘s losgehen! Durch das „Keilschneiden” entstehen keine Einrisse in der Hornplatte und die Nagelpflege ist so besonders schonend. Durch das handliche Design ist der Knipser perfekt für Fuß- und Fingernägel geeignet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51358</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>504006</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284016855</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Nagelknipser 504</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelknipser 504&lt;/p&gt;&lt;p&gt;Mit dem großen DOVO Nagelknipser 504 kümmerst du dich flott und effizient um starke und feste Nägel. Das Griffgefühl ist satt, die Ergonomie schmeichelhaft. Einfach den Zangenarm ausklappen und schon kann‘s losgehen! Durch das „Keilschneiden” entstehen keine Einrisse in der Hornplatte und die Nagelpflege ist so besonders schonend.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51361</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>1570541</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284013755</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Nagelzange 1570</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelzange 1570&lt;/p&gt;&lt;p&gt;Mit der DOVO Nagelzange 1570 wird die Nagelpflege zum Spaziergang. Der geriffelte Griff sorgt stets für festen Halt und die Einzelfeder bestimmt immer den richtigen Gegendruck beim Führen der Nagelzange. Dank der gebogenen Spitze erreichst du auch an komplizierten Stellen ein perfektes Finish bei der Mani- oder Pediküre.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Stahl der Sorte C45 hergestellt. Dieser auch unter dem Namen Scherenstahl bekannte Werkstoff besticht durch Härte und gute Schnitthaltigkeit. Aufgrund seiner hervorragenden Eigenschaften ermöglicht er eine Produktion unter minimalsten Fertigungstoleranzen. Die Vernickelung sorgt für die wunderschöne Hochglanzoptik.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51363</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10600546</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014738</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Pedikürzange 10600</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Pedikürzange 10600&lt;/p&gt;&lt;p&gt;Die DOVO Pedikürzange 10600 ist als absolutes Profiwerkzeug für Podologen konzipiert. Mit der justierbaren Doppelfeder erhältst du klare Rückmeldung über den angelegten Druck. Der konturierte und ergonomische Griff verhindert auch bei längeren Behandlungen Druckstellen an den Händen. Der spitze Zangenkopf ermöglicht präzise Schneidarbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51364</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10601546</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014783</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Pedikürzange 10601</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Pedikürzange 10601&lt;/p&gt;&lt;p&gt;Die DOVO Pedikürzange 10601 ist speziell für die Bedürfnisse von Diabetikern konstruiert. Die abgeschliffene und gerundete Zangenspitze ist geschaffen, um auch kleinste Verletzungen bei der Fußpflege zu vermeiden. Durch Schließen der Feststellbrücke ist auch nach der Behandlung die Sicherheit vor Stichverletzungen gegeben. Auch für professionelle Podologen geeignet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51365</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10630006</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014745</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Kopfschneider 10630</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Kopfschneider 10630&lt;/p&gt;&lt;p&gt;Der DOVO Kopfschneider 10630 zeichnet sich durch eine abgewinkelte Schneidvorrichtung aus. So ist es möglich, mit einer weitaus bequemeren Handhaltung die Fußnagelpflege zu bewerkstelligen. Mit der spitz zulaufenden Zangenform sind auch feine Arbeiten an Problemstellen komfortabel möglich. Die Zange ist auch für professionelle Einsatzzwecke geeignet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Bei dieser Konstruktion liegt die Rasierklinge direkt auf dem offenen Zahnkamm auf. Die grobe Zahnung leitet der Klinge den Weg und fixiert sie sicher am Rasierkopf. Gerade bei langen Haaren oder einem besonders hohen und starken Bartwuchs ist eine solche Bauart von Vorteil, da der Kopf kaum von abgeschnittenen Haaren oder Seifenresten verstopft werden kann.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51366</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10660508</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014639</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Eckenzange 10660</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Eckenzange 10660&lt;/p&gt;&lt;p&gt;Die DOVO Eckenzange 10660 ist nicht nur für professionelle Anwender geeignet. Die flache Zangenspitze ermöglicht präzise Arbeiten auch an tief liegenden oder eingewachsenen Nägeln. Die justierbare Doppelfeder hilft dir durch klare Rückmeldung dabei, immer den richtigen Druck bei der Nagelpflege anzuwenden. Unsere Handschärfung sichert dir ausgezeichnete Ergebnisse beim Schneiden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51367</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10661506</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284014806</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Eckenzange 10661</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Eckenzange 10661&lt;/p&gt;&lt;p&gt;Die DOVO Eckenzange 10661 wurde nach den Anforderungen von Podologen für die Nagelpflege bei Diabetikern konzipiert. Die flache, abgeschliffene Spitze minimiert das Verletzungsrisiko bei Behandlungen im Nagel- und Zehenbereich. Der Konturgriff ist auf bestmögliche Handhabung ausgelegt und unterstützt somit ebenfalls die sichere Fußpflege im Rahmen professioneller Anwendungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Das Modell ist aus Edelstahl mit der Werkstoffkennung 1.4021 hergestellt. Gerade im professionellen Bereich ist diese moderne Metalllegierung zu empfehlen, da sie häufigem Sterilisieren und Desinfizieren ohne Korrosionsbildung standhalten kann. Die mattierte Oberfläche ermöglicht dem Anwender einen festen Griff und unterstützt so anhaltend präzises Arbeiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51369</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>370010</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284015728</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Ohrenreiniger 370</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Ohrenreiniger 370&lt;/p&gt;&lt;p&gt;Mit dem DOVO Ohrenreiniger kannst du deine Ohren sicher von Ohrenschmalz reinigen. Im Gegensatz zum Wattestäbchen schiebst du hiermit das Ohrenschmalz nicht immer tiefer in den Gehörgang, sondern entfernst es nachhaltig aus deinem Ohr. Durch die Schlaufenform wird das Verletzungsrisiko im Ohrenbereich auf ein Minimum reduziert. Nachhaltig, sicher und sauber.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51370</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>371010</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284015735</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Zahnstocher Sanident 371</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Zahnstocher Sanident 371&lt;/p&gt;&lt;p&gt;Der DOVO Sanident ist ein Zahnstocher mit einem Blatt aus 925er Silber. Da dieses Edelmetall antibakteriell wirkt, findet es auch großflächigen Einsatz bei medizinischen Anwendungen. Nachdem du dich der nervigen Krümeln zwischen den Zähnen entledigt hast, verstaust du den Zahnstocher am besten in seinem eleganten Metalletui!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>51371</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>491356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284017401</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Pinzette 491</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Pinzette 491&lt;/p&gt;&lt;p&gt;Die DOVO Pinzette 491 ist genau das richtige für Beautyqueens! Mit der breiten Grifffläche und dem exakt dosierbaren Druckpunkt sind die Arbeiten ein Kinderspiel. Durch die präzise geschliffenen Grifflächen zupfst du Augenbrauen und Härchen grifffest, ergonomisch und sicher. Der satinierte Edelstahl ist absolut rostfrei - sodass die Pinzette dir lange ein treuer Begleiter sein wird!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61375</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>9022011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284024423</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser Etui 902</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser Etui 902&lt;/p&gt;&lt;p&gt;Mit dem DOVO Rasiermesser Etui 902 kannst du deinem Rasiermesser einen edlen schwarzen Anzug spendieren. So ist dein Messer sicher und geschützt aufbewahrt - egal ob im heimischen Bad oder im Gepäck auf Reisen. Passend für alle Shavetten und Rasiermesser in 5/8” und 6/8”. Nicht geeignet für die Modelle: DOVO 76 La Forme, DOVO 114 Karneol, DOVO 98 Büffelhorn, DOVO 105 Micarta.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61376</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>15240001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009178</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Abziehriemen 152</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Abziehriemen 152&lt;/p&gt;&lt;p&gt;Der DOVO Abziehriemen 152 dient zum Abziehen der Schneide deines Rasiermessers vor jeder Rasur. Erst den Riemen stramm spannen, dann das Messer, auf Rücken und Schneide liegend, Richtung Rücken ziehen. Der Vorteil eines Hängeriemens ist, dass du ihn Zusammenrollen und so platzsparend Zuhause verstauen kannst.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61377</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>18535001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009239</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Abziehriemen 185</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Abziehriemen 185&lt;/p&gt;&lt;p&gt;Mit dem DOVO Abziehriemen 185 erledigst du gleich zwei Aufgaben. Mit der etwas raueren Baumwollseite bereitest du dein Messer erst auf das Ledern vor. Hierzu kannst du die Baumwollseite auch mit einem feinen Schleifmittel einreiben. Danach ziehst du dein Messer wie gewohnt auf der Lederseite ab und dein DOVO Rasiermesser ist wieder scharf wie am ersten Tag.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61378</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>186210011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010365</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Spannschraubriemen 186</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Spannschraubriemen 186&lt;/p&gt;&lt;p&gt;Der DOVO Spannschraubriemen 186 ist ein klassischer Stoßriemen zum Abziehen deines Rasiermessers. Erst die Mechanik spannen und dann wie gewohnt das Messer sanft über das gefettete Leder laufen lassen. Hiermit kannst du auch den Grat deiner herkömmlichen Messer wieder aufrichten. Das pflanzlich gegerbte Leder zeichnet sich durch gute Hautverträglichkeit aus.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61439</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>918096</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009604</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierpinsel&lt;/p&gt;&lt;p&gt;Der DOVO Rasierpinsel darf in keinem Reisegepäck fehlen. Diesen Pinsel kannst du schnell zerlegen und dank seiner kompakten Maße platzsparend in deinem Kulturbeutel verstauen. Damit du auch unterwegs nicht auf die Vorzüge einer angenehmen Nassrasur verzichten musst, verwenden wir für dieses Qualitätsprodukt ausschließlich echten Silberspitz. Der lasergravierte Pinselgriff besteht aus robustem, CNC-gefrästem Edelstahl.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieser Rasierpinsel ist aus echtem Silberspitz Dachszupf gefertigt. Schon seit Jahrhunderten werden daraus die hochwertigsten Pinsel hergestellt. Du erkennst es am „Spiegel”, dem klar gezeichneten schwarzen Band auf silbergrauem Haar. Der Silvertip nimmt besonders viel Wasser auf und verhilft deinem Rasierschaum zu einer besonders cremigen Konsistenz.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Der Griff dieses Rasierpinsels ist aus rostfreiem Edelstahl gefertigt. Damit musst du dir keine Sorgen über Rost oder Korrosion machen. Die Masse des Werkstoffs sorgt für eine perfekte Gewichtsverteilung zwischen Griff und Naturhaar. Unsere präzisen Fertigungstoleranzen stellen sicher, dass der Pinsel auch nach Jahren noch seinen Zweck als zerlegbarer Reise-Rasierpinsel erfüllt.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61440</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>918106</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010136</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierpinsel&lt;/p&gt;&lt;p&gt;Ausschließlich reinen Dachszupf verwenden wir bei diesem DOVO Rasierpinsel. Gepaart mit dem einzigartig gemaserten Olivenholzgriff entsteht so ein echter Hingucker für dein Badezimmer. Dank seines geringen Gewichts von nur 48 Gramm gelingt das Auftragen von Rasierschaum besonders mühelos. Der bauchige Griff ist ergonomisch geformt und lässt sich auch mit nassen Händen gut festhalten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Reines Dachshaar ist fester als feines Dachshaar oder der Silberspitz. Die braun- beigen Haare nehmen zur Spitze hin einen etwas dunkleren Farbton an. Diese Haarqualität sichert den größten Massageeffekt und entspannt die Haut beim Auftragen des Rasierschaums. Sie schlagen einen sämigen Schaum auf und bereiten dich so perfekt auf die Nassrasur vor.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Olivenholz ist ein einzigartiger Werkstoff der Natur. Es ist härter als heimisches Eichen- oder Buchenholz und zeigt dabei eine hohe Widerstandsfähigkeit vor Schimmelbefall. Selbst unbehandelte Olive zeichnet sich schon durch eine überdurchschnittliche Resistenz gegenüber Wasser aus, was es natürlich zum perfekten Material für Rasiermesser, Rasierpinsel und Shavetten macht.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61441</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>918118</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010198</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierpinsel&lt;/p&gt;&lt;p&gt;Der DOVO Rasierpinsel ist ein absoluter Hingucker! Der Griff ist aus cremefarbenen Acryl gefertigt und im Anschluss auf Hochglanz poliert. Aber auch der Rest muss sich keineswegs verstecken: Dieser Rasierpinsel wird, wie alle Pinsel, in Handarbeit hergestellt und sein echtes Dachshaar wird dich an den letzten Barbier-Besuch erinnern.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Reines Dachshaar ist fester als feines Dachshaar oder der Silberspitz. Die braun- beigen Haare nehmen zur Spitze hin einen etwas dunkleren Farbton an. Diese Haarqualität sichert den größten Massageeffekt und entspannt die Haut beim Auftragen des Rasierschaums. Sie schlagen einen sämigen Schaum auf und bereiten dich so perfekt auf die Nassrasur vor.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasierpinsel. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.
+&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61442</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>918218</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010396</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel fibre ®</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierpinsel fibre ®&lt;/p&gt;&lt;p&gt;Durch die Verwendung von synthetischen Borsten und den kompletten Verzicht auf die Nutzung von tierischen Erzeugnissen, ist dieser Pinsel perfekt für Veganer geeignet. Mit 67 g gehört er zu unseren mittelschweren Produkten. Dank des Griffs aus edlem Ebenholz wird dieser Rasierpinsel zu einem echten Highlight im Badezimmer.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieser aus einer Kunstfaser hergestellte Rasierpinsel ist in der Handhabung kaum vom echten Silberspitz zu unterscheiden. Du kannst einen besonders cremigen Schaum aufschlagen und diesen ausgesprochen sanft auf deine Haut auftragen. Genau wie einen Naturhaarpinsel wäschst du ihn nach der Rasur einfach aus und lässt ihn trocknen. Auch für Veganer geeignet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61445</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>918052</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009598</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierpinsel&lt;/p&gt;&lt;p&gt;Der DOVO Rasierpinsel ist ein absoluter Hingucker! Der Griff ist aus schwarzem Acryl gefertigt und im Anschluss auf Hochglanz poliert. Aber auch der Rest muss sich keineswegs verstecken: Dieser Rasierpinsel wird, wie alle Pinsel, in Handarbeit hergestellt und sein echter Dachszupf wird dich an den letzten Besuch beim Barbier erinnern.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Feines Dachshaar ist etwas fester als der klassische Silberspitz, du findest aber auch das charakteristische schwarze Band inmitten der beigen Haare. Diese Pinsel stellen einen tollen Kompromiss dar, wenn du weiches Haar bevorzugst aber dennoch einen gewissen Massageeffekt beim Auftragen des Rasierschaums erreichen willst.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;PMMA, auch unter dem Namen Acrylglas bekannt, ist ein thermoplastischer Kunststoff. Durch einen aufwendigen Politurvorgang erhält das Material seinen unverkennbaren Glanz und unterstreicht die hochwertige Anmutung der DOVO Rasierpinsel. Du musst das Material nicht besonders pflegen, wische Seifenreste und Schmutz einfach mit einem feuchten Tuch ab.
+&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61449</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>499906</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010150</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierständer 499</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasierständer 499&lt;/p&gt;&lt;p&gt;Der DOVO 499 ist ein kompakter Rasierständer aus rostfreiem Edelstahl in “Z”-Form. Er dient perfekt als Aufbewahrung von Rasiermessern in der Größe 5/8 Zoll und 6/8 Zoll. Auch Rasierpinsel mit einem Durchmesser zwischen 21mm und 23mm kannst du hier unterbringen. Vier Noppen unter dem Ständer verhindern ein Verrutschen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>71443</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90120011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012796</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>MERKUR Rasierpinsel</Title>
+        <Brand>MERKUR</Brand>
+        <Description>&lt;p&gt;MERKUR Rasierpinsel&lt;/p&gt;&lt;p&gt;Mit diesem Merkur Rasierpinsel triffst du eine edle Wahl. Der Griff besteht aus einem verchromten Aluminiumblock mit einem schwarzen eloxierten Mittelteil. Durch das hohe Gewicht entsteht ein sattes und einzigartiges Gefühl beim Auftragen des Rasierschaums. Dank des hochwertigen Designs fühlt er sich im Badezimmer genauso heimisch wie im luxuriösen Barbershop.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieser Rasierpinsel ist aus echtem Silberspitz Dachszupf gefertigt. Schon seit Jahrhunderten werden daraus die hochwertigsten Pinsel hergestellt. Du erkennst es am „Spiegel”, dem klar gezeichneten schwarzen Band auf silbergrauem Haar. Der Silvertip nimmt besonders viel Wasser auf und verhilft deinem Rasierschaum zu einer besonders cremigen Konsistenz.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Aluminium zeichnet sich als Werkstoff besonders durch seine Zähigkeit und Verarbeitungsqualität aus. Dieses Material ist ausgesprochen korrosionsbeständig gegen Wasser, Wasserdampf und Luftfeuchtigkeit und daher bestens zur Herstellung von Rasierpinselgriffen geeignet. Dank der hochwertigen Oberflächenveredelung wird das Produkt zu einem absoluten Highlight in jedem Badezimmer.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>71444</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90138001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012482</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>MERKUR Rasierpinsel</Title>
+        <Brand>MERKUR</Brand>
+        <Description>&lt;p&gt;MERKUR Rasierpinsel&lt;/p&gt;&lt;p&gt;Der Merkur Rasierpinsel Barber Pole ist ein absolutes High-End Produkt Made in Germany. &#13;
+Mit seinen 121g liegt der massige Griff edel und wertig in der Hand. Echter Dachshaar Silberspitz verwöhnt deine Haut, während du den perfekten Rasierschaum auf dein Gesicht aufträgst und die morgendliche Routine damit zu einem wahren Genuss machst! &#13;
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieser Rasierpinsel ist aus echtem Silberspitz Dachszupf gefertigt. Schon seit Jahrhunderten werden daraus die hochwertigsten Pinsel hergestellt. Du erkennst es am „Spiegel”, dem klar gezeichneten schwarzen Band auf silbergrauem Haar. Der Silvertip nimmt besonders viel Wasser auf und verhilft deinem Rasierschaum zu einer besonders cremigen Konsistenz.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Aluminium zeichnet sich als Werkstoff besonders durch seine Zähigkeit und Verarbeitungsqualität aus. Dieses Material ist ausgesprochen korrosionsbeständig gegen Wasser, Wasserdampf und Luftfeuchtigkeit und daher bestens zur Herstellung von Rasierpinselgriffen geeignet. Dank der hochwertigen Oberflächenveredelung wird das Produkt zu einem absoluten Highlight in jedem Badezimmer.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>71448</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>904002001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012802</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>MERKUR Rasierständer 4002</Title>
+        <Brand>MERKUR</Brand>
+        <Description>&lt;p&gt;MERKUR Rasierständer 4002&lt;/p&gt;&lt;p&gt;Der MERKUR 4002 ist ein hochglanzverchromter Rasierständer für fast alle MERKUR Rasierer, außer dem Modell 24C. Dazu kannst du auch Rasierpinsel mit einem Durchmesser von 21mm aufhängen. In dieser Position können deine Rasurinstrumente optimal trocknen und sind für ihren nächsten Einsatz sofort Griffbereit. Das schafft Ordnung im Badezimmer!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11325</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>44406</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005156</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bart-/Nasenhaarschere 44</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Bart-/Nasenhaarschere 44&lt;/p&gt;&lt;p&gt;Mit der DOVO Nasenhaarschere 44 sorgst du auch bei deiner Nasenbehaarung für geregelte Verhältnisse. Die Scherenspitze haben wir abgerundet - durch diesen Kugelkopf schützt du dich zuverlässig vor Verletzungen im Nasenraum. Der DOVO-Handschliff garantiert Schnitte mit allerhöchster Präzision. Schmerzhaftes Haarausreißen beim Trimmen gehört damit endlich der Vergangenheit an.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Infektionen und Verletzungen im Naseninnenraum können nicht nur unangenehm sein, sondern auch gefährlich. Die Nase besitzt eine empfindliche Nasenschleimhaut und dünne Äderchen, die mit einer spitzen Spitze schnell verletzt werden können. Die Kugelspitze ist eine besonders sichere Form der Klingenenden, die dich vor solchen Gefahren schützt. Die sogenannte Kugelspitze ist vorne stumpf und großzügig abgerundet, sodass du verletzungsfrei und sorgenfrei arbeiten kannst.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11326</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>385006</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009437</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Klipette</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Klipette&lt;/p&gt;&lt;p&gt;Schnell, schonend und nachhaltig - gegen die DOVO Klipette haben deine Nasenhaare keine Chance! Der konturierte Edelstahlgriff sorgt für sicheren Halt, während du durch Drehen des Schaftes das innere Messer zum Rotieren bringst und so deiner Nasenbehaarung wieder Herr wirst. Absolut schmerzfrei und sehr schonend für die empfindliche Nasenschleimhaut.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11355</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>251356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004180</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 251</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere 251&lt;/p&gt;&lt;p&gt;Die DOVO Nagelschere 251 ist der schnellste Weg zu schönen Nägeln! Die Griffaugen sind innen abgerundet und machen die Schere so zum Handschmeichler. Der gebogene Griff sorgt für klare und intuitive Rückmeldung beim Ansetzen des Schnitts. Die einseitig gezahnte Klinge verhindert ein Abrutschen und schützt dich damit vor Verletzungen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11356</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>251406</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004210</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 251</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere 251&lt;/p&gt;&lt;p&gt;Die DOVO Nagelschere 251 in 4,0 Zoll steht für kraftvolle Schnitte und unkomplizierte Nutzung. Durch ihre Länge liegt diese Schere perfekt in der Hand - auch bei größeren Händen. Die ergonomisch geformten Augen sorgen dafür, dass sich auch bei einer ausgiebigen Pediküre keine schmerzenden Druckstellen an deinen Fingern bilden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Diese DOVO Schere ist mit unserem einseitig gezahnten Handschliff ausgestattet. Durch das Abziehen der Schneide auf einer Platte entsteht eine feine Riffelung. Diese Struktur hindert Haare, Barthaare, Fingernägel oder Nagelhaut dabei, von der Schneidkante abzurutschen. Daraus ergibt sich eine herausragend exakte und sichere Schnittführung.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11362</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>5650356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004517</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 5650</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere 5650&lt;/p&gt;&lt;p&gt;Die DOVO Nagelschere 5650 ist ein Präzisionsinstrument für deine Nagelpflege. Die geringe Größe sorgt für mühelose Handhabung im Bereich deiner Zehen- und Fingernägel. Dank des DOVO Handschliffs kannst du auch an kniffligen Stellen mühelos saubere Schnitte setzen. Die Griffaugen haben wir für hohe Ergonomie innen abgerundet.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Scheren werden vorwiegend in Handarbeit gefertigt. Eine Herausforderung bei der Herstellung hochwertiger Scheren entsteht unter anderem aus der präzisen Abrichtung der Scherenblätter. Damit auch hier minimale Fertigungstoleranzen gewährleistet werden können, versehen unsere erfahrenen Schleifer jede Schere mit einem handgeführten Schliff an Schneide und Spitze.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Eine gebogene Scherenspitze ist ausgezeichnet für die Maniküre geeignet. Die sanfte Biegung hilft dir dabei, beim Schnitt der natürlich runden Form deiner Nägel und Nagelhäute zu folgen. So vermeidest du Ecken und Kanten und musst weniger Zeit in die Nachbearbeitung mit der Nagelfeile stecken. Eine runde Sache!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11368</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>56150356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284004555</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Nagelschere 56150</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Nagelschere 56150&lt;/p&gt;&lt;p&gt;Mit der DOVO Nagelschere 56150 haben wir einen Allrounder für die Nagelpflege entwickelt. Feine Arbeiten können mit der Turmspitze zuverlässig erledigt werden, während der DOVO-Handschliff saubere Schnitte garantiert. Die abgerundeten Griffaugen liegen auch bei längeren Behandlungen bequem auf den Fingern auf und machen auch den letzten Schnitt so präzise wie den Ersten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Instrument ist aus Edelstahl der Sorte 1.4034 gefertigt. Die Metalllegierung zeigt gute Korrosionsbeständigkeit gegen Seife oder Wasserdampf und ist daher ideal für die Herstellung hochwertiger Scheren geeignet. Darüber hinaus verfügt das Material über eine gute Schnitthaltigkeit und lässt sich präzise schleifen. Die mattierte Oberfläche fühlt sich ausgesprochen wertig an und kann auch mit feuchten Händen noch sicher gegriffen werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;DOVO Zangen durchlaufen eine Vielzahl an Produktionsschritten, bevor sie zur Nutzung als hochwertiges Maniküre-Instrument bereit sind. Um beste Fertigungstoleranzen und damit herausragende Schneidergebnisse zu erreichen, ist dieses Modell von einem erfahrenen Schleifer in Handarbeit geschärft worden. Nur so kann exakte Passgenauigkeit bei der komplexen Geometrie rund um Schneide und Spitze gewährleistet werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Diese Schere ist mit einer Turmspitze ausgestattet. Sie zeichnet sich durch schmale Scherenblätter aus, die sich zur Spitze hin immer weiter verjüngen. Vor allem bei sehr feinen Arbeiten kann diese Bauart ihre Stärken voll ausspielen. Daher wird sie besonders gerne im Manikürebereich zum Kürzen von Fingernägeln oder Nagelhaut verwendet.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11372</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>0036</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284017579</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Krawattenklammer Rasiermesser</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Krawattenklammer Rasiermesser&lt;/p&gt;&lt;p&gt;Mit der DOVO Krawattenklammer im Rasiermesser-Motiv bieten wir dir ein ganz besonderes Schmuckstück. Mit ihr kannst du deinen Krawattenschal sicher am Hemd fixieren. Egal ob als hochwertiges Präsent für Sammler oder zum Aufpeppen deines eigenen Stils - mit dieser Krawattennadel machst du immer einen schneidigen Eindruck!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11373</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>0038</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284017593</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Krawattenklammer Rasierhobel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Krawattenklammer Rasierhobel&lt;/p&gt;&lt;p&gt;Mit der DOVO Krawattenklammer im Rasierhobel-Design fixierst du deine Krawatte sicher an die Knopfleiste deines Hemds und sorgst damit für ein gepflegtes Auftreten. Denn spätestens, wenn du beim romantischen Date deine Krawatte ins Risotto tunkst, wirst du dich ärgern, dass du nicht zu diesem Schmuckstück gegriffen hast.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11374</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>515171</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010167</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Lederbalsam 515</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Lederbalsam 515&lt;/p&gt;&lt;p&gt;Mit dem DOVO Lederbalsam 515 imprägnierst du deinen Abziehriemen. Erst aufs Leder auftragen und dann mit einem Baumwolllappen einreiben und glatt polieren. Jetzt kannst du die Schneide deines Rasiermessers optimal auf der glatten Oberfläche abziehen und es damit gleichzeitig scharf halten. Der Lederbalsam verhindert auch das Austrocknen deines Abziehriemens und verlängert seine Lebensdauer.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11435</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>507000</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009543</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Rasierseife 507</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasierseife 507&lt;/p&gt;&lt;p&gt;Die DOVO Golddachs 507 bringt alles mit, was eine gute Rasierseife ausmacht. Schon nach kurzem Aufschlagen bildet sich ein sanfter Schaum mit neutraler Duftnote, der sich perfekt zur Nassrasur mit Hobel oder Messer eignet. Die Aluminiumdose dient zugleich als Seifenschale und Reiseverpackung. So hältst du Ordnung im Bad!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11437</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>514002</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010082</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Rasiercreme 514 Eukalyptus</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasiercreme 514 Eukalyptus&lt;/p&gt;&lt;p&gt;Die DOVO Rasiercreme 514 ist ein olfaktorische Erlebnis. Schon beim Öffnen der Dose erinnert dich der erfrischende Duft von Eukalyptus an deinen letzen Besuch beim Barbier. Spätestens beim Aufschlagen des Schaums wird dein Badezimmer dann endgültig zum Barbershop. Und dank des festen, cremigen Schaums läuft dein Rasiermesser auch wie beim Profi!&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11438</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>514004</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010174</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Rasiercreme 514 Lavendel</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasiercreme 514 Lavendel&lt;/p&gt;&lt;p&gt;Jeder kennt ihn, aber keiner kann ihn so richtig benennen: Den Duft eines luxuriösen Barbierstudios. Mit der DOVO Rasiercreme 514 haben wir genau dieses Dufterlebnis eingefangen. Der aufgeschlagene Rasierschaum verströmt feinste Lavendelnoten und macht damit die Körperpflege fast schon zu einem emotionalen Erlebnis. So gelingt der unbeschwerte Start in den Tag.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11473</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90908110</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012147</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>MERKUR Klingen 908</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;MERKUR Klingen 908&lt;/p&gt;&lt;p&gt;Die MERKUR Klingen 908 sind exklusiv für den Rasierhobel 907 entwickelt worden. Sie sind absolut passgenau und auf die Bedürfnisse der Konturenrasur abgestimmt worden. Das Besondere an der Trapezklinge ist, dass sie eine schmale und breite Klingenseite besitzt. So können feine und sehr feine Arbeiten problemlos damit erledigt werden.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Die spezielle Trapezklinge fertigen wir aus Kohlenstoffstahl C95. Wir haben uns für dieses Material entschieden, da es die gewünschten Eigenschaften des MERKUR Nr. 907 bestmöglich unterstützt: Die Klingen mit einer Rockwellhärte von 66 HRC sind wenig elastisch und daher vorteilhaft beim präzisen Trimmen von Augenbrauen und Bartkonturen.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11474</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90910010</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284032022</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Rasierklingen MERKUR SUPER PLATINUM</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasierklingen MERKUR SUPER PLATINUM&lt;/p&gt;&lt;p&gt;Die MERKUR SUPER PLATINUM DE(Double Edge) Rasierklingen haben sich seit Jahrzehnten aufgrund ihrer Schärfe und Schnitthaltigkeit bewährt. Sie sind speziell für die Anforderungen der MERKUR Rasierhobel konstruiert. Die Klingen sind einzeln in Paraffinpapier verpackt, hierin kannst du sie gefahrlos brechen und damit auf die Nutzung in einer SHAVETTE® vorbereiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Diese Rasierklingen werden aus Edelstahl der Sorte 1.4037 gefertigt. Das Metall zeigt gute Beständigkeit gegen Korrosion und eignet sich auch aufgrund seiner Härte im vergüteten Zustand perfekt für die Herstellung hochwertiger Klingen. Darüber hinaus belegen wir die Klingen noch mit einer Antihaftbeschichtung, so gleiten Rasierhobel oder Shavette sanft und mühelos über die Haut.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>11475</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90910100</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012154</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Rasierklingen MERKUR SUPER PLATINUM</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasierklingen MERKUR SUPER PLATINUM&lt;/p&gt;&lt;p&gt;Die MERKUR SUPER PLATINUM DE(Double Edge) Rasierklingen im haben sich seit Jahrzehnten aufgrund ihrer Schärfe und Schnitthaltigkeit bewährt. Sie sind speziell für die Anforderungen der MERKUR Rasierhobel konstruiert. Die Klingen sind einzeln in Paraffinpapier verpackt, hierin kannst du sie gefahrlos brechen und damit auf die Nutzung in einer SHAVETTE® vorbereiten.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Diese Rasierklingen werden aus Edelstahl der Sorte 1.4037 gefertigt. Das Metall zeigt gute Beständigkeit gegen Korrosion und eignet sich auch aufgrund seiner Härte im vergüteten Zustand perfekt für die Herstellung hochwertiger Klingen. Darüber hinaus belegen wir die Klingen noch mit einer Antihaftbeschichtung, so gleiten Rasierhobel oder Shavette sanft und mühelos über die Haut.&lt;/p&gt;&lt;br&gt;</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

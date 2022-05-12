@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="checkout.cart.coupon" destination="cart.summary" after="-"/>
+        <referenceContainer name="base-main-top-container">
+            <block class="Dovo\HeaderImage\Block\HeaderImage" name="header-image-container" template="headerImage.phtml"
+                   before="-"/>
+        </referenceContainer>
+        <!--<referenceBlock name="page.main.title" remove="false" />-->
+        <referenceBlock name="checkout.cart.shipping">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="componentDisabled" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="components" xsi:type="array">
+                        <item name="block-summary" xsi:type="array">
+
+                            <!-- My custom part: -->
+                            <item name="config" xsi:type="array">
+                                <item name="componentDisabled" xsi:type="boolean">true</item>
+                            </item>
+
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="checkout.cart.totals">
+            <arguments>
+                <argument name="jsLayout" xsi:type="array">
+                    <item name="components" xsi:type="array">
+                        <item name="block-totals" xsi:type="array">
+                            <item name="children" xsi:type="array">
+                                <item name="subtotal" xsi:type="array">
+                                    <item name="config" xsi:type="array">
+                                        <item name="title" xsi:type="string" translate="true">Subtotal (incl. VAT)</item>
+                                    </item>
+                                </item>
+                                <item name="shipping" xsi:type="array">
+                                    <item name="config" xsi:type="array">
+                                        <item name="template" xsi:type="string">Marketingseals_BestCheckout/cart/totals/shipping</item>
+                                       <!-- <item name="componentDisabled" xsi:type="boolean">true</item>-->
+                                    </item>
+                                </item>
+                                <item name="grand-total" xsi:type="array">
+                                    <item name="config" xsi:type="array">
+                                        <item name="componentDisabled" xsi:type="boolean">true</item>
+                                    </item>
+                                </item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="checkout.cart.items">
+            <block class="Magento\Framework\View\Element\Template" name="checkout.cart.ship"
+                   after="checkout.cart.items" template="Marketingseals_BestCheckout::cart/shipping-estimation.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="checkout.cart.payment"
+                   after="checkout.cart.ship" template="Marketingseals_BestCheckout::cart/payment-methods.phtml"/>
+        </referenceContainer>
+
+        <referenceBlock name="checkout.cart.crosssell" template="Marketingseals_BestCheckout::cart/crosssell.phtml"/>
+
+    </body>
+</page>

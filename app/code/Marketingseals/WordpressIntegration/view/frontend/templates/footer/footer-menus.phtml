@@ -1,0 +1,81 @@
+<?php
+/**
+ * @var \Marketingseals\WordpressIntegration\Block\WordpressIntegrator $block
+ */
+?>
+
+<?php
+$menus = $block->getFooterMenus();
+$count = $block->getFooterWidgetCount();
+?>
+
+<?php if ($menus && $count > 0): ?>
+    <?php foreach ($menus as $menu): ?>
+        <div class="footy-menu footy-menu-main">
+            <?php if($menu->name): ?>
+            <h2 class="widget-title">
+                <?= $menu->name ?>
+            </h2>
+            <?php endif;?>
+            <div class="menu-footer-main-container">
+                <?php $items = $menu->items; ?>
+                <ul id="menu-footer-main" class="menu">
+                    <?php foreach ($items as $item): ?>
+                        <li id="<?= $item->classes ?>menu-item-<?= $item->id ?>" class="menu-item menu-item-<?= $item->id ?>">
+                            <a href="<?= $item->url ?>"><?= $item->title ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        </div>
+    <?php endforeach; ?>
+<?php endif; ?>
+<div class="footy-menu footy-menu-main">
+    <div class="footy-menu-payments">
+        <h2 class="widget-title">
+            <?= __('Zahlungsarten') ?>
+        </h2>
+        <div class="menu-footer-main-container">
+            <ul class="menu-footer-main payments">
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/visa.png" />
+                </li>
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/mastercard.png" />
+                </li>
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/american-express-52.png" />
+                </li>
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/paypal-alternative2.png" />
+                </li>
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/stripe.png" />
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/klarna.png" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footy-menu-delivery">
+        <h2 class="widget-title">
+            <?= __('Versand') ?>
+        </h2>
+        <div class="menu-footer-main-container">
+            <ul class="delivery">
+                <li>
+                    <p>
+                        Versand in 2-3 Werktagen
+                    </p>
+                    <p>
+                        Versandkostenfrei ab 75 Euro<br>
+                        (in Deutschland)
+                    </p>
+                </li>
+                <li>
+                    <img src="https://dovo-rc.marketingseals.com/wp-content/themes/ms-child/includes/images/paymentdelivery/Ups.png" alt="" />
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>11319</MessageID>
+    <OperationType>PartialUpdate</OperationType>
+    <Product>
+      <SKU>43450</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284005040</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>DOVO Bartschere 43 Moustache</Title>
+        <Brand>DOVO Solingen</Brand>
+        <Description>&lt;p&gt;Die DOVO Bartschere 43 Moustache in vernickeltem Kohlenstoffstahl ist das perfekte Werkzeug, um deinen Bart wieder in Form zu bringen! Die Klingenlänge ist bewusst kurz gehalten, um einfachste Handhabung und genaueste Schnitte möglich zu machen. Durch die Mikrozahnung wird jedes Barthaar zuverlässig erfasst und kann so besonders sauber abgetrennt werden.&lt;/p&gt;</Description>
+      </DescriptionData>
+      <ProductData>
+        <Health>
+          <ProductType>
+            <PersonalCareAppliances>
+              <VariationData>
+                <Size>11.4 cm x 4.5 cm x 0.6 cm</Size>
+              </VariationData>
+              <MaterialType>Normalstahl vernickelt C45</MaterialType>
+            </PersonalCareAppliances>
+          </ProductType>
+        </Health>
+      </ProductData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

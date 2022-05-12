@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>151443</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>90120011</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284012796</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasierpinsel MERKUR</Title>
+        <Brand>DOVO</Brand>
+        <Description>Produkt&lt;p&gt;Mit diesem Merkur Rasierpinsel triffst du eine edle Wahl. Der Griff besteht aus einem verchromten Aluminiumblock mit einem schwarzen eloxierten Mittelteil. Durch das hohe Gewicht entsteht ein sattes und einzigartiges Gefühl beim Auftragen des Rasierschaums. Dank des hochwertigen Designs fühlt er sich im Badezimmer genauso heimisch wie im luxuriösen Barbershop.&lt;/p&gt;Material&lt;p&gt;Dieser Rasierpinsel ist aus echtem Silberspitz Dachszupf gefertigt. Schon seit Jahrhunderten werden daraus die hochwertigsten Pinsel hergestellt. Du erkennst es am „Spiegel”, dem klar gezeichneten schwarzen Band auf silbergrauem Haar. Der Silvertip nimmt besonders viel Wasser auf und verhilft deinem Rasierschaum zu einer besonders cremigen Konsistenz.&lt;/p&gt;Griffmaterial&lt;p&gt;Aluminium zeichnet sich als Werkstoff besonders durch seine Zähigkeit und Verarbeitungsqualität aus. Dieses Material ist ausgesprochen korrosionsbeständig gegen Wasser, Wasserdampf und Luftfeuchtigkeit und daher bestens zur Herstellung von Rasierpinselgriffen geeignet. Dank der hochwertigen Oberflächenveredelung wird das Produkt zu einem absoluten Highlight in jedem Badezimmer.&lt;p&gt;</Description>
+        <BulletPoint>✔︎ Garantierte Qualität: über 100 Jahre Qualität, Design und Erfahrung - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Garantierte Präzise: Eleganter Look und präzise Konturen wie beim Meister-Barbier.</BulletPoint>
+        <BulletPoint>✔︎ Garantiert gepflegter Bart: Bartpflege leicht gemacht für einen täglich frischen Look.</BulletPoint>
+        <BulletPoint>Art: Edler Rasierpinsel aus Aluminium &amp; Silberspitz Dachszupf von DOVO Solingen</BulletPoint>
+        <BulletPoint>Material &amp; Maße: Silberspitz Dachszupf - Griff aus glanzverchromtem Aluminum - Maße 4 cm x 4 cm x 10.6 cm - Griffdurchmesser 4 cm</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

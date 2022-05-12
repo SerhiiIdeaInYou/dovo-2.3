@@ -1,0 +1,299 @@
+.checkout-container {
+    .block-title, .step-title {
+        //font-size: 1.6em;
+        //text-transform: uppercase;
+        //font-weight: 300;
+        margin-bottom: 20px;
+
+        strong {
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: 300;
+
+        }
+    }
+
+    .checkout-signup {
+        .step-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .checkout-authentication-wrapper, .checkout-guest {
+            flex-basis: 50%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .checkout-authentication, .checkout-guest-container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .checkout-register-choice {
+            margin-bottom: 10px;
+        }
+
+        .form-create-account {
+            .fieldset {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .checkout-shipping-address {
+        .step-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .shipping-address, .billing-address {
+            flex-basis: 50%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .checkout-billing-address {
+            margin-top: 30px;
+
+            .step-title {
+                display: none;
+            }
+        }
+
+        .fieldset:last-child {
+            margin-bottom: 0;
+        }
+
+        .field {
+            margin: 0 !important;
+
+            input {
+                width: calc(~"100% - 39px");
+            }
+        }
+
+        .street {
+            .field {
+                padding-bottom: 5px;
+            }
+        }
+    }
+
+    .form-login {
+        .note {
+            display: none !important;
+        }
+    }
+
+    li.checkout-shipping-method {
+        max-width: 50%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .block-title {
+            margin-bottom: 0;
+        }
+
+        //div.checkout-shipping-method {
+        //    max-width: 80%;
+        //}
+        .action {
+            max-width: 320px;
+        }
+    }
+
+    .billing-address-same-as-shipping-block {
+        display: flex;
+        align-items: center;
+
+        input {
+            width: auto !important;
+            margin: 0;
+            padding: 0;
+            top: 0;
+        }
+
+        input, label {
+            line-height: 1.25;
+        }
+    }
+
+    .payment-method {
+        .actions-toolbar {
+            display: none;
+        }
+    }
+
+    .payment-method#stripe_payments_klarna_pay_over_time,
+    .payment-method#stripe_payments_klarna_pay_now,
+    .payment-method#stripe_payments_klarna_pay_later {
+        label.label {
+            &:after {
+                content: '';
+                padding-left: 0.5rem;
+            }
+
+            &:lang(de) {
+                &:after {
+                    content: 'über Klarna';
+                }
+            }
+
+            &:lang(en) {
+                &:after {
+                    content: 'via Klarna';
+                }
+            }
+        }
+    }
+
+    .actions-toolbar {
+        .primary {
+            width: 100%;
+
+            button {
+                width: 100% !important;
+            }
+        }
+    }
+
+    #virtual-billing-step {
+        max-width: 50%;
+    }
+}
+
+
+.customer-step {
+    .opc-sidebar {
+        display: none;
+    }
+
+    .opc-wrapper {
+        width: 100% !important;
+    }
+}
+
+.opc-progress-bar {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.opc-wrapper {
+    margin-top: 40px;
+
+    .field {
+        margin: 0 0 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .checkout-index-index {
+        .virtual-billing-step {
+            max-width: 100%;
+        }
+
+        .checkout-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .opc-progress-bar {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .opc-estimated-wrapper {
+            display: none !important;
+        }
+
+        .opc-wrapper {
+            order: 2;
+            margin-top: 10px !important;
+        }
+
+        .opc-sidebar {
+            order: 1;
+            position: relative;
+            visibility: unset;
+            opacity: 1;
+            left: 0;
+            z-index: 8;
+
+            .modal-custom.action-close {
+                display: none;
+            }
+
+            .modal-inner-wrap {
+                -webkit-transform: unset;
+                transform: unset;
+                box-shadow: none;
+            }
+
+            .opc-block-shipping-information {
+                display: none;
+            }
+        }
+    }
+
+    .checkout-guest {
+        width: 100%;
+        flex-basis: 100%;
+        padding: 0 0 20px 0;
+    }
+
+    .checkout-signup {
+        .step-content {
+            flex-direction: column;
+        }
+
+        .checkout-authentication-wrapper {
+            width: 100%;
+
+        }
+
+        .checkout-authentication-wrapper, .checkout-guest, .checkout-container .checkout-shipping-address .step-content {
+            flex-basis: 100%;
+            padding: 0 0 20px 0;
+        }
+
+        .checkout-authentication, .checkout-guest-container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    .checkout-container {
+        li.checkout-shipping-method {
+            max-width: 100%;
+        }
+    }
+
+    .checkout-step-payment {
+        max-width: 80%;
+        margin: 0 auto;
+
+        .form.payments {
+            .fieldset {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .checkout-payment-method {
+        .payment-methods {
+            max-width: 100%;
+        }
+
+        //.payment-option {
+        //    max-width: 92%;
+        //    margin: 0 auto;
+        //}
+    }
+
+}

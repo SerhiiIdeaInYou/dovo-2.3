@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>111492</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>10580356</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009017</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Barbarossa Scheermes - Carbon Stalen Recht Scheermes - 5/8 Inch - Ronde Kop - Puntige Achterkant - Volledig Holle Slijping - DOVO Solingen Barber Knife</Title>
+        <Brand>DOVO</Brand>
+        <Description>Product&lt;p&gt;Dit scheermes is gemaakt van koolstofstaal met de materiaalaanduiding 1.2210, beter bekend als zilverstaal. Om een hardheid van ongeveer 61 HRC te bereiken, wordt het materiaal verhit tot meer dan 1000 graden en dan onmiddellijk afgekoeld met een speciale olie. De daaropvolgende harding bij ongeveer 200 graden geeft het lemmet elasticiteit en taaiheid.&lt;/p&gt;Handvatmateriaal&lt;p&gt;Sinds de oudheid wordt kostbaar schild van schildpadden gebruikt voor de vervaardiging van exquise kunst en meubels. Het woog in het verleden bijna niet op tegen goud en siert sindsdien ontelbare koninklijke hoven. Om de met uitsterven bedreigde schildpad te beschermen, werken wij uitsluitend met een imitatie van zijdemat gepolijst acryl.&lt;/p&gt;Slijpen&lt;p&gt;Bij holle slijping wordt het scheermes hol geslepen van de rug naar de snijkant. Dit ontwerp combineert een grote flexibiliteit met een hoge longitudinale torsiestijfheid. De mesdynamiek zorgt voor een glad scheerresultaat, vergezeld van een zeer karakteristiek geluid, dat ontstaat door het zwaaien van het scheermes op de haartjes.&lt;/p&gt;Beschrijving van het scheermes&lt;p&gt;De ronde kop is de klassieke vorm van een scheermes en is geschikt voor de meeste scheersituaties. Dit mesontwerp is al eeuwenlang zeer populair, omdat de bolronde vorm zeer veilig kan worden gebruikt in de buurt van de oren, de neus en de kuiltjes. De ronde kop beschermt u ook tegen verwondingen bij een val.&lt;/p&gt;Bladbreedte&lt;p&gt;Scheermessen in de maat 5/8 inch zijn echte allrounders en slagen met vlag en wimpel voor elke taak rond de klassieke natscheerbeurt. Het mesje is relatief zwaar en kan daarom zachtjes over uw huid glijden zonder veel druk uit te oefenen. Tegelijkertijd is hij nog wendbaar genoeg om de meer technisch veeleisende passages rond neus, oren en kin met behendigheid aan te kunnen.</Description>
+        <BulletPoint>✔︎ Gegarandeerde kwaliteit: meer dan 100 jaar kwaliteit, design en ervaring - Made in Germany.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerde precisie: elegante look en precieze contouren als van een meester-kapper.</BulletPoint>
+        <BulletPoint>✔︎ Gegarandeerd een verzorgde baard: Baardverzorging gemakkelijk gemaakt voor een frisse look elke dag.</BulletPoint>
+        <BulletPoint>Stijl: Koolstofstaal Open Scheermes Barbarossa 5/8 inch met hele holle slijping van DOVO Solingen.</BulletPoint>
+        <BulletPoint>Kling &amp; Snede: Koolstofstaal - met Barbarossa ets - breedte 5/8' = ong. 1.6 cm - KORTE VERSIE - spitse rug - Ronde kop - volledige holle slijping - zeer scherp.</BulletPoint>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

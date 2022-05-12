@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A1O812FT1N9IQ5</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>61376</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>15240001</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284009178</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Abziehriemen 152</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Abziehriemen 152&lt;/p&gt;&lt;p&gt;Der DOVO Abziehriemen 152 dient zum Abziehen der Schneide deines Rasiermessers vor jeder Rasur. Erst den Riemen stramm spannen, dann das Messer, auf Rücken und Schneide liegend, Richtung Rücken ziehen. Der Vorteil eines Hängeriemens ist, dass du ihn Zusammenrollen und so platzsparend Zuhause verstauen kannst.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61374</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>515171</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010167</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Lederbalsam 515</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Lederbalsam 515&lt;/p&gt;&lt;p&gt;Mit dem DOVO Lederbalsam 515 imprägnierst du deinen Abziehriemen. Erst aufs Leder auftragen und dann mit einem Baumwolllappen einreiben und glatt polieren. Jetzt kannst du die Schneide deines Rasiermessers optimal auf der glatten Oberfläche abziehen und es damit gleichzeitig scharf halten. Der Lederbalsam verhindert auch das Austrocknen deines Abziehriemens und verlängert seine Lebensdauer.&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>21422</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>36830</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284008881</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>DOVO Rasiermesser 3 Bergischer Löwe</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;DOVO Rasiermesser 3 Bergischer Löwe&lt;/p&gt;&lt;p&gt;Das DOVO Rasiermesser 3 in 6/8 Zoll trägt den Beinamen „Bergischer Löwe” und gehört mit seinem Spanischen Kopf, der fein bearbeiteten, mit Gold verzierten Klinge sowie den edlen Griffschalen zu den Besten der Besten. Als Hommage an unsere Heimatregion und deren Historie ziert der Löwe als Wappentier jedes der per Hand hergestellten Rasiermesser. Für eine optimale Führung des Rasiermessers besitzt es eine Daumen-Griffmulde.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Material&lt;/p&gt;&lt;p&gt;Dieses Rasiermesser besteht aus Kohlenstoffstahl mit der Werkstoffbezeichnung 1.2210, besser bekannt als Silberstahl. Um eine Härte von circa 61 HRC zu erreichen, wird das Material auf über 1000 Grad erhitzt und anschließend sofort mit einem Spezialöl abgeschreckt. Das darauf folgende Anlassen bei etwa 200 Grad gibt der Klinge Elastizität und Zähigkeit. Die Ornamente entstehen durch eine Beschichtung mit 24 karätigem Gold.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Griffmaterial&lt;/p&gt;&lt;p&gt;Ebenholz zählt zu den wertvollsten Hölzern der Erde. Es ist ausgesprochen hart und schwer. Daher eignet es sich vortrefflich zur Herstellung eines hochwertigen Griffes. Seine Struktur ermöglicht es dem Holz, auch in feuchter Umgebung seine Form zu halten und nicht aufzuquellen. Mehrere Schleifdurchgänge sind nötig, um die seidenweiche Oberfläche zu erschaffen.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Schliff&lt;/p&gt;&lt;p&gt;Beim Hohlschliff wird das Rasiermesser vom Rücken zur Schneide hin konkav ausgeschliffen. Diese Bauform verbindet große Flexibilität mit hoher Verwindungssteifigkeit in Längsform. Die Klingendynamik sorgt für eine sanfte Rasur begleitet von einem sehr charakteristischen Klang, der durch das Schwingen des Rasiermessers beim Haarabschnitt ausgelöst wird.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Klingenbeschreibung&lt;/p&gt;&lt;p&gt;Der Spanischen Kopf ist eine aufwendig gestaltete Kopfform von Rasiermessern. Das Besondere an diesem Kopf ist, dass er konkav mit einer leicht runden Spitze geformt wird. Diese Rundung erleichtert das Rasieren auch von komplexen Passagen rund um Ohren, Nase und Grübc</Description>
+        <Manufacturer>DOVO</Manufacturer>
+      </DescriptionData>
+    </Product>
+  </Message>
+  <Message>
+    <MessageID>61437</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>514002</SKU>
+      <StandardProductID>
+        <Type>EAN</Type>
+        <Value>4045284010082</Value>
+      </StandardProductID>
+      <DescriptionData>
+        <Title>Rasiercreme 514 Eukalyptus</Title>
+        <Brand>DOVO</Brand>
+        <Description>&lt;p&gt;Rasiercreme 514 Eukalyptus&lt;/p&gt;&lt;p&gt;Die DOVO Rasiercreme 514 ist ein olfaktorische Erlebnis. Schon beim Öffnen der Dose erinnert dich der erfrischende Duft von Eukalyptus an deinen letzen Besuch beim Barbier. Spätestens beim Aufschlagen des Schaums wird dein Badezimmer dann endgültig zum Barbershop. Und dank des festen, cremigen Schaums läuft dein Rasiermesser auch wie beim Profi!&lt;/p&gt;&lt;br&gt;</Description>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

@@ -1,0 +1,94 @@
+<?php
+
+$helper = $block->getHelperData();
+$heroId = $block->getData('id');
+$productId = $helper->getCfg('general/hero' . $heroId);
+$product = $block->getHeroProduct($productId);
+$position = $helper->getCfg('general/position' . $heroId);
+//$helper
+
+?>
+<section class="hero-product <?= 'hero-' . $position ?> flex-vertical">
+
+    <?php if ($position === 'right'): ?>
+        <div class="product-info-main grid12-6">
+            <div class="hero-container no-right-gutter">
+                <div class="hero-heading"><h2><?php echo $product->getName(); ?></h2></div>
+                <div class="hero-short"><?php echo $product->getShortDescription(); ?></div>
+                <div class="hero-actions clearfix">
+                    <div class="grid12-6"><a class="action tertiary"
+                                             href="<?php echo $product->getProductUrl() . '#usecare' ?>"><?= __('Pflegetipps')?></a>
+                    </div>
+                    <div class="grid12-6">
+                        <a class="action primary" href="<?php echo $product->getProductUrl(); ?>">
+                            <?= __('mehr erfahren') ?>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-socials dot-right">
+
+                    <?php echo $block->getChildHtml('hero.shariff'); ?>
+                    <!--                <a href="https://www.facebook.com/DOVO.Stahlwaren/"><i class="fa fa-facebook-square"-->
+                    <!--                                                                       aria-hidden="true"></i></a>-->
+                    <!--                <a href="https://www.instagram.com/dovo_solingen/"><i class="fa fa-instagram"-->
+                    <!--                                                                      aria-hidden="true"></i></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="product-image-container grid12-6">
+            <div class="image-container">
+                <div class="inner-container">
+                    <img src="<?php echo $block->getProductImage($product->getId()); ?>" alt="Hero Image 2"/>
+                </div>
+            </div>
+        </div>
+    <?php else: ?>
+        <div class="product-image-container grid12-6">
+            <div class="image-container">
+                <div class="inner-container">
+                    <img src="<?php echo $block->getProductImage($product->getId()); ?>" alt="Hero Image 1"/>
+                </div>
+            </div>
+        </div>
+        <div class="product-info-main grid12-6">
+            <div class="hero-container no-right-gutter">
+                <div class="hero-heading"><h2><?php echo $product->getName(); ?></h2></div>
+                <div class="hero-short"><?php echo $product->getShortDescription(); ?></div>
+                <div class="hero-actions clearfix">
+                    <div class="grid12-6 care-action">
+                        <a class="action tertiary" href="<?php echo $product->getProductUrl() . '#usecare' ?>">
+                            <?= __('Pflegetipps') ?>
+                        </a>
+                    </div>
+                    <div class="grid12-6 readmore-action">
+                        <a class="action primary" href="<?php echo $product->getProductUrl(); ?>">
+                            <?= __('mehr erfahren') ?>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-socials dot-left">
+                    <!--    --><?php /*$block->getChildBlock('hero.shariff')->setData('productUrl', $block->getHeroProductUrl($productId))*/ ?>
+                    <?php
+                    switch ($heroId) {
+                        case '1':
+                            echo $block->getChildHtml('hero.shariff');
+                            break;
+                        case '2':
+                            echo $block->getChildHtml('hero.secondary.shariff');
+                            break;
+                        case '3':
+                            echo $block->getChildHtml('hero.tertiary.shariff');
+                            break;
+                        case '4':
+                            echo $block->getChildHtml('hero.quad.shariff');
+                            break;
+                        case '5':
+                            echo $block->getChildHtml('hero.quin.shariff');
+                            break;
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
+</section>

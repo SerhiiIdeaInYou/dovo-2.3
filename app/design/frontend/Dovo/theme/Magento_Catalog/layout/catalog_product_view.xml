@@ -1,0 +1,61 @@
+<!--
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="page.main.title" remove="false"/>
+        <!-- Remove Block -->
+        <referenceBlock name="product.info.review" remove="true"/>
+        <referenceContainer name="product.info.stock.sku" remove="true"/>
+        <referenceBlock name="view.addto.compare" remove="true"/>
+        <referenceBlock name="product.info.mailto" remove="true"/>
+        <!-- End Remove Block -->
+        <move element="product.info.addto" destination="product.info.form.content" before="product.info.addtocart"/>
+        <move element="product.info.price" destination="product.info.main" after="product.info.werbetext"/>
+        <move element="product.info.overview" destination="product.info.main" before="product.info.werbetext"/>
+        <move element="product.info" destination="product.info.main" after="-"/>
+        <referenceBlock name="product-view-wrapper" template="Dovo_Base::product/view.phtml"/>
+        <referenceContainer name="product.info.main">
+            <block class="Dovo\Base\Block\Product\Properties" name="product.info.werbetext"
+                   after="product.info.overview"  template="Dovo_Base::product/view/adtext.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="product-view-wrapper">
+            <container name="product.info.main.additional" htmlTag="div" htmlClass="product-info-main-additional" after="product.info.main">
+                <block class="Dovo\Base\Block\Product\Properties" name="product.info.tidycal" template="Dovo_Base::product/view/tidycal.phtml" />
+            </container>
+        </referenceContainer>
+
+        <referenceContainer name="container_product_lower_primary_1">
+            <block class="Dovo\Base\Block\Product\Properties" name="product.info.properties"
+                   before="product.info.details" template="Dovo_Base::product/view/properties.phtml"/>
+        </referenceContainer>
+        <referenceBlock name="product.info.details">
+            <!--<block class="Dovo\Base\Block\Product\Properties" name="product.info.properties" before="product.info.description" group="detailed_info" template="Dovo_Base::product/properties.phtml"/>-->
+            <referenceBlock name="product.info.description" template="Dovo_Base::product/view/description.phtml"/>
+            <block class="Dovo\Base\Block\Product\Usecare" name="product.info.usecare" group="detailed_info"
+                   template="Dovo_Base::product/view/usecare.phtml"/>
+            <block class="Dovo\Base\Block\Product\Contact" name="product.info.contact" after="-" group="detailed_info"
+                   template="Dovo_Base::product/view/contact.phtml"/>
+        </referenceBlock>
+        <referenceContainer name="container_product_primary_2">
+            <block class="Jajuma\Shariff\Block\Shariff" name="home.shariff" template="Jajuma_Shariff::shariff.phtml" after="-"/>
+        </referenceContainer>
+
+        <referenceBlock name="catalog.product.related">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="helper" helper="Infortis\Base\Helper\Template\Catalog\Product\View::getRelatedProductsTemplate" />
+            </action>
+        </referenceBlock>
+
+        <referenceBlock name="product.info.upsell">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="helper" helper="Infortis\Base\Helper\Template\Catalog\Product\View::getUpsellProductsTemplate" />
+                <!-- TODO: -->
+                <!-- <argument name="is_responsive" xsi:type="string">false</argument>
+                <argument name="show_items" xsi:type="string">3</argument> -->
+            </action>
+        </referenceBlock>
+    </body>
+</page>
