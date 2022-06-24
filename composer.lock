@@ -17989,39 +17989,6 @@
             "time": "2017-03-28T16:08:48+00:00"
         },
         {
-            "name": "cedcommerce/validator",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cedcommerce/validator.git",
-                "reference": "ef49538414512e75ed172dd0f364c76c155158fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cedcommerce/validator/zipball/ef49538414512e75ed172dd0f364c76c155158fa",
-                "reference": "ef49538414512e75ed172dd0f364c76c155158fa",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.0 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ced\\Validator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "A collection of PHP classes for managing barcodes.",
-            "time": "2019-03-22T06:09:20+00:00"
-        },
-        {
             "name": "codeception/codeception",
             "version": "2.4.5",
             "source": {
