@@ -28,6 +28,13 @@
         </resources>
     </route>
 
+    <route url="/V1/orderstatus" method="GET">
+        <service class="Emipro\Apichange\Api\OrderstatusInterface" method="orderstatus"/>
+        <resources>
+            <resource ref="admin"/>
+        </resources>
+    </route>
+
     <route url="/V1/product/updatestock" method="PUT">
         <service class="Emipro\Apichange\Api\StockInterface" method="update"/>
         <resources>

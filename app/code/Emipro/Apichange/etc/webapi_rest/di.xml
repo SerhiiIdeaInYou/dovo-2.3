@@ -4,4 +4,7 @@
     <type name="Magento\Sales\Api\OrderRepositoryInterface">
         <plugin name="orderInformationUpdate" type="Emipro\Apichange\Plugin\Api\OrderRepository" />
     </type>
+    <type name="Magento\Sales\Api\OrderItemRepositoryInterface">
+        <plugin name="simple_parent_id" type="Emipro\Apichange\Plugin\Api\SimpleParentId" />
+    </type>    
 </config>

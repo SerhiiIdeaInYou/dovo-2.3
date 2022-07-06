@@ -12,6 +12,7 @@ class ProductRepository
     private $attributecollection;
     private $storeManager;
     private $product;
+    private $configproduct;
     protected $_scopeConfig;
 
     public function __construct(
@@ -22,6 +23,7 @@ class ProductRepository
         StoreManagerInterface $storeManager,
         \Magento\Catalog\Model\Product $product,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
+        \Magento\ConfigurableProduct\Model\ResourceModel\Product\Type\Configurable $configproduct,
         State $state
     ) {
         $this->productRepository = $productRepository;
@@ -31,6 +33,7 @@ class ProductRepository
         $this->storeManager = $storeManager;
         $this->product = $product;
         $this->_scopeConfig = $scopeConfig;
+        $this->configproduct = $configproduct;
         $this->state = $state;
     }
 
@@ -43,19 +46,26 @@ class ProductRepository
                 $extensionAttributes->setWebsiteIds($result->getWebsiteIds());
                 $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
                 $all_website_price = [];
-                foreach ($result->getWebsiteIds() as $web) {
-                    $website_price = [];
-                    $storeId = $this->storeManager->getWebsite($web)->getDefaultStore()->getId();
-                    $default_store_currency = $this->storeManager->getStore($storeId)->getDefaultCurrencyCode();
-                    $product = $this->product->setStoreId($storeId)->load($result->getId());
-                    $pro_final_price = $product->getFinalPrice();
-                    $website_price['website_id'] = $web;
-                    $website_price['product_price'] = $pro_final_price;
-                    $website_price['default_store_currency'] = $default_store_currency;
-                    array_push($all_website_price, $website_price);
+                if ($result->getTypeId() == 'simple') {
+                    foreach ($result->getWebsiteIds() as $web) {
+                        $website_price = [];
+                        $storeId = $this->storeManager->getWebsite($web)->getDefaultStore()->getId();
+                        $default_store_currency = $this->storeManager->getStore($storeId)->getDefaultCurrencyCode();
+                        $product = $this->product->setStoreId($storeId)->load($result->getId());
+                        $pro_final_price = $product->getFinalPrice();
+                        $website_price['website_id'] = $web;
+                        $website_price['product_price'] = $pro_final_price;
+                        $website_price['default_store_currency'] = $default_store_currency;
+                        array_push($all_website_price, $website_price);
 
+                    }
+                    $extensionAttributes->setWebsiteWiseProductPriceData($all_website_price);
                 }
-                $extensionAttributes->setWebsiteWiseProductPriceData($all_website_price);
+                $product = $this->configproduct->getParentIdsByChild($result->getId());
+                if (isset($product[0])) {
+                    //this is parent product id..
+                    $extensionAttributes->setSimpleParentId($product[0]);
+                }
 
                 /*Add simple product's sku and product id*/
                 $simple_product = [];
@@ -69,7 +79,9 @@ class ProductRepository
                             $product_data = [];
                             $product_data['simple_product_id'] = $value;
                             $product_data['simple_product_sku'] = $product->getSku();
-                            $product_data['simple_product_list_price'] = $product->getPrice() ? $product->getPrice() : 0;
+                            $product_data['product_name'] = $product->getName();
+                            $product_data['product_type'] = $result->getTypeId();
+                            $product_data['website_wise_product_price_data'] = $this->getpriceWebsitewise($product);
                             $product_data['simple_product_attribute'] = [];
                             $_attributes = $result->getTypeInstance(true)->getConfigurableAttributes($result);
                             $simple_product_att = [];
@@ -126,6 +138,22 @@ class ProductRepository
             }
         }
         return $result;
+    }
+
+    public function getpriceWebsitewise($child_product)
+    {
+        $all_website_price = [];
+        foreach ($child_product->getWebsiteIds() as $web) {
+            $website_price = [];
+            $storeId = $this->storeManager->getWebsite($web)->getDefaultStore()->getId();
+            $default_store_currency = $this->storeManager->getStore($storeId)->getDefaultCurrencyCode();
+            $product_price = $this->product->setStoreId($storeId)->load($child_product->getId());
+            $website_price['website_id'] = $web;
+            $website_price['price'] = $product_price->getFinalPrice();
+            $website_price['currency'] = $default_store_currency;
+            array_push($all_website_price, $website_price);
+        }
+        return $all_website_price;
     }
 
     public function afterGetList(

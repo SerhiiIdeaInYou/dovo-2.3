@@ -14,10 +14,14 @@
         <attribute code="apply_discount_on_prices" type="string"/>
         <attribute code="apply_shipping_on_prices" type="string"/>
     </extension_attributes>
-	<extension_attributes for="Magento\Catalog\Api\Data\ProductInterface">
+    <extension_attributes for="Magento\Sales\Api\Data\OrderItemInterface">
+      <attribute code="simple_parent_id" type="string"/>
+    </extension_attributes>
+   <extension_attributes for="Magento\Catalog\Api\Data\ProductInterface">
         <attribute code="website_ids" type="mixed"/>
         <attribute code="configurable_product_options_data" type="mixed"/>
         <attribute code="configurable_product_link_data" type="mixed"/>
         <attribute code="website_wise_product_price_data" type="mixed"/>
+        <attribute code="simple_parent_id" type="mixed"/>
     </extension_attributes>
 </config>
