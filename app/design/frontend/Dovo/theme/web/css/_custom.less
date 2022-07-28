@@ -4134,7 +4134,8 @@ span.visa, span.mastercard, span.amex, span.paypal {
             .owl-item {
                 &:hover {
                     .product-item-details {
-                        margin-top: -20px;
+                        margin-top: 0!important;
+                        transform: translateY(-20px);
 
                         &:before {
                             top: 0 !important;
@@ -4377,10 +4378,38 @@ span.visa, span.mastercard, span.amex, span.paypal {
 }
 
 .products-carousel {
+
+    .owl-wrapper {
+        display: flex!important;
+
+        .owl-item {
+            &:first-child {
+                height: fit-content;
+            }
+        }
+    }
+
     .product-items {
 
         .products-list-item {
             padding: 10px;
+            height: 100%;
+
+            .product-item-img {
+                flex-grow: 1;
+                display: table;
+
+                .product {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            }
+
+            .product-item-info {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
         }
 
         .first-item {
