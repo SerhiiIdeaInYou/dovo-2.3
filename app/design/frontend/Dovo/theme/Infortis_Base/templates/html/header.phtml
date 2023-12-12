@@ -380,7 +380,14 @@
                 </div> <!-- end: left column -->
 
                 <div class="right-column">
-
+					<div class="websiteswitcher-link">
+								<?php
+									echo $this->getLayout()
+									->createBlock('Magento\Cms\Block\Block')
+									->setBlockId('uk-header-links')
+									->toHtml();
+								?>
+							</div>
                     <?php if (isset($html['topRight'])): ?>
                         <?php foreach ($html['topRight'] as $element): ?>
                             <div class="item item-right item-interface"><?php echo $element; ?></div>

@@ -34,5 +34,13 @@
                 <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
             </arguments>
         </referenceBlock>
+		<referenceContainer name="page.top">
+            <block class="Magento\Cms\Block\Block" name="uk-block-link"> 
+				<arguments> 
+					<argument name="block_id" xsi:type="string">uk-block-link</argument> 
+				</arguments> 
+			</block> 
+         </referenceContainer>
+		 
     </body>
 </page>

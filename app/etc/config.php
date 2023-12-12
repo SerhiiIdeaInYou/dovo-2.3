@@ -238,8 +238,6 @@ return [
         'Amazon_Login' => 1,
         'Amazon_Payment' => 1,
         'Apptrian_FacebookPixel' => 1,
-        'Ced_Integrator' => 1,
-        'Ced_Amazon' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Dovo_Amazon' => 1,
